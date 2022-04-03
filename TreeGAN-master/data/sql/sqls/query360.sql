@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 49 AND education = '1st-4th' AND education_num <= 12 AND marital_status = 'Separated' AND relationship = 'Other-relative' AND sex = 'Female' AND capital_gain <= 2580 AND capital_loss <= 1944 AND native_country = 'Nicaragua';

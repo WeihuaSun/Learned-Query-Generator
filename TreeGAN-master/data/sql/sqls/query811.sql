@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 74 AND workclass = 'Local-gov' AND education = '12th' AND education_num <= 8 AND occupation = 'Craft-repair' AND capital_gain <= 20051 AND hours_per_week <= 43 AND native_country = 'Trinadad&Tobago';

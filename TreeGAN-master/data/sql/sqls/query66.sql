@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-not-inc' AND education = '12th' AND education_num <= 11 AND marital_status = 'Divorced' AND occupation = '?' AND relationship = 'Wife' AND race = 'Other' AND sex = 'Male' AND native_country = 'Hong';

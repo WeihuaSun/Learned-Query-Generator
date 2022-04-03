@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 81 AND education_num <= 3 AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND capital_loss <= 1977 AND hours_per_week <= 41 AND native_country = 'Portugal';

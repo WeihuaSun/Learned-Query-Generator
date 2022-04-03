@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = 'Masters' AND marital_status = 'Never-married' AND occupation = '?' AND relationship = 'Other-relative' AND capital_loss <= 2179 AND hours_per_week <= 77 AND native_country = 'Japan';

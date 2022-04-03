@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education = '11th' AND occupation = 'Tech-support' AND relationship = 'Unmarried' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 20051 AND capital_loss <= 2174 AND native_country = 'Japan';

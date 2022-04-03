@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 74 AND marital_status = 'Divorced' AND occupation = 'Prof-specialty' AND relationship = 'Other-relative' AND capital_gain <= 7298 AND native_country = 'Japan';

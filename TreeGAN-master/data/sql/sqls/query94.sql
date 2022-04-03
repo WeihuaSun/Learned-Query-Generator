@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 47 AND workclass = 'State-gov' AND education = 'Masters' AND education_num <= 3 AND marital_status = 'Married-spouse-absent' AND occupation = 'Prof-specialty' AND relationship = 'Other-relative' AND race = 'Black' AND capital_gain <= 20051 AND hours_per_week <= 92;

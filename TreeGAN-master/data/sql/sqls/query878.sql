@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = '?' AND education = 'Masters' AND education_num <= 15 AND relationship = 'Wife' AND race = 'White' AND sex = 'Male' AND capital_gain <= 7978 AND capital_loss <= 2179 AND native_country = 'Yugoslavia';

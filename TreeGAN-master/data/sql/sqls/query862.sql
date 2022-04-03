@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE marital_status = 'Never-married' AND occupation = 'Prof-specialty' AND relationship = 'Unmarried' AND capital_loss <= 3004 AND hours_per_week <= 92 AND native_country = 'Trinadad&Tobago';

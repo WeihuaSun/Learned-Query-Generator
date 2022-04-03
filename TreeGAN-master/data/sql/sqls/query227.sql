@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = '12th' AND education_num <= 3 AND marital_status = 'Married-spouse-absent' AND occupation = 'Handlers-cleaners' AND relationship = 'Wife' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 20051 AND capital_loss <= 1944 AND native_country = 'Nicaragua';

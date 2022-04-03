@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-not-inc' AND education = '5th-6th' AND education_num <= 12 AND marital_status = 'Married-AF-spouse' AND occupation = '?' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Male' AND native_country = 'Yugoslavia';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education_num <= 15 AND relationship = 'Husband' AND race = 'Other' AND sex = 'Female' AND capital_loss <= 1944 AND hours_per_week <= 77 AND native_country = 'Japan';

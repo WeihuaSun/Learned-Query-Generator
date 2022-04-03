@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 46 AND education = '12th' AND marital_status = 'Widowed' AND occupation = 'Priv-house-serv' AND relationship = 'Not-in-family' AND capital_gain <= 20051 AND capital_loss <= 1944 AND hours_per_week <= 56;

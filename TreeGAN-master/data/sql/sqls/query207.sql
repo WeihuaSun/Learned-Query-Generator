@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education_num <= 12 AND marital_status = 'Divorced' AND occupation = '?' AND relationship = 'Husband' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND native_country = 'Japan';

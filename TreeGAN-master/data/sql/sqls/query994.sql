@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education = '12th' AND marital_status = 'Divorced' AND occupation = 'Protective-serv' AND relationship = 'Wife' AND race = 'White' AND sex = 'Male' AND capital_gain <= 20051 AND capital_loss <= 3004 AND native_country = 'Nicaragua';

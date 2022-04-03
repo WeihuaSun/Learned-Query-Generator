@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education = '12th' AND marital_status = 'Married-spouse-absent' AND relationship = 'Other-relative' AND race = 'Other' AND sex = 'Male' AND hours_per_week <= 77 AND native_country = 'Nicaragua';

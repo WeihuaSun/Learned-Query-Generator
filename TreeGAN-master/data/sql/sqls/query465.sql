@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = '11th' AND education_num <= 11 AND marital_status = 'Married-spouse-absent' AND occupation = 'Prof-specialty' AND race = 'Amer-Indian-Eskimo' AND capital_gain <= 7978 AND capital_loss <= 3004 AND native_country = 'Nicaragua';

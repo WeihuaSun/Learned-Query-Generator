@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = '?' AND education = '11th' AND education_num <= 11 AND occupation = 'Protective-serv' AND relationship = 'Husband' AND race = 'White' AND sex = 'Male' AND capital_loss <= 1887 AND hours_per_week <= 67;

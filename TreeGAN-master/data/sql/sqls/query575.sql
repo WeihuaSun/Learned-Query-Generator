@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 73 AND workclass = '?' AND occupation = 'Craft-repair' AND relationship = 'Husband' AND sex = 'Male' AND capital_gain <= 6097 AND capital_loss <= 2179 AND native_country = 'Nicaragua';

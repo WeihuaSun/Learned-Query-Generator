@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 74 AND workclass = 'State-gov' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_loss <= 1594 AND hours_per_week <= 41 AND native_country = 'Jamaica';

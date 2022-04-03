@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = '1st-4th' AND education_num <= 8 AND marital_status = 'Divorced' AND occupation = 'Handlers-cleaners' AND relationship = 'Husband' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND native_country = 'Portugal';

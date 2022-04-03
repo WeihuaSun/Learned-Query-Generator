@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND marital_status = 'Divorced' AND occupation = 'Craft-repair' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 20051 AND capital_loss <= 1429;

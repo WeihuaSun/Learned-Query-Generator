@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education_num <= 12 AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Female' AND capital_gain <= 15831 AND hours_per_week <= 77 AND native_country = 'Portugal';

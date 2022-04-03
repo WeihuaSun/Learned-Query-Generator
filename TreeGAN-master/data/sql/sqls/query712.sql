@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = '10th' AND marital_status = 'Married-spouse-absent' AND occupation = 'Craft-repair' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Male' AND capital_gain <= 3887 AND capital_loss <= 3004;

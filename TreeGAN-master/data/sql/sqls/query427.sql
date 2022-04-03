@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 74 AND marital_status = 'Married-spouse-absent' AND relationship = 'Other-relative' AND capital_gain <= 20051 AND capital_loss <= 1258 AND hours_per_week <= 43;

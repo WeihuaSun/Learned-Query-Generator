@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 46 AND workclass = 'Self-emp-inc' AND education = '1st-4th' AND education_num <= 11 AND marital_status = 'Widowed' AND occupation = 'Craft-repair' AND relationship = 'Husband' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 2580 AND capital_loss <= 2174 AND hours_per_week <= 77 AND native_country = 'Iran';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 89 AND workclass = 'Self-emp-inc' AND marital_status = 'Married-spouse-absent' AND occupation = 'Protective-serv' AND relationship = 'Not-in-family' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 15831 AND capital_loss <= 1977 AND hours_per_week <= 43 AND native_country = 'Ireland';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = '1st-4th' AND marital_status = 'Married-spouse-absent' AND occupation = 'Prof-specialty' AND relationship = 'Other-relative' AND race = 'Other' AND sex = 'Female' AND capital_loss <= 2174 AND native_country = 'Trinadad&Tobago';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-not-inc' AND education = '11th' AND education_num <= 11 AND marital_status = 'Separated' AND occupation = 'Handlers-cleaners' AND relationship = 'Wife' AND race = 'White' AND sex = 'Male' AND capital_gain <= 15831 AND capital_loss <= 2179 AND native_country = 'Jamaica';

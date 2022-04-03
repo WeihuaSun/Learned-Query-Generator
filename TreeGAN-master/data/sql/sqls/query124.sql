@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 74 AND education = '11th' AND occupation = 'Prof-specialty' AND relationship = 'Husband' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 3887 AND capital_loss <= 1977 AND native_country = 'Trinadad&Tobago';

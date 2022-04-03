@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 89 AND workclass = 'Private' AND education_num <= 8 AND marital_status = 'Married-spouse-absent' AND occupation = 'Prof-specialty' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 20051 AND capital_loss <= 1887 AND hours_per_week <= 32 AND native_country = 'Japan';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 49 AND education = '10th' AND education_num <= 12 AND marital_status = 'Married-spouse-absent' AND occupation = 'Prof-specialty' AND relationship = 'Other-relative' AND capital_gain <= 3887 AND capital_loss <= 2179;

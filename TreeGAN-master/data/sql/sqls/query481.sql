@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 81 AND education = '1st-4th' AND marital_status = 'Divorced' AND occupation = 'Prof-specialty' AND relationship = 'Unmarried' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 3887 AND hours_per_week <= 67 AND native_country = 'Japan';

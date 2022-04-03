@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = '?' AND education = '9th' AND education_num <= 3 AND marital_status = 'Divorced' AND occupation = 'Prof-specialty' AND relationship = 'Wife' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND hours_per_week <= 92 AND native_country = 'Yugoslavia';

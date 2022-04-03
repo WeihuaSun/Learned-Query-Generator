@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 81 AND education = '12th' AND education_num <= 15 AND marital_status = 'Widowed' AND occupation = 'Tech-support' AND sex = 'Male' AND capital_gain <= 15831 AND capital_loss <= 1944 AND native_country = 'Japan';

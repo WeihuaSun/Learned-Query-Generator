@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = '9th' AND education_num <= 11 AND marital_status = 'Widowed' AND occupation = 'Protective-serv' AND relationship = 'Unmarried' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 3887 AND capital_loss <= 2179 AND native_country = 'Ireland';

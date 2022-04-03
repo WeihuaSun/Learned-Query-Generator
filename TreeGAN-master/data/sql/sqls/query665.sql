@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 46 AND workclass = 'Local-gov' AND education = '12th' AND marital_status = 'Widowed' AND occupation = 'Tech-support' AND relationship = 'Not-in-family' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 6097 AND native_country = 'Japan';

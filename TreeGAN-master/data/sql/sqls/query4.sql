@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 89 AND workclass = 'Local-gov' AND education = '5th-6th' AND education_num <= 15 AND marital_status = 'Married-spouse-absent' AND occupation = 'Prof-specialty' AND relationship = 'Wife' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 6097 AND capital_loss <= 1594 AND hours_per_week <= 67 AND native_country = 'Hong';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 89 AND education = '11th' AND education_num <= 11 AND occupation = 'Craft-repair' AND relationship = 'Husband' AND capital_gain <= 7298 AND capital_loss <= 3004 AND native_country = 'Yugoslavia';

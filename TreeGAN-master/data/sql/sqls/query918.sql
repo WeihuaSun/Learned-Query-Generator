@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education_num <= 15 AND occupation = 'Handlers-cleaners' AND relationship = 'Other-relative' AND capital_gain <= 3818 AND capital_loss <= 2179 AND hours_per_week <= 42 AND native_country = 'Japan';

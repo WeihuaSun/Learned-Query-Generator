@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 46 AND education = '10th' AND education_num <= 7 AND marital_status = 'Married-spouse-absent' AND occupation = '?' AND race = 'White' AND sex = 'Female' AND capital_loss <= 3004 AND hours_per_week <= 67 AND native_country = 'Iran';

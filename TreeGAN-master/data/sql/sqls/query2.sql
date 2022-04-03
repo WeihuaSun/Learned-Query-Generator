@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 89 AND workclass = 'Self-emp-not-inc' AND education = '11th' AND education_num <= 15 AND marital_status = 'Separated' AND occupation = 'Prof-specialty' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND hours_per_week <= 43 AND native_country = 'Hong';

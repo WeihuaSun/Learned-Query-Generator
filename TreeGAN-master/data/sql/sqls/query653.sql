@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 38 AND workclass = 'Local-gov' AND education = '1st-4th' AND education_num <= 11 AND marital_status = 'Divorced' AND occupation = 'Prof-specialty' AND relationship = 'Other-relative' AND sex = 'Female' AND capital_gain <= 7298 AND capital_loss <= 2174 AND hours_per_week <= 77 AND native_country = 'Ireland';

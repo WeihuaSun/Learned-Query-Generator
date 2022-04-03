@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 74 AND workclass = 'Private' AND education = '11th' AND education_num <= 12 AND occupation = 'Protective-serv' AND sex = 'Male' AND capital_gain <= 1639 AND capital_loss <= 2174 AND hours_per_week <= 67;

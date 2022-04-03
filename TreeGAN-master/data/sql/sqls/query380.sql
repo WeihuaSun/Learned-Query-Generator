@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 38 AND workclass = 'Private' AND education = '12th' AND education_num <= 15 AND marital_status = 'Divorced' AND occupation = 'Protective-serv' AND relationship = 'Unmarried' AND race = 'White' AND capital_gain <= 15831 AND capital_loss <= 1594 AND hours_per_week <= 77;

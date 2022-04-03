@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education_num <= 11 AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 15831 AND capital_loss <= 2174 AND hours_per_week <= 56 AND native_country = 'Trinadad&Tobago';

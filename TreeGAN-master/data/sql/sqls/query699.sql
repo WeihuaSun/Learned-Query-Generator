@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 74 AND workclass = 'State-gov' AND education = '11th' AND education_num <= 11 AND marital_status = 'Married-AF-spouse' AND occupation = '?' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Male' AND capital_loss <= 3004 AND hours_per_week <= 67 AND native_country = 'Hong';

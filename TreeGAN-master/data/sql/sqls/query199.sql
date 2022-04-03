@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education_num <= 15 AND marital_status = 'Divorced' AND occupation = 'Prof-specialty' AND relationship = 'Unmarried' AND race = 'Other' AND capital_loss <= 1887 AND hours_per_week <= 56 AND native_country = 'Hong';

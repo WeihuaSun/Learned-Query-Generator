@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 74 AND workclass = '?' AND education = '11th' AND education_num <= 3 AND marital_status = 'Widowed' AND relationship = 'Not-in-family' AND sex = 'Male' AND capital_gain <= 15831 AND capital_loss <= 1429 AND hours_per_week <= 32;

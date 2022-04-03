@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 73 AND education = '10th' AND education_num <= 11 AND marital_status = 'Divorced' AND occupation = 'Prof-specialty' AND race = 'Other' AND sex = 'Female' AND capital_loss <= 2179 AND hours_per_week <= 77 AND native_country = 'Trinadad&Tobago';

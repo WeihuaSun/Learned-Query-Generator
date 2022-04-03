@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 47 AND workclass = 'Self-emp-not-inc' AND education_num <= 12 AND marital_status = 'Never-married' AND occupation = 'Prof-specialty' AND relationship = 'Wife' AND race = 'Black' AND sex = 'Female' AND capital_gain <= 6097 AND capital_loss <= 2174 AND hours_per_week <= 43 AND native_country = 'Yugoslavia';

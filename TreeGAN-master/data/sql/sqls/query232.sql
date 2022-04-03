@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND education = '12th' AND occupation = 'Craft-repair' AND relationship = 'Other-relative' AND capital_gain <= 2580 AND capital_loss <= 2179 AND native_country = 'Ireland';

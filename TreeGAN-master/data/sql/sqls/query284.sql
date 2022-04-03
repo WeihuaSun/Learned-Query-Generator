@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 89 AND workclass = 'Private' AND education = '5th-6th' AND education_num <= 7 AND occupation = '?' AND relationship = 'Husband' AND race = 'Black' AND sex = 'Female' AND capital_gain <= 20051 AND capital_loss <= 1429 AND hours_per_week <= 41 AND native_country = 'Portugal';

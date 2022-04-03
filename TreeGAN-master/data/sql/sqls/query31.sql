@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Masters' AND occupation = 'Tech-support' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_loss <= 1944 AND native_country = 'Yugoslavia';

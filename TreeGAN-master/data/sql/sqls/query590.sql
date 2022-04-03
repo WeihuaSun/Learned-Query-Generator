@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 81 AND workclass = 'Self-emp-not-inc' AND education_num <= 12 AND relationship = 'Husband' AND capital_gain <= 7978 AND hours_per_week <= 67 AND native_country = 'Iran';

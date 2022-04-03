@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = '9th' AND marital_status = 'Married-spouse-absent' AND occupation = 'Prof-specialty' AND relationship = 'Wife' AND race = 'White' AND sex = 'Female' AND capital_gain <= 20051 AND hours_per_week <= 77 AND native_country = 'Iran';

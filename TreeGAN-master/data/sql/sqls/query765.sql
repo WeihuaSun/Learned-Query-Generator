@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education_num <= 11 AND marital_status = 'Divorced' AND sex = 'Male' AND capital_gain <= 3887 AND capital_loss <= 2174 AND hours_per_week <= 16 AND native_country = 'Ireland';

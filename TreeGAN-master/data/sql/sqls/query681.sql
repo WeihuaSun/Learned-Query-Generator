@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 89 AND education = '10th' AND education_num <= 7 AND marital_status = 'Married-spouse-absent' AND occupation = 'Tech-support' AND sex = 'Female' AND capital_gain <= 7298 AND hours_per_week <= 92;

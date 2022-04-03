@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND education = '12th' AND marital_status = 'Married-spouse-absent' AND occupation = 'Craft-repair' AND relationship = 'Husband' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_loss <= 2179 AND native_country = 'Portugal';

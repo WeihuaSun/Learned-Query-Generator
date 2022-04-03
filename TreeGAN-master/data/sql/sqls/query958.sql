@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 81 AND workclass = 'Self-emp-not-inc' AND education = '10th' AND education_num <= 12 AND marital_status = 'Married-AF-spouse' AND relationship = 'Wife' AND race = 'Other' AND sex = 'Male' AND native_country = 'Hong';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = '1st-4th' AND marital_status = 'Widowed' AND occupation = 'Prof-specialty' AND relationship = 'Wife' AND race = 'White' AND sex = 'Male' AND capital_gain <= 20051 AND native_country = 'Hong';

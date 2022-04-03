@@ -1,0 +1,41 @@
+<start> ::= "SELECT" <space> <selcol> <space>  "FROM" <space>  <table> <space>  "WHERE" <space> <pred_log> ";" <opt_whitespace> 
+<selcol>::= "*" |"COUNT(*)"| <cols>
+<cols> ::= <cols> "," <cols> 
+        | <colname_str> | <colname_digit>
+<table> ::= <tablename>
+<pred_log> ::= <pred> | <pred_log> <space> <logicpred> <space> <pred> 
+
+<pred> ::= <colname_digit> <space> <ops> <space> <colname_digit> 
+        | <colname_str> <space> <ops_eq> <space> <colvalue_str>
+        | <colname_digit> <space> <ops> <space> <colvalue_digit> 
+
+<ops> ::= ">" | "<" | "=" | "!=" | "<=" | ">="
+
+<ops_eq> ::= "="
+
+<logicpred> ::= "AND" | "OR" | "NOT"
+
+<tablename> ::= "census"
+
+<colname_str> ::=  "workclass" | "education" | "marital_status" | "occupation" | "relationship" | "race" | "sex" |  "native_country"
+<colname_digit>  ::= "age" | "education_num" | "capital_loss" | "hours_per_week" |  "capital_gain"    
+
+<colvalue_str> ::= "colval"
+<colvalue_digit> ::= <decimal_numeral> | <floating_point_literal>
+
+<whitespace> ::= " "| "\n" 
+<space> ::= " "
+<opt_whitespace> ::= "" | <whitespace>
+
+
+<decimal_numeral> ::= "0" | <non_zero_digit> <maybe_digits>
+<maybe_digits> ::= "" | <digits>
+<digits> ::= <digit> | <digits> <digit>
+<digit> ::= "0" | <non_zero_digit>
+<non_zero_digit> ::= "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
+<floating_point_literal> ::= <digits> "." <maybe_digits> 
+<signed_integer> ::= <digits> | <sign> <digits>
+<sign> ::= "+" | "-"
+
+
+

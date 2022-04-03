@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 89 AND education = '12th' AND education_num <= 8 AND marital_status = 'Divorced' AND occupation = '?' AND relationship = 'Unmarried' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 1639 AND hours_per_week <= 67 AND native_country = 'Iran';

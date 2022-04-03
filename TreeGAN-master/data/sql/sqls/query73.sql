@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 89 AND education = '10th' AND education_num <= 12 AND marital_status = 'Divorced' AND occupation = '?' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Male' AND capital_gain <= 15831 AND capital_loss <= 2179 AND hours_per_week <= 16;

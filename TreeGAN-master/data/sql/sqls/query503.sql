@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = '5th-6th' AND marital_status = 'Married-AF-spouse' AND occupation = 'Craft-repair' AND relationship = 'Husband' AND race = 'Other' AND sex = 'Male' AND hours_per_week <= 16 AND native_country = 'Trinadad&Tobago';

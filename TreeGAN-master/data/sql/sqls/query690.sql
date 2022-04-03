@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 74 AND workclass = 'Local-gov' AND education_num <= 11 AND marital_status = 'Divorced' AND race = 'White' AND sex = 'Male' AND capital_gain <= 7298 AND capital_loss <= 3004 AND hours_per_week <= 43;

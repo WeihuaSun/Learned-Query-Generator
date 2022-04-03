@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 81 AND education_num <= 3 AND marital_status = 'Divorced' AND occupation = 'Priv-house-serv' AND sex = 'Female' AND capital_gain <= 7298 AND capital_loss <= 3004 AND hours_per_week <= 56;

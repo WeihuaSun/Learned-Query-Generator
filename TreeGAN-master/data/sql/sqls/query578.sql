@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 74 AND workclass = 'Local-gov' AND education = '12th' AND education_num <= 12 AND marital_status = 'Married-spouse-absent' AND occupation = 'Tech-support' AND relationship = 'Unmarried' AND capital_gain <= 15831 AND hours_per_week <= 67 AND native_country = 'Yugoslavia';

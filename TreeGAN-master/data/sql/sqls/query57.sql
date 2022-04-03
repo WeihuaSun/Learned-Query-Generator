@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND education = 'Masters' AND education_num <= 3 AND marital_status = 'Never-married' AND occupation = '?' AND relationship = 'Unmarried' AND race = 'Black' AND capital_loss <= 3004 AND hours_per_week <= 67 AND native_country = 'Jamaica';

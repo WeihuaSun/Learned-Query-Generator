@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 81 AND workclass = 'State-gov' AND marital_status = 'Married-spouse-absent' AND occupation = 'Craft-repair' AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 3887 AND hours_per_week <= 67 AND native_country = 'Iran';

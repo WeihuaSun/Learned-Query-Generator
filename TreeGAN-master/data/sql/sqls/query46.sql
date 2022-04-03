@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 81 AND workclass = 'Local-gov' AND education_num <= 11 AND marital_status = 'Married-spouse-absent' AND relationship = 'Other-relative' AND capital_gain <= 7298;

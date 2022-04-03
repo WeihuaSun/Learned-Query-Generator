@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education_num <= 3 AND marital_status = 'Married-AF-spouse' AND occupation = 'Craft-repair' AND relationship = 'Husband' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 6097 AND hours_per_week <= 32 AND native_country = 'Japan';

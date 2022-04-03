@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 89 AND workclass = 'Private' AND education_num <= 11 AND marital_status = 'Married-spouse-absent' AND occupation = 'Handlers-cleaners' AND relationship = 'Other-relative' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 7298 AND native_country = 'Iran';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 81 AND education = '12th' AND education_num <= 15 AND occupation = 'Prof-specialty' AND race = 'Other' AND capital_gain <= 2580 AND capital_loss <= 2174 AND hours_per_week <= 41;

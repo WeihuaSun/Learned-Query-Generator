@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 74 AND workclass = 'Self-emp-not-inc' AND education = 'Masters' AND education_num <= 11 AND marital_status = 'Married-spouse-absent' AND occupation = 'Craft-repair' AND relationship = 'Unmarried' AND sex = 'Male' AND hours_per_week <= 77 AND native_country = 'Trinadad&Tobago';

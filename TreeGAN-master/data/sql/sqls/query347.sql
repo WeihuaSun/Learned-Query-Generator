@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 74 AND education = '11th' AND marital_status = 'Married-AF-spouse' AND occupation = '?' AND relationship = 'Not-in-family' AND capital_gain <= 7298 AND capital_loss <= 1944 AND hours_per_week <= 41 AND native_country = 'Jamaica';

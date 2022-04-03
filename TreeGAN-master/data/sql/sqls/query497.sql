@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = '10th' AND education_num <= 3 AND marital_status = 'Married-spouse-absent' AND occupation = '?' AND relationship = 'Unmarried' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 15831 AND capital_loss <= 1944 AND hours_per_week <= 41 AND native_country = 'Ireland';

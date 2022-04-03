@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = '12th' AND marital_status = 'Married-AF-spouse' AND occupation = 'Prof-specialty' AND relationship = 'Not-in-family' AND capital_loss <= 2179 AND native_country = 'Japan';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = '12th' AND occupation = 'Protective-serv' AND relationship = 'Unmarried' AND race = 'Other' AND sex = 'Male' AND capital_loss <= 3004 AND native_country = 'Japan';

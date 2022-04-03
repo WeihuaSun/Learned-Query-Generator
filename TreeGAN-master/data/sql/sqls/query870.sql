@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 74 AND education = '9th' AND education_num <= 11 AND occupation = 'Prof-specialty' AND relationship = 'Not-in-family' AND race = 'White' AND sex = 'Male' AND capital_gain <= 7298 AND capital_loss <= 1944;

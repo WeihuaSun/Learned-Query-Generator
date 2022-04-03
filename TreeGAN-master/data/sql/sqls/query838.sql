@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 49 AND education = '10th' AND education_num <= 11 AND occupation = 'Craft-repair' AND race = 'Other' AND capital_gain <= 15831 AND capital_loss <= 1944 AND hours_per_week <= 42 AND native_country = 'Ireland';

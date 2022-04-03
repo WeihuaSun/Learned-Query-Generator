@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 47 AND workclass = 'Private' AND education_num <= 7 AND marital_status = 'Divorced' AND relationship = 'Unmarried' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 20051 AND capital_loss <= 2179;

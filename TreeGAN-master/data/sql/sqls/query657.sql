@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = '12th' AND education_num <= 3 AND marital_status = 'Married-spouse-absent' AND occupation = '?' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 3887 AND capital_loss <= 2179 AND hours_per_week <= 67 AND native_country = 'Portugal';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 89 AND workclass = '?' AND education = '12th' AND marital_status = 'Widowed' AND occupation = '?' AND relationship = 'Other-relative' AND capital_gain <= 7298 AND hours_per_week <= 56 AND native_country = 'Jamaica';

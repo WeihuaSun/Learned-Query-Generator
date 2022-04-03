@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education_num <= 12 AND occupation = 'Tech-support' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND capital_loss <= 3004 AND hours_per_week <= 67;

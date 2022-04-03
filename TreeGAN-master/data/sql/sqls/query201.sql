@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = '1st-4th' AND education_num <= 12 AND marital_status = 'Married-spouse-absent' AND occupation = 'Craft-repair' AND relationship = 'Husband' AND sex = 'Female' AND capital_gain <= 15831 AND native_country = 'Portugal';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-not-inc' AND education = '1st-4th' AND marital_status = 'Widowed' AND occupation = 'Protective-serv' AND relationship = 'Unmarried' AND race = 'Black' AND sex = 'Male' AND hours_per_week <= 92 AND native_country = 'Ireland';

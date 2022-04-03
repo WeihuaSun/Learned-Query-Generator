@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 74 AND marital_status = 'Divorced' AND occupation = 'Protective-serv' AND relationship = 'Wife' AND race = 'Other' AND sex = 'Female' AND native_country = 'Japan';

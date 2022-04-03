@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 46 AND education_num <= 15 AND relationship = 'Wife' AND race = 'Other' AND capital_gain <= 20051 AND capital_loss <= 2174 AND hours_per_week <= 43 AND native_country = 'Iran';

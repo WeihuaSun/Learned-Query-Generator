@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 74 AND workclass = 'State-gov' AND education = '11th' AND education_num <= 8 AND marital_status = 'Married-spouse-absent' AND occupation = 'Protective-serv' AND relationship = 'Not-in-family' AND race = 'White' AND sex = 'Female' AND capital_gain <= 7978 AND capital_loss <= 1594 AND hours_per_week <= 92 AND native_country = 'Ireland';

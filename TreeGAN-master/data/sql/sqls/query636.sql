@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 49 AND education = '1st-4th' AND education_num <= 11 AND marital_status = 'Widowed' AND relationship = 'Husband' AND race = 'White' AND sex = 'Female' AND capital_gain <= 20051 AND capital_loss <= 2179 AND native_country = 'Japan';

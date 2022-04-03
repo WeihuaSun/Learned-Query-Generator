@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education_num <= 12 AND occupation = 'Priv-house-serv' AND sex = 'Male' AND capital_gain <= 3818 AND capital_loss <= 1977 AND hours_per_week <= 41 AND native_country = 'Yugoslavia';

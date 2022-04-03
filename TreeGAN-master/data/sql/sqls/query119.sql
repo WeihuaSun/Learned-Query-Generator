@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 47 AND workclass = 'Self-emp-not-inc' AND education = '1st-4th' AND marital_status = 'Married-AF-spouse' AND occupation = '?' AND relationship = 'Unmarried' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 2580 AND native_country = 'Hong';

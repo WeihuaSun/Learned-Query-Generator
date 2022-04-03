@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE marital_status = 'Widowed' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Female' AND capital_gain <= 3887 AND hours_per_week <= 41 AND native_country = 'Hong';

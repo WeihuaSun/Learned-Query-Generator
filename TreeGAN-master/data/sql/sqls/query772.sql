@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education = 'Masters' AND education_num <= 7 AND occupation = '?' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Male' AND native_country = 'Trinadad&Tobago';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 47 AND education = '9th' AND marital_status = 'Married-spouse-absent' AND relationship = 'Husband' AND sex = 'Male' AND capital_loss <= 2174 AND native_country = 'Jamaica';

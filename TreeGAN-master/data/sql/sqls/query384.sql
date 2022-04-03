@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = '11th' AND education_num <= 3 AND marital_status = 'Married-spouse-absent' AND relationship = 'Other-relative' AND race = 'Black' AND capital_gain <= 6097;

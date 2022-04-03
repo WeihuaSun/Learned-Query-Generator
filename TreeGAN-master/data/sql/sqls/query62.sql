@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 81 AND workclass = '?' AND education = '12th' AND education_num <= 7 AND marital_status = 'Married-spouse-absent' AND occupation = 'Prof-specialty' AND relationship = 'Unmarried' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 20051 AND native_country = 'Iran';

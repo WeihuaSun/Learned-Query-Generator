@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 46 AND workclass = 'Private' AND education = '11th' AND education_num <= 3 AND marital_status = 'Married-AF-spouse' AND occupation = 'Prof-specialty' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Male' AND capital_gain <= 2580 AND capital_loss <= 1594 AND hours_per_week <= 56 AND native_country = 'Yugoslavia';

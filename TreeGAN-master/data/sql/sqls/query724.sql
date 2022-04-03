@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 89 AND education = '10th' AND education_num <= 11 AND marital_status = 'Never-married' AND occupation = 'Prof-specialty' AND relationship = 'Other-relative' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 3818 AND native_country = 'Ireland';

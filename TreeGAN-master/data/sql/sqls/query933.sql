@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = '11th' AND marital_status = 'Married-spouse-absent' AND occupation = 'Prof-specialty' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 20051 AND capital_loss <= 1594 AND hours_per_week <= 92 AND native_country = 'Yugoslavia';

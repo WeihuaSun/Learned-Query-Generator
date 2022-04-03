@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 43 AND workclass = 'Private' AND education = '11th' AND education_num <= 15 AND marital_status = 'Married-spouse-absent' AND occupation = '?' AND relationship = 'Not-in-family' AND race = 'Amer-Indian-Eskimo' AND capital_gain <= 7978 AND capital_loss <= 1944 AND hours_per_week <= 32 AND native_country = 'Portugal';

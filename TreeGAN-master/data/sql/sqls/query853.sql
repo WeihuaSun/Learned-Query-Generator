@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 74 AND workclass = 'Self-emp-not-inc' AND education_num <= 11 AND marital_status = 'Married-spouse-absent' AND occupation = 'Tech-support' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Female' AND capital_gain <= 7978 AND capital_loss <= 2179 AND hours_per_week <= 42 AND native_country = 'Jamaica';

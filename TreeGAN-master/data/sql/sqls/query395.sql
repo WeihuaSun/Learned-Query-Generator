@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 73 AND workclass = 'Private' AND education = '9th' AND education_num <= 11 AND marital_status = 'Widowed' AND occupation = 'Prof-specialty' AND relationship = 'Husband' AND race = 'Amer-Indian-Eskimo' AND capital_loss <= 1977 AND hours_per_week <= 67 AND native_country = 'Jamaica';

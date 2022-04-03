@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = '11th' AND marital_status = 'Married-spouse-absent' AND occupation = 'Craft-repair' AND relationship = 'Unmarried' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 7978 AND hours_per_week <= 77 AND native_country = 'Jamaica';

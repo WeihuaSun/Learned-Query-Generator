@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = '12th' AND occupation = 'Prof-specialty' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 1639 AND capital_loss <= 2179 AND hours_per_week <= 67 AND native_country = 'Nicaragua';

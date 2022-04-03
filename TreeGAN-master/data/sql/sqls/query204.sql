@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 47 AND workclass = 'Private' AND education = '11th' AND education_num <= 15 AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Male' AND capital_gain <= 20051 AND capital_loss <= 3004;

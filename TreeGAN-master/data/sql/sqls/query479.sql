@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 89 AND workclass = 'Local-gov' AND education = '1st-4th' AND education_num <= 3 AND marital_status = 'Widowed' AND occupation = 'Tech-support' AND relationship = 'Husband' AND race = 'White' AND sex = 'Male' AND capital_gain <= 20051 AND capital_loss <= 1594 AND hours_per_week <= 56 AND native_country = 'Nicaragua';

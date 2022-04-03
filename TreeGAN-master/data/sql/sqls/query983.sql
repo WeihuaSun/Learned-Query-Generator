@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 89 AND education = '11th' AND education_num <= 7 AND race = 'White' AND sex = 'Female' AND capital_gain <= 20051 AND capital_loss <= 1944 AND hours_per_week <= 43;

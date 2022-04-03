@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-not-inc' AND education = 'Masters' AND education_num <= 3 AND relationship = 'Other-relative' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 15831 AND capital_loss <= 2174 AND native_country = 'Ireland';

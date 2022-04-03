@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 74 AND education = '9th' AND education_num <= 3 AND occupation = '?' AND relationship = 'Other-relative' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 15831 AND capital_loss <= 1977 AND native_country = 'Yugoslavia';

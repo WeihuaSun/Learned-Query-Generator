@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-not-inc' AND education = '5th-6th' AND marital_status = 'Married-spouse-absent' AND occupation = 'Tech-support' AND relationship = 'Not-in-family' AND race = 'Other' AND sex = 'Female' AND capital_loss <= 2174 AND hours_per_week <= 67 AND native_country = 'Nicaragua';

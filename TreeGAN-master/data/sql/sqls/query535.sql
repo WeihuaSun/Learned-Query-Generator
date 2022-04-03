@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 74 AND education = '12th' AND occupation = 'Protective-serv' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Male' AND native_country = 'Jamaica';

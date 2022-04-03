@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 47 AND workclass = '?' AND education = '10th' AND occupation = 'Prof-specialty' AND relationship = 'Other-relative' AND sex = 'Male' AND hours_per_week <= 77 AND native_country = 'Trinadad&Tobago';

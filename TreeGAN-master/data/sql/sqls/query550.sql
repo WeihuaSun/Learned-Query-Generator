@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = '?' AND education = '10th' AND marital_status = 'Married-spouse-absent' AND occupation = 'Handlers-cleaners' AND relationship = 'Husband' AND race = 'White' AND sex = 'Female' AND hours_per_week <= 92 AND native_country = 'Japan';

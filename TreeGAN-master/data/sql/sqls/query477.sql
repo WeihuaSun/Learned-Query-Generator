@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 49 AND workclass = '?' AND education = '1st-4th' AND marital_status = 'Married-AF-spouse' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_loss <= 3004 AND native_country = 'Nicaragua';

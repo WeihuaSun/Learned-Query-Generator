@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education = '5th-6th' AND education_num <= 15 AND marital_status = 'Married-spouse-absent' AND occupation = 'Tech-support' AND capital_loss <= 1944 AND native_country = 'Trinadad&Tobago';

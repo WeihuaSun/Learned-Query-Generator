@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 43 AND workclass = 'Local-gov' AND education = '11th' AND education_num <= 3 AND capital_loss <= 2179 AND hours_per_week <= 67 AND native_country = 'Portugal';

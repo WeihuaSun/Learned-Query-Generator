@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 49 AND workclass = 'Private' AND education = 'Masters' AND education_num <= 12 AND occupation = 'Priv-house-serv' AND relationship = 'Husband' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 20051 AND capital_loss <= 3004 AND native_country = 'Japan';

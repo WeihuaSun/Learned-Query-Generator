@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 74 AND education_num <= 7 AND relationship = 'Wife' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 20051 AND capital_loss <= 2179 AND native_country = 'Jamaica';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 89 AND workclass = 'Self-emp-not-inc' AND education_num <= 15 AND occupation = 'Protective-serv' AND race = 'Other' AND capital_gain <= 7978 AND capital_loss <= 3004 AND hours_per_week <= 43;

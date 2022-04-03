@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 89 AND education = '5th-6th' AND marital_status = 'Separated' AND occupation = 'Priv-house-serv' AND relationship = 'Not-in-family' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 2580 AND capital_loss <= 1594 AND hours_per_week <= 92 AND native_country = 'Ireland';

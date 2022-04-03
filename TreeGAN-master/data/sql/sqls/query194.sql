@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 49 AND workclass = 'State-gov' AND education_num <= 7 AND marital_status = 'Divorced' AND relationship = 'Not-in-family' AND capital_gain <= 3818 AND hours_per_week <= 77 AND native_country = 'Hong';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 81 AND workclass = 'Private' AND education = '5th-6th' AND education_num <= 7 AND marital_status = 'Separated' AND occupation = 'Craft-repair' AND relationship = 'Wife' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 3818 AND capital_loss <= 3004 AND hours_per_week <= 43 AND native_country = 'Yugoslavia';

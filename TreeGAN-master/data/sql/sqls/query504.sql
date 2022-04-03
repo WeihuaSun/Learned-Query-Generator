@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 81 AND workclass = 'Self-emp-inc' AND education_num <= 11 AND marital_status = 'Divorced' AND relationship = 'Unmarried' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 7978 AND capital_loss <= 1944 AND hours_per_week <= 56 AND native_country = 'Nicaragua';

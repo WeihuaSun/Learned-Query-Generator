@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 74 AND education_num <= 3 AND marital_status = 'Never-married' AND occupation = 'Protective-serv' AND race = 'Other' AND capital_gain <= 20051 AND capital_loss <= 2179 AND hours_per_week <= 42;

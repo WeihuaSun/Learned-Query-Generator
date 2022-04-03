@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 81 AND workclass = 'State-gov' AND education = '12th' AND education_num <= 12 AND marital_status = 'Widowed' AND occupation = 'Tech-support' AND relationship = 'Other-relative' AND sex = 'Female' AND native_country = 'Nicaragua';

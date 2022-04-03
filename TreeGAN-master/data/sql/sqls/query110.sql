@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 73 AND workclass = 'Self-emp-not-inc' AND education = '10th' AND marital_status = 'Divorced' AND occupation = 'Handlers-cleaners' AND relationship = 'Wife' AND race = 'White' AND sex = 'Male' AND capital_gain <= 6097 AND capital_loss <= 3004 AND hours_per_week <= 92 AND native_country = 'Ireland';

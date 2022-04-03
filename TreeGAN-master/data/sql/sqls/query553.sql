@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 81 AND workclass = 'Local-gov' AND education = '12th' AND education_num <= 3 AND occupation = 'Prof-specialty' AND relationship = 'Unmarried' AND sex = 'Female' AND capital_gain <= 7978 AND capital_loss <= 3004 AND hours_per_week <= 92 AND native_country = 'Ireland';

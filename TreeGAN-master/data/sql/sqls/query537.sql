@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = '?' AND education = '12th' AND education_num <= 3 AND marital_status = 'Divorced' AND occupation = 'Handlers-cleaners' AND relationship = 'Unmarried' AND race = 'White' AND sex = 'Male' AND capital_loss <= 2080 AND hours_per_week <= 92 AND native_country = 'Portugal';

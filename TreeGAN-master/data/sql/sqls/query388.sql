@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education_num <= 11 AND marital_status = 'Never-married' AND occupation = 'Prof-specialty' AND relationship = 'Unmarried' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 1639 AND capital_loss <= 2179 AND native_country = 'Ireland';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = 'Masters' AND education_num <= 3 AND occupation = 'Handlers-cleaners' AND sex = 'Male' AND capital_gain <= 15831 AND capital_loss <= 3004 AND native_country = 'Jamaica';

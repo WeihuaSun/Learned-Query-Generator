@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 46 AND workclass = 'State-gov' AND education = 'Masters' AND education_num <= 11 AND occupation = '?' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_loss <= 2179 AND hours_per_week <= 92 AND native_country = 'Hong';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 74 AND workclass = 'State-gov' AND education = '10th' AND marital_status = 'Never-married' AND occupation = 'Prof-specialty' AND relationship = 'Unmarried' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 20051 AND capital_loss <= 1429 AND native_country = 'Yugoslavia';

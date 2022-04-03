@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = '?' AND education_num <= 3 AND occupation = 'Handlers-cleaners' AND relationship = 'Husband' AND capital_gain <= 20051 AND hours_per_week <= 56 AND native_country = 'Portugal';

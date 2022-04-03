@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-not-inc' AND education = '12th' AND occupation = 'Handlers-cleaners' AND relationship = 'Not-in-family' AND race = 'White' AND capital_loss <= 1977 AND native_country = 'Portugal';

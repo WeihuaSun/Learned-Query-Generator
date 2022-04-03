@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 81 AND education = '12th' AND occupation = 'Prof-specialty' AND relationship = 'Unmarried' AND sex = 'Male' AND capital_gain <= 15831 AND hours_per_week <= 41;

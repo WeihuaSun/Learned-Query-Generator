@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 49 AND education = '1st-4th' AND marital_status = 'Widowed' AND occupation = 'Handlers-cleaners' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND native_country = 'Trinadad&Tobago';

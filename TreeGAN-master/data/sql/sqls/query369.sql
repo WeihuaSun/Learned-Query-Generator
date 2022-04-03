@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-not-inc' AND education_num <= 11 AND marital_status = 'Married-spouse-absent' AND occupation = 'Craft-repair' AND relationship = 'Husband' AND race = 'Other' AND capital_gain <= 15831 AND capital_loss <= 2179 AND hours_per_week <= 42 AND native_country = 'Hong';

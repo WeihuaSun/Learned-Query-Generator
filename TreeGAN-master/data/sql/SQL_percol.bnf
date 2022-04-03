@@ -1,0 +1,60 @@
+<start> ::= "SELECT" <space> <selcols> <space> "FROM" <space> <table> <space> "WHERE" <space> <condition> ";" <opt_whitespace>
+
+<selcols>::= <star> | <aggregate> | <cols>
+
+<aggregate> ::= <aggregate_token> <l_bracket> <aggregate_col> <r_bracket>
+
+<cols> ::= <cols> <comma> <colset>
+        | <colset>
+
+<aggregate_token> ::= "MAX" | "MIN" | "AVG" | "COUNT" | "SUM"
+
+<aggregate_col> ::= <colset> | <star>
+
+<table> ::= <tablename>
+
+<condition> ::= <preds> | "TRUE"
+
+<preds> ::= <preds> <space> <logicpred> <space> <pred>
+            |<pred>
+
+<logicpred> ::= "AND" | "OR" | "NOT"
+
+<op> ::= ">" | "<" | "=" | "!=" | "<=" | ">="
+
+<ope> ::= "=" | "!="
+
+<star> ::= "*"
+
+<comma> ::= ","
+
+<whitespace> ::= " "| "\n" 
+
+<space> ::= " "
+
+<opt_whitespace> ::= "" | <whitespace>
+
+<digit> ::= "0" | <non_zero_digit>
+
+<non_zero_digit> ::= "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
+
+<point> ::= "."
+<l_bracket> ::= "("
+<r_bracket> ::= ")"
+
+<tablename> ::= "census"
+<age_val> ::= <digit> <digit>
+<education_num_val> ::= <digit> <digit>
+<capital_gain_val> ::= <digit> <digit> <digit> <digit> <digit>
+<capital_loss_val> ::= <digit> <digit> <digit> <digit>
+<hours_per_week_val> ::= <digit> <digit>
+<workclass_val> ::= "'Local-gov'" | "'?'" | "'Private'" | "'Never-worked'" | "'Local-gov'" | "'Federal-gov'" | "'Self-emp-not-inc'" | "'Self-emp-not-inc'" | "'Never-worked'" | "'Federal-gov'"
+<education_val> ::= "'Doctorate'" | "'Doctorate'" | "'1st-4th'" | "'11th'" | "'9th'" | "'Assoc-acdm'" | "'10th'" | "'Some-college'" | "'Bachelors'" | "'Doctorate'"
+<marital_status_val> ::= "'Married-AF-spouse'" | "'Married-civ-spouse'" | "'Married-civ-spouse'" | "'Widowed'" | "'Separated'" | "'Never-married'" | "'Divorced'" | "'Widowed'" | "'Never-married'" | "'Married-civ-spouse'"
+<occupation_val> ::= "'Protective-serv'" | "'Transport-moving'" | "'Priv-house-serv'" | "'?'" | "'Armed-Forces'" | "'Farming-fishing'" | "'Prof-specialty'" | "'?'" | "'?'" | "'Armed-Forces'"
+<relationship_val> ::= "'Own-child'" | "'Wife'" | "'Wife'" | "'Husband'" | "'Unmarried'" | "'Not-in-family'" | "'Wife'" | "'Own-child'" | "'Other-relative'" | "'Other-relative'"
+<race_val> ::= "'Other'" | "'White'" | "'Black'" | "'Amer-Indian-Eskimo'" | "'Black'" | "'Amer-Indian-Eskimo'" | "'White'" | "'Black'" | "'Black'" | "'Amer-Indian-Eskimo'"
+<sex_val> ::= "'Female'" | "'Female'" | "'Male'" | "'Male'" | "'Female'" | "'Male'" | "'Male'" | "'Female'" | "'Male'" | "'Male'"
+<native_country_val> ::= "'South'" | "'Iran'" | "'Poland'" | "'Haiti'" | "'Hong'" | "'Philippines'" | "'India'" | "'Philippines'" | "'Outlying-US(Guam-USVI-etc)'" | "'England'"
+<colset> ::="age" | "education_num" | "capital_gain" | "capital_loss" | "hours_per_week" | "workclass" | "education" | "marital_status" | "occupation" | "relationship" | "race" | "sex" | "native_country"
+<pred> ::= "TRUE"  | "workclass" <space> <ope> <space> <workclass_val>   | "education" <space> <ope> <space> <education_val>   | "marital_status" <space> <ope> <space> <marital_status_val>   | "occupation" <space> <ope> <space> <occupation_val>   | "relationship" <space> <ope> <space> <relationship_val>   | "race" <space> <ope> <space> <race_val>   | "sex" <space> <ope> <space> <sex_val>   | "native_country" <space> <ope> <space> <native_country_val>  

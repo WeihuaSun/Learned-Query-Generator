@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 46 AND workclass = '?' AND education = '11th' AND education_num <= 11 AND marital_status = 'Married-spouse-absent' AND occupation = 'Prof-specialty' AND relationship = 'Wife' AND race = 'White' AND sex = 'Male' AND capital_loss <= 1977 AND native_country = 'Japan';

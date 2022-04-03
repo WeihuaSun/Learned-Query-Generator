@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND marital_status = 'Married-spouse-absent' AND relationship = 'Not-in-family' AND race = 'White' AND capital_gain <= 3887 AND hours_per_week <= 77;

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 81 AND workclass = 'Private' AND education = '1st-4th' AND marital_status = 'Never-married' AND capital_gain <= 15831 AND hours_per_week <= 67 AND native_country = 'Portugal';

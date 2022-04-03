@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education_num <= 12 AND marital_status = 'Married-spouse-absent' AND occupation = 'Protective-serv' AND race = 'White' AND sex = 'Female' AND capital_loss <= 1944;

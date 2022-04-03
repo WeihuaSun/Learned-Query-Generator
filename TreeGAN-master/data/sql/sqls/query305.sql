@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = '10th' AND marital_status = 'Married-spouse-absent' AND relationship = 'Husband' AND race = 'Other' AND sex = 'Male' AND capital_loss <= 1944 AND native_country = 'Nicaragua';

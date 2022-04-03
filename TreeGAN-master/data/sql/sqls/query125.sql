@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = '11th' AND marital_status = 'Divorced' AND occupation = 'Priv-house-serv' AND relationship = 'Not-in-family' AND race = 'Black' AND sex = 'Female' AND capital_loss <= 1887 AND native_country = 'Jamaica';

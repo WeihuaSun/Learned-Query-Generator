@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 47 AND workclass = 'Private' AND education = '1st-4th' AND education_num <= 7 AND marital_status = 'Widowed' AND occupation = 'Prof-specialty' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 3818 AND capital_loss <= 1944 AND hours_per_week <= 16 AND native_country = 'Nicaragua';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = '12th' AND education_num <= 12 AND marital_status = 'Married-spouse-absent' AND occupation = 'Prof-specialty' AND relationship = 'Unmarried' AND race = 'White' AND capital_gain <= 6097 AND hours_per_week <= 67 AND native_country = 'Japan';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 47 AND workclass = 'State-gov' AND marital_status = 'Married-spouse-absent' AND occupation = '?' AND race = 'White' AND sex = 'Male' AND capital_gain <= 20051;

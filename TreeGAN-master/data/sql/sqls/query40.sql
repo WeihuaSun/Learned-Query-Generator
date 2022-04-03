@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 74 AND workclass = 'State-gov' AND education = '9th' AND marital_status = 'Married-spouse-absent' AND occupation = '?' AND relationship = 'Unmarried' AND race = 'Other' AND sex = 'Female' AND native_country = 'Jamaica';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 38 AND marital_status = 'Married-AF-spouse' AND occupation = 'Handlers-cleaners' AND relationship = 'Husband' AND sex = 'Male' AND capital_gain <= 3818 AND capital_loss <= 1977;

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 73 AND education = '1st-4th' AND marital_status = 'Divorced' AND relationship = 'Husband' AND sex = 'Female' AND capital_gain <= 7978 AND capital_loss <= 1944;

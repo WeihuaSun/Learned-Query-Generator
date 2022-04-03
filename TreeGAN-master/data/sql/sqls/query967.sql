@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 38 AND workclass = 'Self-emp-not-inc' AND education = 'Masters' AND education_num <= 11 AND marital_status = 'Widowed' AND occupation = 'Prof-specialty' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 20051 AND hours_per_week <= 77;

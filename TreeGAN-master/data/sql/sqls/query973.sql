@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 89 AND workclass = 'State-gov' AND education = '5th-6th' AND marital_status = 'Divorced' AND occupation = '?' AND relationship = 'Other-relative' AND race = 'Other' AND capital_gain <= 7978 AND capital_loss <= 2174 AND hours_per_week <= 32 AND native_country = 'Japan';

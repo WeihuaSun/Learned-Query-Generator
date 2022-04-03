@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 73 AND workclass = '?' AND education_num <= 3 AND marital_status = 'Never-married' AND occupation = 'Priv-house-serv' AND relationship = 'Unmarried' AND capital_gain <= 15831 AND capital_loss <= 1977 AND hours_per_week <= 41 AND native_country = 'Nicaragua';

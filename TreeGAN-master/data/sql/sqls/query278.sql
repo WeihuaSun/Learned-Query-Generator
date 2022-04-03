@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 74 AND workclass = 'Private' AND education = '1st-4th' AND education_num <= 15 AND marital_status = 'Married-spouse-absent' AND occupation = 'Handlers-cleaners' AND relationship = 'Unmarried' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 2580 AND capital_loss <= 2179 AND hours_per_week <= 67;

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 73 AND workclass = 'Private' AND education_num <= 11 AND marital_status = 'Married-spouse-absent' AND relationship = 'Not-in-family' AND race = 'Black' AND sex = 'Female' AND hours_per_week <= 43 AND native_country = 'Jamaica';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 43 AND workclass = '?' AND education = '9th' AND education_num <= 15 AND marital_status = 'Widowed' AND occupation = 'Craft-repair' AND relationship = 'Not-in-family' AND sex = 'Male' AND capital_loss <= 3004 AND hours_per_week <= 42 AND native_country = 'Iran';

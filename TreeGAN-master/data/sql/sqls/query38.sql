@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = '11th' AND marital_status = 'Widowed' AND occupation = '?' AND relationship = 'Unmarried' AND race = 'Black' AND sex = 'Female' AND capital_loss <= 2179 AND native_country = 'Hong';

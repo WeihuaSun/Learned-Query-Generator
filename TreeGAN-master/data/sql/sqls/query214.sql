@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 47 AND workclass = 'Self-emp-not-inc' AND marital_status = 'Never-married' AND occupation = '?' AND relationship = 'Other-relative' AND sex = 'Female' AND capital_gain <= 15831 AND capital_loss <= 1594 AND hours_per_week <= 42;
