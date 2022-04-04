@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND marital_status = 'Married-civ-spouse' AND occupation = 'Farming-fishing' AND relationship = 'Unmarried' AND race = 'Black' AND sex = 'Female' AND hours_per_week <= 41.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

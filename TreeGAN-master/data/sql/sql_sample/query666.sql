@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 75 AND education_num <= 8 AND relationship = 'Not-in-family' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 10605 AND capital_loss <= 1672 AND hours_per_week <= 23 AND native_country = 'El-Salvador';

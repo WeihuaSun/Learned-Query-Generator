@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 77.0 AND education = 'Some-college' AND education_num <= 12.0 AND occupation = 'Other-service' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_loss <= 676.0 AND hours_per_week <= 116.0;

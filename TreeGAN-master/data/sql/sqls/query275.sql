@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-not-inc' AND education = '1st-4th' AND education_num <= 8 AND occupation = 'Protective-serv' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND capital_loss <= 3004 AND hours_per_week <= 43 AND native_country = 'Japan';

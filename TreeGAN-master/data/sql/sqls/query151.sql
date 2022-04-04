@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 49 AND workclass = 'Private' AND education = '11th' AND education_num <= 3 AND marital_status = 'Divorced' AND occupation = 'Craft-repair' AND relationship = 'Unmarried' AND sex = 'Male' AND capital_gain <= 7298 AND native_country = 'Yugoslavia';

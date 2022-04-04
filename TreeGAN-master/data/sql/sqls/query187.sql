@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 89 AND workclass = 'Private' AND education = 'Masters' AND education_num <= 3 AND marital_status = 'Widowed' AND occupation = 'Craft-repair' AND relationship = 'Not-in-family' AND race = 'White' AND sex = 'Male' AND capital_gain <= 7978 AND capital_loss <= 1887 AND native_country = 'Trinadad&Tobago';

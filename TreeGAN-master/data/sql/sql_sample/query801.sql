@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 58 AND workclass = 'Local-gov' AND education_num <= 13 AND occupation = '?' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 10605 AND capital_loss <= 2057 AND hours_per_week <= 97;

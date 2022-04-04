@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 86.0 AND education_num <= 15.0 AND marital_status = 'Separated' AND relationship = 'Other-relative' AND race = 'White' AND hours_per_week <= 106.0 AND native_country = 'Honduras';

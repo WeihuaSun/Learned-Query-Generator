@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 75 AND workclass = 'Private' AND education = 'Assoc-voc' AND marital_status = 'Never-married' AND occupation = 'Craft-repair' AND relationship = 'Husband' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND hours_per_week <= 79;

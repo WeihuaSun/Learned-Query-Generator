@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education_num <= 16 AND marital_status = 'Never-married' AND occupation = 'Transport-moving' AND relationship = 'Wife' AND race = 'Asian-Pac-Islander' AND native_country = 'Cambodia';

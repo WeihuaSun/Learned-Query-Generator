@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 66.0 AND education = '1st-4th' AND education_num <= 18.0 AND marital_status = 'Married-AF-spouse' AND occupation = 'Priv-house-serv' AND relationship = 'Other-relative' AND race = 'Other' AND capital_gain <= 20632.0 AND capital_loss <= 2867.0 AND hours_per_week <= 32.0 AND native_country = 'Honduras';

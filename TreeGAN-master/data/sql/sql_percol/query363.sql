@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 71.0 AND workclass = 'Private' AND education = 'Bachelors' AND marital_status = 'Widowed' AND occupation = 'Prof-specialty' AND relationship = 'Unmarried' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 118065.0;

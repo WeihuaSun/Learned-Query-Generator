@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 41 AND workclass = 'Never-worked' AND marital_status = 'Married-spouse-absent' AND occupation = 'Adm-clerical' AND relationship = 'Wife' AND race = 'White' AND sex = 'Female' AND capital_gain <= 4101 AND hours_per_week <= 17 AND native_country = 'Cambodia';

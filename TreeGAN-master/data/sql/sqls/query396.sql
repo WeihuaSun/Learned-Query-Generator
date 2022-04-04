@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = '1st-4th' AND marital_status = 'Divorced' AND occupation = '?' AND relationship = 'Unmarried' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 7978 AND capital_loss <= 1977 AND native_country = 'Japan';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 69.0 AND education = 'Preschool' AND occupation = 'Other-service' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_gain <= 30817.0 AND hours_per_week <= 82.0;

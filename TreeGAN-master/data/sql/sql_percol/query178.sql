@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 72.0 AND education = 'Preschool' AND marital_status = 'Married-civ-spouse' AND occupation = 'Armed-Forces' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND capital_gain <= 9249.0 AND capital_loss <= 22.0 AND native_country = 'Yugoslavia';

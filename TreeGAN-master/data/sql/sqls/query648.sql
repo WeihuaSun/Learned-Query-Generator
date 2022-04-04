@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 46 AND workclass = 'State-gov' AND education = '12th' AND education_num <= 7 AND marital_status = 'Married-AF-spouse' AND occupation = 'Protective-serv' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 15831 AND capital_loss <= 2179 AND native_country = 'Yugoslavia';

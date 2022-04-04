@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Assoc-voc' AND education_num <= 10 AND marital_status = 'Widowed' AND occupation = 'Adm-clerical' AND relationship = 'Unmarried' AND race = 'Black' AND sex = 'Female' AND capital_gain <= 2977 AND capital_loss <= 2559 AND hours_per_week <= 97 AND native_country = 'El-Salvador';

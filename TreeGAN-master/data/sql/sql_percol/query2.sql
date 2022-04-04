@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 44.0 AND workclass = 'Private' AND education = 'Assoc-acdm' AND marital_status = 'Widowed' AND occupation = 'Priv-house-serv' AND relationship = 'Husband' AND sex = 'Female';

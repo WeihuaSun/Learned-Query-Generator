@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Assoc-acdm' AND occupation = 'Adm-clerical' AND relationship = 'Unmarried' AND sex = 'Female' AND capital_gain <= 9386 AND native_country = 'Cambodia';

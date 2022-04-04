@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = '10th' AND marital_status = 'Divorced' AND occupation = 'Exec-managerial' AND relationship = 'Other-relative' AND capital_gain <= 3722.0 AND native_country = 'Taiwan';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 48.0 AND workclass = 'Local-gov' AND education = '10th' AND relationship = 'Own-child' AND race = 'White' AND sex = 'Female' AND capital_loss <= 757.0 AND hours_per_week <= 54.0 AND native_country = 'Columbia';

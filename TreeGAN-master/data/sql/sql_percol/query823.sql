@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education = '7th-8th' AND marital_status = 'Widowed' AND occupation = 'Armed-Forces' AND relationship = 'Husband' AND race = 'White' AND capital_loss <= 1860.0 AND native_country = 'India';

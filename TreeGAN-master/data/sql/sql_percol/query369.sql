@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Some-college' AND marital_status = 'Married-AF-spouse' AND occupation = 'Armed-Forces' AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Male' AND hours_per_week <= 51.0 AND native_country = 'Portugal';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND education = '9th' AND education_num <= 11 AND marital_status = 'Divorced' AND occupation = 'Prof-specialty' AND relationship = 'Unmarried' AND race = 'Black' AND sex = 'Male' AND capital_loss <= 1977;

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = '11th' AND education_num <= 14.0 AND occupation = 'Transport-moving' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND capital_gain <= 23037.0 AND hours_per_week <= 64.0 AND native_country = 'Taiwan';

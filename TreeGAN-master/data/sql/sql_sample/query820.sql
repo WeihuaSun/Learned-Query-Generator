@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 87 AND marital_status = 'Never-married' AND occupation = 'Exec-managerial' AND relationship = 'Wife' AND sex = 'Female' AND capital_loss <= 2467 AND hours_per_week <= 41;

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND education = 'Assoc-voc' AND marital_status = 'Widowed' AND occupation = 'Sales' AND relationship = 'Own-child' AND capital_gain <= 14344 AND capital_loss <= 2559 AND native_country = 'Hong';

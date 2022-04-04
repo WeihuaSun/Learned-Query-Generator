@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Local-gov' AND education = 'Assoc-acdm' AND education_num <= 13 AND marital_status = 'Never-married' AND race = 'Black' AND sex = 'Female' AND capital_gain <= 9386 AND capital_loss <= 1974 AND hours_per_week <= 85 AND native_country = 'Hong';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 81 AND education = '1st-4th' AND education_num <= 15 AND marital_status = 'Married-spouse-absent' AND relationship = 'Not-in-family' AND sex = 'Female' AND capital_gain <= 3818 AND capital_loss <= 2179 AND hours_per_week <= 56 AND native_country = 'Yugoslavia';

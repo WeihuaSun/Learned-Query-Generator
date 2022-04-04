@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 55.0 AND education = '11th' AND education_num <= 7.0 AND occupation = 'Tech-support' AND relationship = 'Other-relative' AND capital_gain <= 23502.0 AND capital_loss <= 926.0 AND hours_per_week <= 42.0 AND native_country = 'India';

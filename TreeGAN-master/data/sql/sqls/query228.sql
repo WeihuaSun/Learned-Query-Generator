@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 49 AND workclass = 'Private' AND education = '11th' AND marital_status = 'Separated' AND occupation = '?' AND relationship = 'Wife' AND race = 'Black' AND sex = 'Female' AND capital_gain <= 15831 AND capital_loss <= 2174 AND hours_per_week <= 77 AND native_country = 'Jamaica';

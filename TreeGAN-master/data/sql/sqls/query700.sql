@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 81 AND workclass = 'State-gov' AND marital_status = 'Married-spouse-absent' AND occupation = 'Prof-specialty' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Male' AND native_country = 'Japan';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Never-worked' AND education = '7th-8th' AND education_num <= 5 AND marital_status = 'Widowed' AND occupation = 'Exec-managerial' AND relationship = 'Not-in-family' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 9386 AND capital_loss <= 2129 AND hours_per_week <= 13 AND native_country = 'Cambodia';

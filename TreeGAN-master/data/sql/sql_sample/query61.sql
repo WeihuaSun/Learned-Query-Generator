@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 58 AND workclass = 'Without-pay' AND education = 'Assoc-voc' AND education_num <= 13 AND marital_status = 'Never-married' AND relationship = 'Own-child' AND sex = 'Female' AND capital_gain <= 1506 AND capital_loss <= 2559;

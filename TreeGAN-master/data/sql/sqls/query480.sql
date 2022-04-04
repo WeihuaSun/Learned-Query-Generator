@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE marital_status = 'Widowed' AND occupation = 'Protective-serv' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 7298 AND native_country = 'Jamaica';

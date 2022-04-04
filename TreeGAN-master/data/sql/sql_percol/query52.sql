@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Some-college' AND marital_status = 'Divorced' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 13387.0 AND capital_loss <= 802.0 AND hours_per_week <= 31.0;

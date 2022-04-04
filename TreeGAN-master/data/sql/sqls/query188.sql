@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = '5th-6th' AND education_num <= 11 AND marital_status = 'Divorced' AND occupation = 'Prof-specialty' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 15831 AND capital_loss <= 1944 AND hours_per_week <= 92 AND native_country = 'Iran';

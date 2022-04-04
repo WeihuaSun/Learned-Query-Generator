@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = '10th' AND marital_status = 'Separated' AND occupation = 'Adm-clerical' AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Female' AND capital_loss <= 1750.0 AND native_country = 'Yugoslavia';

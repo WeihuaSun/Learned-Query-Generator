@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND education = '7th-8th' AND education_num <= 11.0 AND marital_status = 'Separated' AND occupation = 'Transport-moving' AND relationship = 'Husband' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND native_country = 'Hong';

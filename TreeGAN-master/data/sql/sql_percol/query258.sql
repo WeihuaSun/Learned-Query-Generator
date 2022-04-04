@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 41.0 AND workclass = 'Self-emp-inc' AND education_num <= 16.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Transport-moving' AND race = 'Black' AND capital_gain <= 31940.0 AND capital_loss <= 834.0 AND hours_per_week <= 69.0;

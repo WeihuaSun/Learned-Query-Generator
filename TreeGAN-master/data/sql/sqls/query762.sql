@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = '5th-6th' AND marital_status = 'Widowed' AND occupation = 'Prof-specialty' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_loss <= 1887 AND hours_per_week <= 67 AND native_country = 'Jamaica';

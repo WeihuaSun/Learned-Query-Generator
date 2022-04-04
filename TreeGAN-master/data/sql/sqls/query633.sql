@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education_num <= 7 AND marital_status = 'Never-married' AND occupation = '?' AND relationship = 'Wife' AND race = 'Other' AND sex = 'Male' AND capital_loss <= 3004 AND native_country = 'Iran';

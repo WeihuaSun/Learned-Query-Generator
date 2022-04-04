@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 58 AND workclass = 'Never-worked' AND education = 'Prof-school' AND education_num <= 8 AND marital_status = 'Married-civ-spouse' AND occupation = 'Sales' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 2977 AND capital_loss <= 2129 AND hours_per_week <= 97 AND native_country = 'India';

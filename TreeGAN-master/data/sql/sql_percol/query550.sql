@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = '1st-4th' AND education_num <= 17.0 AND marital_status = 'Married-civ-spouse' AND sex = 'Female' AND capital_gain <= 25355.0 AND capital_loss <= 916.0 AND hours_per_week <= 58.0 AND native_country = 'Portugal';

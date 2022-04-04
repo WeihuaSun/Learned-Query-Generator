@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 41 AND workclass = 'Never-worked' AND education = 'Assoc-voc' AND marital_status = 'Never-married' AND occupation = 'Other-service' AND relationship = 'Wife' AND sex = 'Female' AND native_country = 'India';

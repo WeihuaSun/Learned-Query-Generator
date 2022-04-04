@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 38 AND workclass = '?' AND education = 'Masters' AND education_num <= 15 AND occupation = 'Handlers-cleaners' AND relationship = 'Husband' AND sex = 'Female' AND capital_gain <= 3887 AND capital_loss <= 3004 AND hours_per_week <= 77 AND native_country = 'Hong';

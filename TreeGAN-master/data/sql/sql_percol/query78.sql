@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 60.0 AND workclass = 'Without-pay' AND marital_status = 'Married-AF-spouse' AND occupation = 'Transport-moving' AND relationship = 'Own-child' AND capital_gain <= 19778.0 AND capital_loss <= 1614.0 AND hours_per_week <= 56.0 AND native_country = 'Taiwan';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 38.0 AND education_num <= 14.0 AND marital_status = 'Married-AF-spouse' AND occupation = 'Prof-specialty' AND relationship = 'Own-child' AND capital_gain <= 3251.0 AND capital_loss <= 1429.0 AND hours_per_week <= 53.0 AND native_country = 'Taiwan';

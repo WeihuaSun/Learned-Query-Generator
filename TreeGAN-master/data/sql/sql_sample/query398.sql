@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Assoc-acdm' AND occupation = 'Craft-repair' AND relationship = 'Husband' AND sex = 'Female' AND capital_gain <= 10605 AND capital_loss <= 2559 AND hours_per_week <= 85 AND native_country = 'Hungary';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 60.0 AND workclass = 'Private' AND education = 'Preschool' AND education_num <= 16.0 AND marital_status = 'Divorced' AND occupation = 'Priv-house-serv' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Male' AND capital_gain <= 34417.0 AND capital_loss <= 1755.0 AND hours_per_week <= 96.0 AND native_country = 'Portugal';

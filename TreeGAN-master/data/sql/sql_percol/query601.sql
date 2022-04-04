@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 67.0 AND workclass = 'Federal-gov' AND education = '10th' AND marital_status = 'Married-civ-spouse' AND occupation = 'Armed-Forces' AND relationship = 'Husband' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_gain <= 1894.0 AND capital_loss <= 2025.0 AND hours_per_week <= 79.0 AND native_country = 'Honduras';

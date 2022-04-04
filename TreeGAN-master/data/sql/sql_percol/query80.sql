@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 29.0 AND workclass = 'Private' AND education = '7th-8th' AND education_num <= 8.0 AND marital_status = 'Separated' AND occupation = 'Farming-fishing' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 13625.0 AND capital_loss <= 1922.0 AND native_country = 'India';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 75 AND workclass = 'Without-pay' AND relationship = 'Own-child' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 2977 AND capital_loss <= 2057;

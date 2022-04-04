@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = '7th-8th' AND marital_status = 'Widowed' AND relationship = 'Not-in-family' AND race = 'Asian-Pac-Islander' AND capital_gain <= 14344 AND hours_per_week <= 41;

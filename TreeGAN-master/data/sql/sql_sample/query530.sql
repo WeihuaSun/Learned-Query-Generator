@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND education_num <= 13 AND marital_status = 'Married-AF-spouse' AND occupation = 'Craft-repair' AND relationship = 'Wife' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 14344 AND native_country = 'Hungary';

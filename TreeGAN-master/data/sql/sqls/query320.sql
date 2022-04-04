@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 73 AND workclass = 'State-gov' AND education_num <= 3 AND occupation = '?' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND hours_per_week <= 41 AND native_country = 'Japan';

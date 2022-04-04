@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 66.0 AND workclass = 'Self-emp-inc' AND education = '7th-8th' AND education_num <= 16.0 AND marital_status = 'Divorced' AND occupation = 'Other-service' AND relationship = 'Husband' AND capital_gain <= 7755.0 AND capital_loss <= 1973.0 AND hours_per_week <= 82.0 AND native_country = 'Cuba';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Masters' AND marital_status = 'Married-AF-spouse' AND occupation = 'Protective-serv' AND relationship = 'Unmarried' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_loss <= 1944 AND native_country = 'Iran';

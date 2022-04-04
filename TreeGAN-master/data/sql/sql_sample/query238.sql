@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = 'Assoc-voc' AND marital_status = 'Married-AF-spouse' AND occupation = 'Sales' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_loss <= 2129 AND hours_per_week <= 97 AND native_country = 'India';

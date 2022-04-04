@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 58.0 AND education = 'Bachelors' AND marital_status = 'Widowed' AND occupation = 'Transport-moving' AND relationship = 'Other-relative' AND sex = 'Male' AND capital_gain <= 14019.0 AND native_country = 'Honduras';

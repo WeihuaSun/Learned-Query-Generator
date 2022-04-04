@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 61.0 AND workclass = 'Self-emp-inc' AND education = 'Some-college' AND education_num <= 15.0 AND marital_status = 'Widowed' AND occupation = 'Adm-clerical' AND relationship = 'Own-child' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 38846.0 AND capital_loss <= 1049.0 AND hours_per_week <= 52.0;

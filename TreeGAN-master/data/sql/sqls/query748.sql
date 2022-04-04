@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = '11th' AND marital_status = 'Separated' AND occupation = '?' AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Male' AND hours_per_week <= 67 AND native_country = 'Hong';

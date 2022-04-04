@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 71.0 AND education = 'Assoc-acdm' AND education_num <= 16.0 AND marital_status = 'Separated' AND occupation = 'Other-service' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 330.0 AND capital_loss <= 282.0 AND native_country = 'Columbia';

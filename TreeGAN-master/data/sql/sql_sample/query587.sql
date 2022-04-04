@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 41 AND workclass = 'Private' AND education = 'Doctorate' AND occupation = 'Exec-managerial' AND relationship = 'Own-child' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 4101 AND hours_per_week <= 97 AND native_country = 'India';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 30 AND education = '10th' AND marital_status = 'Married-spouse-absent' AND occupation = '?' AND capital_loss <= 2179 AND hours_per_week <= 56 AND native_country = 'Japan';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 41 AND workclass = 'Without-pay' AND education = 'Assoc-voc' AND education_num <= 13 AND marital_status = 'Separated' AND occupation = 'Prof-specialty' AND race = 'White' AND sex = 'Male' AND capital_gain <= 3818 AND hours_per_week <= 68 AND native_country = 'India';

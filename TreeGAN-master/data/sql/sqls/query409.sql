@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 46 AND workclass = 'State-gov' AND education = '11th' AND education_num <= 3 AND marital_status = 'Married-AF-spouse' AND capital_gain <= 3887 AND hours_per_week <= 67;

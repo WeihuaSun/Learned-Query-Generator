@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 71.0 AND education_num <= 12.0 AND marital_status = 'Married-spouse-absent' AND occupation = 'Exec-managerial' AND relationship = 'Husband' AND capital_gain <= 40566.0 AND hours_per_week <= 40.0 AND native_country = 'Hong';

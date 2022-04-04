@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = 'Assoc-acdm' AND education_num <= 13 AND marital_status = 'Never-married' AND occupation = '?' AND relationship = 'Own-child' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 8614 AND capital_loss <= 2057 AND hours_per_week <= 85 AND native_country = 'England';

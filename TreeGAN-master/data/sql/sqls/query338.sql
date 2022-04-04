@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 89 AND workclass = 'State-gov' AND education = '12th' AND education_num <= 3 AND marital_status = 'Widowed' AND occupation = '?' AND relationship = 'Unmarried' AND race = 'White' AND sex = 'Female' AND capital_gain <= 7978 AND capital_loss <= 3004 AND hours_per_week <= 92 AND native_country = 'Iran';

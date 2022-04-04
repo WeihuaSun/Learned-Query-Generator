@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = 'Masters' AND marital_status = 'Married-civ-spouse' AND relationship = 'Other-relative' AND capital_gain <= 49885.0 AND capital_loss <= 215.0 AND hours_per_week <= 36.0;

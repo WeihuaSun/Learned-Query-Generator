@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = 'Assoc-acdm' AND marital_status = 'Widowed' AND occupation = 'Prof-specialty' AND relationship = 'Unmarried' AND sex = 'Female' AND capital_gain <= 43650.0 AND native_country = 'India';

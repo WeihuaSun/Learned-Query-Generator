@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 41.0 AND workclass = 'Local-gov' AND education = '1st-4th' AND education_num <= 11.0 AND marital_status = 'Married-civ-spouse' AND race = 'Black' AND capital_loss <= 175.0 AND hours_per_week <= 52.0 AND native_country = 'Yugoslavia';

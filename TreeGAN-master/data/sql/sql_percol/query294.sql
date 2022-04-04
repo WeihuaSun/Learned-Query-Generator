@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 51.0 AND workclass = 'Local-gov' AND education = 'Preschool' AND education_num <= 20.0 AND occupation = 'Exec-managerial' AND relationship = 'Other-relative' AND sex = 'Male' AND capital_gain <= 29620.0 AND capital_loss <= 256.0 AND hours_per_week <= 58.0 AND native_country = 'Yugoslavia';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = '1st-4th' AND education_num <= 12.0 AND occupation = 'Exec-managerial' AND relationship = 'Unmarried' AND sex = 'Female' AND capital_gain <= 49782.0 AND capital_loss <= 1721.0 AND hours_per_week <= 68.0;

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education_num <= 18.0 AND marital_status = 'Divorced' AND occupation = 'Tech-support' AND relationship = 'Other-relative' AND race = 'White' AND native_country = 'Cuba';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Assoc-voc' AND education_num <= 11 AND marital_status = 'Married-AF-spouse' AND occupation = 'Other-service' AND relationship = 'Husband' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 14344 AND capital_loss <= 1876 AND native_country = 'Taiwan';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 89 AND workclass = 'Self-emp-not-inc' AND education = '10th' AND education_num <= 7 AND occupation = 'Prof-specialty' AND race = 'White' AND capital_gain <= 3887 AND capital_loss <= 1594 AND hours_per_week <= 32 AND native_country = 'Hong';

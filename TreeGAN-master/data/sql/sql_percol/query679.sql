@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 65.0 AND workclass = 'State-gov' AND education = '10th' AND education_num <= 18.0 AND marital_status = 'Married-civ-spouse' AND race = 'Other' AND capital_gain <= 2553.0;

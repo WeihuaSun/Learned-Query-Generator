@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND education = 'Doctorate' AND education_num <= 10 AND marital_status = 'Married-spouse-absent' AND relationship = 'Own-child' AND capital_gain <= 2977 AND hours_per_week <= 97 AND native_country = 'Hong';

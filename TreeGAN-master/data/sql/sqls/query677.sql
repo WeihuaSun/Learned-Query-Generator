@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 81 AND workclass = 'State-gov' AND education = '9th' AND education_num <= 12 AND occupation = 'Craft-repair' AND relationship = 'Unmarried' AND capital_gain <= 15831 AND capital_loss <= 1429 AND hours_per_week <= 42 AND native_country = 'Jamaica';

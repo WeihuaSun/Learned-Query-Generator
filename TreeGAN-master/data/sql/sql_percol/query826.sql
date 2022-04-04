@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 60.0 AND workclass = 'Private' AND education_num <= 18.0 AND marital_status = 'Married-AF-spouse' AND occupation = 'Other-service' AND sex = 'Male' AND capital_gain <= 36230.0 AND native_country = 'Portugal';

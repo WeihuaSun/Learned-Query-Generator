@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Assoc-acdm' AND marital_status = 'Never-married' AND occupation = 'Transport-moving' AND relationship = 'Own-child' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 9386 AND capital_loss <= 2559 AND native_country = 'Poland';

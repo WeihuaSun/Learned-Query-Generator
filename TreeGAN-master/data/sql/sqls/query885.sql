@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 74 AND occupation = 'Tech-support' AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Female' AND hours_per_week <= 43 AND native_country = 'Hong';

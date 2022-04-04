@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 81 AND education = '12th' AND education_num <= 11 AND marital_status = 'Married-spouse-absent' AND occupation = '?' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Male' AND capital_loss <= 2179 AND hours_per_week <= 77 AND native_country = 'Jamaica';

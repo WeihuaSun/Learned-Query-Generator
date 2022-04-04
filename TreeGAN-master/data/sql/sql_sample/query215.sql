@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = 'Doctorate' AND education_num <= 13 AND marital_status = 'Widowed' AND occupation = 'Transport-moving' AND relationship = 'Own-child' AND native_country = 'Hong';

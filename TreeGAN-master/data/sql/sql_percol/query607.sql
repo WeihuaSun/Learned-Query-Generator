@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 62.0 AND workclass = 'Without-pay' AND education = 'Masters' AND marital_status = 'Separated' AND occupation = 'Farming-fishing' AND relationship = 'Other-relative' AND race = 'Black' AND capital_gain <= 15723.0 AND capital_loss <= 1479.0 AND hours_per_week <= 58.0 AND native_country = 'Hong';

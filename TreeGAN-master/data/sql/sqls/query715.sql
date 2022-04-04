@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 73 AND education = '11th' AND education_num <= 8 AND marital_status = 'Separated' AND occupation = 'Craft-repair' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 7978 AND capital_loss <= 3004 AND native_country = 'Iran';

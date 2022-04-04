@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 75 AND education_num <= 10 AND occupation = 'Adm-clerical' AND relationship = 'Wife' AND capital_gain <= 10605 AND capital_loss <= 2559 AND hours_per_week <= 85 AND native_country = 'El-Salvador';

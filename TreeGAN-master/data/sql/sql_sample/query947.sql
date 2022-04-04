@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 26 AND workclass = 'Never-worked' AND marital_status = 'Separated' AND race = 'White' AND capital_gain <= 4101 AND capital_loss <= 2057 AND hours_per_week <= 97 AND native_country = 'Taiwan';

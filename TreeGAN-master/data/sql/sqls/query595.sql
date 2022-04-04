@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education = '12th' AND marital_status = 'Married-spouse-absent' AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Female' AND capital_loss <= 2080 AND hours_per_week <= 92 AND native_country = 'Trinadad&Tobago';

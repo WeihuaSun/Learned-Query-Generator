@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 55.0 AND workclass = 'Without-pay' AND education = '11th' AND education_num <= 14.0 AND occupation = 'Other-service' AND relationship = 'Other-relative' AND capital_gain <= 1503.0 AND capital_loss <= 1250.0 AND hours_per_week <= 98.0 AND native_country = 'Cuba';

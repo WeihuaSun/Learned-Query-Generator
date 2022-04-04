@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education_num <= 15 AND marital_status = 'Divorced' AND relationship = 'Husband' AND race = 'White' AND capital_gain <= 20051 AND capital_loss <= 1887 AND hours_per_week <= 67;

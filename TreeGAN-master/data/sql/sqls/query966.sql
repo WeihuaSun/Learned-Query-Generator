@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = '9th' AND marital_status = 'Widowed' AND occupation = 'Tech-support' AND relationship = 'Other-relative' AND race = 'Other' AND sex = 'Male' AND capital_loss <= 1977 AND native_country = 'Japan';

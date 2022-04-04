@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 75 AND education_num <= 11 AND relationship = 'Unmarried' AND capital_gain <= 10605 AND capital_loss <= 2129 AND hours_per_week <= 97 AND native_country = 'England';

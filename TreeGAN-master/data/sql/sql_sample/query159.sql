@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = 'Doctorate' AND marital_status = 'Married-spouse-absent' AND occupation = 'Craft-repair' AND relationship = 'Not-in-family' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 10605 AND native_country = 'Poland';

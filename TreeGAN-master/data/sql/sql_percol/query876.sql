@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education = '7th-8th' AND education_num <= 14.0 AND marital_status = 'Divorced' AND occupation = 'Exec-managerial' AND race = 'White' AND sex = 'Female' AND native_country = 'Outlying-US(Guam-USVI-etc)';

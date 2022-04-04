@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 41 AND workclass = 'Without-pay' AND education = 'Prof-school' AND education_num <= 13 AND marital_status = 'Married-spouse-absent' AND relationship = 'Unmarried' AND race = 'White' AND sex = 'Female' AND capital_loss <= 2080 AND hours_per_week <= 97 AND native_country = 'United-States';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = 'Assoc-acdm' AND marital_status = 'Married-civ-spouse' AND occupation = 'Exec-managerial' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 9386 AND native_country = 'England';

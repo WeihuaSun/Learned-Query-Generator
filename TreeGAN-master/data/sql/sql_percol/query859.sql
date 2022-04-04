@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = 'Bachelors' AND education_num <= 11.0 AND occupation = 'Adm-clerical' AND relationship = 'Husband' AND race = 'Black' AND capital_loss <= 1943.0 AND hours_per_week <= 96.0;

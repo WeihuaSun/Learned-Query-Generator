@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 46 AND education = '9th' AND marital_status = 'Married-spouse-absent' AND occupation = 'Handlers-cleaners' AND relationship = 'Not-in-family' AND sex = 'Female' AND capital_gain <= 15831 AND native_country = 'Nicaragua';

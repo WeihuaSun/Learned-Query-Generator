@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 81 AND workclass = 'Local-gov' AND education_num <= 8 AND marital_status = 'Married-AF-spouse' AND occupation = 'Prof-specialty' AND relationship = 'Husband' AND race = 'White' AND sex = 'Female' AND capital_loss <= 3004 AND hours_per_week <= 77 AND native_country = 'Nicaragua';

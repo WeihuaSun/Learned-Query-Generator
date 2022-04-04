@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = '?' AND occupation = 'Prof-specialty' AND relationship = 'Not-in-family' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 15831 AND native_country = 'Japan';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 57 AND workclass = 'Without-pay' AND education = 'Assoc-voc' AND education_num <= 11 AND occupation = 'Exec-managerial' AND sex = 'Female' AND capital_gain <= 14344 AND capital_loss <= 2051 AND hours_per_week <= 79 AND native_country = 'Hungary';

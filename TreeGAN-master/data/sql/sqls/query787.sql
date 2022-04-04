@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 43 AND workclass = 'State-gov' AND marital_status = 'Married-spouse-absent' AND occupation = 'Handlers-cleaners' AND race = 'White' AND sex = 'Male' AND capital_gain <= 7978 AND capital_loss <= 2179 AND hours_per_week <= 92 AND native_country = 'Portugal';

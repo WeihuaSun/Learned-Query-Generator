@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND education = 'Assoc-acdm' AND marital_status = 'Never-married' AND occupation = '?' AND relationship = 'Unmarried' AND race = 'White' AND sex = 'Female' AND capital_loss <= 2080 AND hours_per_week <= 97 AND native_country = 'Poland';

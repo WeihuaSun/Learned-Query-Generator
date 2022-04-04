@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education = 'Some-college' AND marital_status = 'Widowed' AND occupation = 'Armed-Forces' AND relationship = 'Other-relative' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 40393.0 AND capital_loss <= 2102.0 AND native_country = 'Taiwan';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 59.0 AND workclass = 'Without-pay' AND education_num <= 14.0 AND marital_status = 'Married-spouse-absent' AND occupation = 'Tech-support' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_gain <= 39953.0 AND hours_per_week <= 59.0 AND native_country = 'England';

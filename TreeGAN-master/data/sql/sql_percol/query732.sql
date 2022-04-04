@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = 'Assoc-acdm' AND education_num <= 19.0 AND marital_status = 'Married-AF-spouse' AND occupation = 'Armed-Forces' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_loss <= 1717.0;

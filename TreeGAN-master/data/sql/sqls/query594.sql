@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 46 AND education = 'Masters' AND education_num <= 3 AND marital_status = 'Widowed' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Female' AND capital_loss <= 2080 AND hours_per_week <= 32 AND native_country = 'Iran';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 62.0 AND education = 'Bachelors' AND education_num <= 13.0 AND marital_status = 'Widowed' AND relationship = 'Husband' AND capital_loss <= 1993.0 AND hours_per_week <= 51.0 AND native_country = 'India';

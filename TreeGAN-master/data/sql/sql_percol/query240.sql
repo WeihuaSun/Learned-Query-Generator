@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 34.0 AND education_num <= 13.0 AND relationship = 'Own-child' AND capital_gain <= 7042.0 AND capital_loss <= 765.0 AND hours_per_week <= 62.0 AND native_country = 'England';

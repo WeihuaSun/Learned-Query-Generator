@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Assoc-acdm' AND marital_status = 'Divorced' AND occupation = 'Transport-moving' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 6856.0 AND native_country = 'Cuba';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 89 AND workclass = '?' AND education = '11th' AND education_num <= 11 AND marital_status = 'Separated' AND occupation = 'Handlers-cleaners' AND relationship = 'Not-in-family' AND race = 'White' AND sex = 'Male' AND native_country = 'Japan';

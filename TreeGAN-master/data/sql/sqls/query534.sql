@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 74 AND education = '12th' AND education_num <= 11 AND marital_status = 'Widowed' AND occupation = 'Prof-specialty' AND relationship = 'Not-in-family' AND capital_loss <= 1594 AND hours_per_week <= 67;

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 71.0 AND education = 'Preschool' AND education_num <= 9.0 AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 6211.0 AND capital_loss <= 887.0 AND hours_per_week <= 71.0 AND native_country = 'Taiwan';

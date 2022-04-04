@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 27.0 AND education = '7th-8th' AND education_num <= 12.0 AND occupation = 'Adm-clerical' AND relationship = 'Unmarried' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 5033.0 AND capital_loss <= 1778.0 AND hours_per_week <= 47.0;

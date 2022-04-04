@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 73 AND education = '1st-4th' AND education_num <= 3 AND marital_status = 'Widowed' AND race = 'Other' AND sex = 'Male' AND capital_loss <= 2174 AND hours_per_week <= 32 AND native_country = 'Yugoslavia';

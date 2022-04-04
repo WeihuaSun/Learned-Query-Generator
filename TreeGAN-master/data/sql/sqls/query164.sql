@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = '1st-4th' AND education_num <= 11 AND marital_status = 'Never-married' AND occupation = 'Prof-specialty' AND relationship = 'Unmarried' AND sex = 'Female' AND capital_gain <= 3887 AND hours_per_week <= 56 AND native_country = 'Yugoslavia';

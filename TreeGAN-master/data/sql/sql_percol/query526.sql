@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 68.0 AND workclass = 'Local-gov' AND education = '10th' AND marital_status = 'Married-civ-spouse' AND occupation = 'Handlers-cleaners' AND relationship = 'Unmarried' AND race = 'White' AND sex = 'Female' AND capital_gain <= 45611.0 AND capital_loss <= 2082.0 AND native_country = 'England';

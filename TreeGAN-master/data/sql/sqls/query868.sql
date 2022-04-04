@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 81 AND education = '11th' AND education_num <= 15 AND marital_status = 'Married-spouse-absent' AND occupation = '?' AND relationship = 'Not-in-family' AND race = 'Black' AND sex = 'Male' AND capital_loss <= 2179 AND native_country = 'Ireland';

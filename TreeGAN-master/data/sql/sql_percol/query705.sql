@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 73.0 AND workclass = 'Federal-gov' AND education_num <= 13.0 AND sex = 'Male' AND capital_gain <= 48535.0 AND capital_loss <= 2632.0 AND hours_per_week <= 81.0;

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 58 AND workclass = 'Without-pay' AND education = 'Assoc-voc' AND education_num <= 5 AND marital_status = 'Married-spouse-absent' AND occupation = 'Other-service' AND relationship = 'Unmarried' AND race = 'Black' AND capital_gain <= 3818 AND capital_loss <= 1974 AND hours_per_week <= 23 AND native_country = 'United-States';

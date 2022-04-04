@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND education = '11th' AND marital_status = 'Married-civ-spouse' AND relationship = 'Not-in-family' AND sex = 'Male' AND capital_gain <= 8614 AND native_country = 'Puerto-Rico';

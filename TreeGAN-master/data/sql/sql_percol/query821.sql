@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 43.0 AND education_num <= 15.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Transport-moving' AND capital_gain <= 16563.0 AND capital_loss <= 1764.0 AND hours_per_week <= 44.0;

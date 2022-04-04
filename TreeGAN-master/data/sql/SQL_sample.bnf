@@ -1,19 +1,18 @@
-<start> ::= "SELECT" <space> <selcols> <space> "FROM" <space> <table> <space> "WHERE" <space> <condition> ";" <opt_whitespace>
+<start> ::= "SELECT" <space> <selcols> <space> "FROM" <space> <table> <space> "WHERE" <space> <preds> ";" <opt_whitespace>
 
 <selcols>::= <star> | <aggregate> | <cols>
 
 <aggregate> ::= <aggregate_token> <l_bracket> <aggregate_col> <r_bracket>
+                |"COUNT" <l_bracket> <star> <r_bracket>
 
 <cols> ::= <cols> <comma> <colset>
         | <colset>
 
 <aggregate_token> ::= "MAX" | "MIN" | "AVG" | "COUNT" | "SUM"
 
-<aggregate_col> ::= <colset> | <star>
+<aggregate_col> ::= <colset> 
 
 <table> ::= <tablename>
-
-<condition> ::= <preds> | "TRUE"
 
 <preds> ::= <preds> <space> <logicpred> <space> <pred>
             |<pred>
@@ -43,18 +42,18 @@
 <r_bracket> ::= ")"
 
 <tablename> ::= "census"
-<age_val> ::= "43" | "89" | "46" | "30" | "73" | "38" | "81" | "49" | "74" | "47"
-<education_num_val> ::= "3" | "11" | "11" | "12" | "3" | "3" | "8" | "3" | "7" | "15"
-<capital_gain_val> ::= "15831" | "7978" | "1086" | "6097" | "7298" | "1639" | "2580" | "3818" | "3887" | "20051"
-<capital_loss_val> ::= "2080" | "1977" | "2174" | "3004" | "1258" | "2179" | "1944" | "1429" | "1887" | "1594"
-<hours_per_week_val> ::= "42" | "13" | "92" | "16" | "56" | "67" | "32" | "77" | "41" | "43"
-<workclass_val> ::= "'State-gov'" | "'Local-gov'" | "'?'" | "'Self-emp-not-inc'" | "'Local-gov'" | "'Private'" | "'State-gov'" | "'Self-emp-inc'" | "'Private'" | "'Self-emp-not-inc'"
-<education_val> ::= "'11th'" | "'12th'" | "'5th-6th'" | "'11th'" | "'12th'" | "'10th'" | "'1st-4th'" | "'9th'" | "'1st-4th'" | "'Masters'"
-<marital_status_val> ::= "'Divorced'" | "'Divorced'" | "'Married-AF-spouse'" | "'Married-spouse-absent'" | "'Married-spouse-absent'" | "'Widowed'" | "'Separated'" | "'Married-spouse-absent'" | "'Married-spouse-absent'" | "'Never-married'"
-<occupation_val> ::= "'?'" | "'Tech-support'" | "'Handlers-cleaners'" | "'Protective-serv'" | "'Prof-specialty'" | "'Craft-repair'" | "'Priv-house-serv'" | "'Prof-specialty'" | "'Prof-specialty'" | "'?'"
-<relationship_val> ::= "'Unmarried'" | "'Wife'" | "'Husband'" | "'Not-in-family'" | "'Other-relative'" | "'Unmarried'" | "'Not-in-family'" | "'Husband'" | "'Other-relative'" | "'Other-relative'"
-<race_val> ::= "'White'" | "'Black'" | "'Other'" | "'Amer-Indian-Eskimo'" | "'White'" | "'Amer-Indian-Eskimo'" | "'Black'" | "'White'" | "'Other'" | "'Amer-Indian-Eskimo'"
-<sex_val> ::= "'Female'" | "'Female'" | "'Male'" | "'Male'" | "'Female'" | "'Male'" | "'Male'" | "'Female'" | "'Male'" | "'Male'"
-<native_country_val> ::= "'Trinadad&Tobago'" | "'Portugal'" | "'Ireland'" | "'Yugoslavia'" | "'Iran'" | "'Hong'" | "'Japan'" | "'Jamaica'" | "'Nicaragua'" | "'Japan'"
+<age_val> ::= "26" | "87" | "26" | "58" | "57" | "41" | "20" | "43" | "41" | "75"
+<education_num_val> ::= "8" | "3" | "11" | "13" | "5" | "16" | "11" | "13" | "10" | "10"
+<capital_gain_val> ::= "14344" | "1506" | "3818" | "2977" | "991" | "9386" | "5060" | "4101" | "8614" | "10605"
+<capital_loss_val> ::= "2051" | "2467" | "2002" | "1876" | "2057" | "2080" | "2559" | "1672" | "1974" | "2129"
+<hours_per_week_val> ::= "79" | "97" | "30" | "41" | "23" | "17" | "68" | "12" | "13" | "85"
+<workclass_val> ::= "'Private'" | "'Never-worked'" | "'Never-worked'" | "'Private'" | "'Without-pay'" | "'Local-gov'" | "'Without-pay'" | "'Never-worked'" | "'Local-gov'" | "'Local-gov'"
+<education_val> ::= "'Prof-school'" | "'Prof-school'" | "'Assoc-voc'" | "'7th-8th'" | "'Assoc-voc'" | "'Doctorate'" | "'Doctorate'" | "'11th'" | "'Assoc-acdm'" | "'Assoc-acdm'"
+<marital_status_val> ::= "'Married-spouse-absent'" | "'Never-married'" | "'Married-AF-spouse'" | "'Separated'" | "'Widowed'" | "'Married-civ-spouse'" | "'Never-married'" | "'Married-spouse-absent'" | "'Married-AF-spouse'" | "'Married-civ-spouse'"
+<occupation_val> ::= "'?'" | "'Prof-specialty'" | "'Sales'" | "'Exec-managerial'" | "'Other-service'" | "'Adm-clerical'" | "'Transport-moving'" | "'Craft-repair'" | "'Adm-clerical'" | "'?'"
+<relationship_val> ::= "'Wife'" | "'Unmarried'" | "'Unmarried'" | "'Own-child'" | "'Own-child'" | "'Not-in-family'" | "'Husband'" | "'Wife'" | "'Own-child'" | "'Own-child'"
+<race_val> ::= "'Other'" | "'Asian-Pac-Islander'" | "'White'" | "'Amer-Indian-Eskimo'" | "'Other'" | "'White'" | "'Asian-Pac-Islander'" | "'Other'" | "'White'" | "'Black'"
+<sex_val> ::= "'Female'" | "'Female'" | "'Female'" | "'Female'" | "'Male'" | "'Female'" | "'Female'" | "'Female'" | "'Female'" | "'Male'"
+<native_country_val> ::= "'Poland'" | "'Hong'" | "'Taiwan'" | "'Puerto-Rico'" | "'El-Salvador'" | "'England'" | "'United-States'" | "'India'" | "'Cambodia'" | "'Hungary'"
 <colset> ::="age" | "education_num" | "capital_gain" | "capital_loss" | "hours_per_week" | "workclass" | "education" | "marital_status" | "occupation" | "relationship" | "race" | "sex" | "native_country"
 <pred> ::= "TRUE"  | "age" <space> <op> <space> <age_val>  | "education_num" <space> <op> <space> <education_num_val>  | "capital_gain" <space> <op> <space> <capital_gain_val>  | "capital_loss" <space> <op> <space> <capital_loss_val>  | "hours_per_week" <space> <op> <space> <hours_per_week_val>  | "workclass" <space> <ope> <space> <workclass_val>   | "education" <space> <ope> <space> <education_val>   | "marital_status" <space> <ope> <space> <marital_status_val>   | "occupation" <space> <ope> <space> <occupation_val>   | "relationship" <space> <ope> <space> <relationship_val>   | "race" <space> <ope> <space> <race_val>   | "sex" <space> <ope> <space> <sex_val>   | "native_country" <space> <ope> <space> <native_country_val>  

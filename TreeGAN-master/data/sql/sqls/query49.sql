@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education_num <= 11 AND marital_status = 'Married-spouse-absent' AND occupation = 'Prof-specialty' AND race = 'White' AND sex = 'Female' AND hours_per_week <= 43 AND native_country = 'Jamaica';

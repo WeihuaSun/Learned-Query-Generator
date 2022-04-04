@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 42.0 AND workclass = 'State-gov' AND education = '7th-8th' AND marital_status = 'Married-spouse-absent' AND occupation = 'Handlers-cleaners' AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Male' AND native_country = 'Cuba';

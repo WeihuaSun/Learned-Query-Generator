@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 83.0 AND workclass = 'Never-worked' AND education = 'Preschool' AND marital_status = 'Widowed' AND occupation = 'Armed-Forces' AND relationship = 'Own-child' AND race = 'Black' AND sex = 'Male' AND native_country = 'Outlying-US(Guam-USVI-etc)';

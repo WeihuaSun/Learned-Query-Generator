@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 91.0 AND workclass = 'Self-emp-inc' AND education = '10th' AND education_num <= 14.0 AND marital_status = 'Widowed' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 55956.0 AND capital_loss <= 1474.0 AND hours_per_week <= 87.0 AND native_country = 'England';

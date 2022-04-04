@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 75 AND workclass = 'Local-gov' AND education = '11th' AND education_num <= 13 AND marital_status = 'Married-civ-spouse' AND occupation = 'Craft-repair' AND relationship = 'Own-child' AND race = 'White' AND sex = 'Female' AND capital_gain <= 14344 AND capital_loss <= 2051 AND hours_per_week <= 30 AND native_country = 'Puerto-Rico';

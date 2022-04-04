@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 48.0 AND workclass = 'Never-worked' AND education = 'Bachelors' AND occupation = 'Transport-moving' AND capital_gain <= 20690.0 AND capital_loss <= 1634.0 AND hours_per_week <= 78.0 AND native_country = 'India';

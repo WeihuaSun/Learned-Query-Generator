@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND marital_status = 'Divorced' AND occupation = 'Tech-support' AND sex = 'Male' AND capital_gain <= 10674.0 AND capital_loss <= 894.0 AND native_country = 'Hong';

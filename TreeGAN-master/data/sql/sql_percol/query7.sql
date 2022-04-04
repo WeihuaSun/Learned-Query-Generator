@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = 'Masters' AND education_num <= 14.0 AND marital_status = 'Widowed' AND occupation = 'Prof-specialty' AND sex = 'Male' AND capital_gain <= 44083.0 AND capital_loss <= 973.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

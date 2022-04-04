@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 81 AND education_num <= 15 AND marital_status = 'Married-spouse-absent' AND relationship = 'Unmarried' AND race = 'Amer-Indian-Eskimo' AND capital_gain <= 3887 AND capital_loss <= 2179 AND hours_per_week <= 43 AND native_country = 'Iran';

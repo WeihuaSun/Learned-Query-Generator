@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 89 AND education = '11th' AND education_num <= 15 AND marital_status = 'Divorced' AND occupation = 'Protective-serv' AND race = 'White' AND sex = 'Male' AND capital_gain <= 15831 AND capital_loss <= 2080 AND native_country = 'Trinadad&Tobago';

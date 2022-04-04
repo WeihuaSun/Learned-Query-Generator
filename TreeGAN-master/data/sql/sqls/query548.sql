@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 74 AND workclass = '?' AND marital_status = 'Married-spouse-absent' AND occupation = 'Priv-house-serv' AND relationship = 'Not-in-family' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 20051 AND native_country = 'Japan';

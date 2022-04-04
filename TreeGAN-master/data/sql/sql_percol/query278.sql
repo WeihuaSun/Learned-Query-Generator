@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 38.0 AND workclass = 'Local-gov' AND occupation = 'Farming-fishing' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND capital_gain <= 36695.0 AND hours_per_week <= 58.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

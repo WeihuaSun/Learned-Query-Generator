@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 57 AND workclass = 'Never-worked' AND education = '11th' AND education_num <= 16 AND occupation = '?' AND race = 'White' AND sex = 'Female' AND capital_gain <= 9386 AND capital_loss <= 2002 AND hours_per_week <= 85;

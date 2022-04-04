@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 73 AND workclass = 'State-gov' AND education = '1st-4th' AND marital_status = 'Married-spouse-absent' AND relationship = 'Unmarried' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 15831 AND hours_per_week <= 41 AND native_country = 'Iran';

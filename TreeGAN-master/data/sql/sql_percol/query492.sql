@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 98.0 AND education_num <= 4.0 AND relationship = 'Other-relative' AND capital_gain <= 14316.0 AND capital_loss <= 899.0 AND hours_per_week <= 44.0 AND native_country = 'Taiwan';

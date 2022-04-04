@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 89 AND workclass = 'State-gov' AND education = '11th' AND marital_status = 'Separated' AND occupation = 'Handlers-cleaners' AND relationship = 'Not-in-family' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 15831 AND native_country = 'Ireland';

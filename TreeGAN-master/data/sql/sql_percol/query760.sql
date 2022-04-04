@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 52.0 AND education = 'Some-college' AND marital_status = 'Divorced' AND race = 'White' AND sex = 'Female' AND capital_gain <= 34458.0 AND hours_per_week <= 49.0 AND native_country = 'Cuba';

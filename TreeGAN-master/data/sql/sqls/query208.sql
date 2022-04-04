@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education = '1st-4th' AND education_num <= 11 AND marital_status = 'Separated' AND occupation = 'Craft-repair' AND relationship = 'Wife' AND race = 'Other' AND sex = 'Female' AND native_country = 'Portugal';

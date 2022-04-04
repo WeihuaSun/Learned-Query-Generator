@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 63.0 AND workclass = 'Private' AND education_num <= 13.0 AND occupation = 'Adm-clerical' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND capital_loss <= 1270.0 AND hours_per_week <= 59.0 AND native_country = 'Columbia';

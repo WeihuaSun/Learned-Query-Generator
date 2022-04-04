@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Private' AND race = 'Black' AND sex = 'Female' AND capital_gain <= 1506 AND capital_loss <= 2051 AND hours_per_week <= 97 AND native_country = 'El-Salvador';

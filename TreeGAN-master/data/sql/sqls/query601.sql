@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 81 AND workclass = 'Local-gov' AND education = '9th' AND education_num <= 3 AND marital_status = 'Divorced' AND relationship = 'Not-in-family' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 7978 AND capital_loss <= 3004 AND hours_per_week <= 56 AND native_country = 'Nicaragua';

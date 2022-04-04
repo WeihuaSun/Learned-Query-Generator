@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 73 AND workclass = 'State-gov' AND education = '1st-4th' AND education_num <= 11 AND marital_status = 'Separated' AND occupation = 'Priv-house-serv' AND relationship = 'Unmarried' AND capital_gain <= 3818 AND capital_loss <= 1594 AND hours_per_week <= 92 AND native_country = 'Japan';

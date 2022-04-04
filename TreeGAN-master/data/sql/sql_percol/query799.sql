@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education = '10th' AND marital_status = 'Married-AF-spouse' AND relationship = 'Unmarried' AND race = 'Black' AND capital_gain <= 3555.0 AND capital_loss <= 1249.0 AND hours_per_week <= 95.0 AND native_country = 'Hong';

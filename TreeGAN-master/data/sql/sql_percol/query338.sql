@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 53.0 AND workclass = 'Local-gov' AND education = '1st-4th' AND education_num <= 18.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Transport-moving' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND hours_per_week <= 83.0 AND native_country = 'India';

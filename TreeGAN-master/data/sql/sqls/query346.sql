@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 49 AND workclass = 'Self-emp-not-inc' AND education_num <= 11 AND relationship = 'Other-relative' AND race = 'Black' AND capital_gain <= 15831 AND capital_loss <= 2174;

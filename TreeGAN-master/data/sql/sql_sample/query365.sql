@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 26 AND workclass = 'Without-pay' AND education = 'Doctorate' AND education_num <= 11 AND marital_status = 'Married-civ-spouse' AND occupation = 'Sales' AND relationship = 'Own-child' AND race = 'White' AND sex = 'Female' AND capital_gain <= 10605;

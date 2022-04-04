@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND education = 'Masters' AND education_num <= 11.0 AND occupation = 'Tech-support' AND sex = 'Female' AND capital_gain <= 39784.0 AND capital_loss <= 4209.0 AND hours_per_week <= 83.0;

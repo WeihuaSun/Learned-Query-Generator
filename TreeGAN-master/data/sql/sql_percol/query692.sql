@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 26.0 AND workclass = 'Federal-gov' AND education_num <= 11.0 AND marital_status = 'Divorced' AND relationship = 'Other-relative' AND sex = 'Male' AND hours_per_week <= 88.0 AND native_country = 'England';

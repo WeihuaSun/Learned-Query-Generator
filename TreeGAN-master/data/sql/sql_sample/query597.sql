@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 41 AND workclass = 'Never-worked' AND education = '7th-8th' AND education_num <= 10 AND marital_status = 'Never-married' AND occupation = 'Adm-clerical' AND relationship = 'Own-child' AND race = 'Amer-Indian-Eskimo' AND capital_gain <= 9386 AND capital_loss <= 2080 AND hours_per_week <= 97 AND native_country = 'Hungary';

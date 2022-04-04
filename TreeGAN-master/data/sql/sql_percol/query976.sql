@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND education = 'Assoc-acdm' AND education_num <= 13.0 AND marital_status = 'Widowed' AND occupation = 'Exec-managerial' AND relationship = 'Husband' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_gain <= 25543.0 AND capital_loss <= 1816.0 AND hours_per_week <= 48.0 AND native_country = 'Portugal';

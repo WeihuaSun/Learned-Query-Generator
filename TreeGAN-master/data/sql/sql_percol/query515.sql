@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 92.0 AND workclass = 'Federal-gov' AND education = '7th-8th' AND education_num <= 11.0 AND marital_status = 'Divorced' AND occupation = 'Transport-moving' AND race = 'White' AND capital_gain <= 27327.0 AND capital_loss <= 357.0 AND hours_per_week <= 53.0 AND native_country = 'Hong';

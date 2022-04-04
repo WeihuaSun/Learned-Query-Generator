@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Local-gov' AND education_num <= 16 AND marital_status = 'Married-civ-spouse' AND occupation = '?' AND relationship = 'Own-child' AND race = 'White' AND sex = 'Female' AND capital_gain <= 5060 AND capital_loss <= 2129 AND hours_per_week <= 68 AND native_country = 'El-Salvador';

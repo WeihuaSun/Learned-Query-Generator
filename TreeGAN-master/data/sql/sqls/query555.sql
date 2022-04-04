@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education = '12th' AND education_num <= 7 AND occupation = '?' AND relationship = 'Not-in-family' AND sex = 'Female' AND capital_gain <= 7978 AND capital_loss <= 3004 AND native_country = 'Ireland';

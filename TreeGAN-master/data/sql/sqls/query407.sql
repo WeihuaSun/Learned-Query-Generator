@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education_num <= 12 AND marital_status = 'Divorced' AND occupation = 'Protective-serv' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 3887 AND capital_loss <= 1887 AND hours_per_week <= 42 AND native_country = 'Jamaica';

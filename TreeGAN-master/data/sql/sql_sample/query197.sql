@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 75 AND education = '11th' AND marital_status = 'Married-civ-spouse' AND occupation = 'Exec-managerial' AND relationship = 'Own-child' AND race = 'White' AND sex = 'Female' AND native_country = 'India';

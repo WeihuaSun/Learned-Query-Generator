@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 70.0 AND workclass = 'Private' AND education = 'Some-college' AND education_num <= 9.0 AND marital_status = 'Married-civ-spouse' AND relationship = 'Unmarried' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_loss <= 1745.0 AND native_country = 'Cuba';

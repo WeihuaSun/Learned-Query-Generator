@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 37.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Tech-support' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND sex = 'Female';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 58 AND workclass = 'Without-pay' AND education = '7th-8th' AND education_num <= 13 AND marital_status = 'Married-civ-spouse' AND occupation = 'Prof-specialty' AND relationship = 'Unmarried' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 14344 AND capital_loss <= 2559 AND native_country = 'Hungary';

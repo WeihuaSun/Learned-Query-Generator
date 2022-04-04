@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 67.0 AND workclass = 'State-gov' AND education = 'Some-college' AND education_num <= 10.0 AND capital_gain <= 23097.0 AND capital_loss <= 480.0 AND hours_per_week <= 72.0;

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 75 AND education_num <= 3 AND relationship = 'Not-in-family' AND capital_gain <= 2977 AND capital_loss <= 2057 AND hours_per_week <= 85 AND native_country = 'United-States';

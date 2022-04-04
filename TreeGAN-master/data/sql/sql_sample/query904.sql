@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 75 AND workclass = 'Never-worked' AND education = 'Assoc-acdm' AND education_num <= 10 AND marital_status = 'Separated' AND occupation = 'Transport-moving' AND race = 'White' AND sex = 'Female' AND capital_gain <= 4101 AND capital_loss <= 2129 AND hours_per_week <= 17 AND native_country = 'Hong';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 46 AND education = '1st-4th' AND education_num <= 3 AND marital_status = 'Separated' AND occupation = 'Tech-support' AND capital_gain <= 2580 AND capital_loss <= 1977 AND hours_per_week <= 77 AND native_country = 'Trinadad&Tobago';

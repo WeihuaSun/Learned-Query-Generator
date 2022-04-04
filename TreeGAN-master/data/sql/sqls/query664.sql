@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 47 AND workclass = 'State-gov' AND education = '1st-4th' AND education_num <= 11 AND marital_status = 'Married-spouse-absent' AND occupation = 'Prof-specialty' AND relationship = 'Husband' AND capital_gain <= 6097 AND hours_per_week <= 42 AND native_country = 'Hong';

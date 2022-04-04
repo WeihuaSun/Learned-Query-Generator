@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = 'Masters' AND marital_status = 'Separated' AND occupation = 'Prof-specialty' AND relationship = 'Other-relative' AND sex = 'Male' AND capital_loss <= 2019.0 AND hours_per_week <= 71.0 AND native_country = 'Portugal';

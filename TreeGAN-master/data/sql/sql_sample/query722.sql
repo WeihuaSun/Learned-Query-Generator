@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Without-pay' AND education_num <= 16 AND marital_status = 'Married-spouse-absent' AND relationship = 'Unmarried' AND capital_gain <= 14344 AND hours_per_week <= 97;

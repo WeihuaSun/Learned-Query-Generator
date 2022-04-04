@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Assoc-acdm' AND marital_status = 'Never-married' AND occupation = '?' AND relationship = 'Unmarried' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_loss <= 2559;

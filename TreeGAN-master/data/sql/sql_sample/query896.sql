@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Local-gov' AND education = 'Prof-school' AND education_num <= 5 AND marital_status = 'Married-civ-spouse' AND occupation = 'Sales' AND relationship = 'Husband' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 2977 AND hours_per_week <= 30 AND native_country = 'England';

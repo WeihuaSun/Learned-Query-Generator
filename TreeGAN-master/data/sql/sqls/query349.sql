@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND education = '5th-6th' AND marital_status = 'Married-AF-spouse' AND occupation = 'Prof-specialty' AND relationship = 'Not-in-family' AND race = 'Other' AND sex = 'Female' AND capital_loss <= 2174 AND hours_per_week <= 92 AND native_country = 'Hong';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Local-gov' AND education = 'Assoc-acdm' AND marital_status = 'Married-civ-spouse' AND occupation = '?' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND native_country = 'Cambodia';

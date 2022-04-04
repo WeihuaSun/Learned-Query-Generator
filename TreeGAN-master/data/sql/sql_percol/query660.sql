@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 53.0 AND workclass = 'Local-gov' AND education = 'Bachelors' AND education_num <= 16.0 AND occupation = 'Adm-clerical' AND relationship = 'Other-relative' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 4948.0 AND capital_loss <= 473.0;

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 20 AND workclass = 'Without-pay' AND education = 'Assoc-voc' AND education_num <= 8 AND marital_status = 'Married-spouse-absent' AND occupation = 'Adm-clerical' AND relationship = 'Unmarried' AND race = 'White' AND sex = 'Female' AND capital_gain <= 14344 AND capital_loss <= 1876 AND hours_per_week <= 79 AND native_country = 'India';

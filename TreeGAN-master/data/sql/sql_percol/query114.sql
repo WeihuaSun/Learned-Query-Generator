@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 64.0 AND workclass = 'Federal-gov' AND education = 'Preschool' AND marital_status = 'Widowed' AND occupation = 'Farming-fishing' AND relationship = 'Unmarried' AND race = 'Black' AND capital_loss <= 1607.0 AND native_country = 'Yugoslavia';

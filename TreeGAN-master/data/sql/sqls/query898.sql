@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 43 AND workclass = 'State-gov' AND education_num <= 7 AND marital_status = 'Divorced' AND occupation = 'Protective-serv' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 20051 AND native_country = 'Nicaragua';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 47 AND workclass = 'Self-emp-not-inc' AND education = '12th' AND marital_status = 'Divorced' AND occupation = 'Priv-house-serv' AND relationship = 'Unmarried' AND capital_loss <= 1977 AND hours_per_week <= 43;

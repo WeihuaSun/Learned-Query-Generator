@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 75 AND workclass = 'Without-pay' AND education = '11th' AND education_num <= 13 AND marital_status = 'Widowed' AND occupation = 'Prof-specialty' AND relationship = 'Husband' AND race = 'White' AND sex = 'Male' AND capital_gain <= 14344 AND hours_per_week <= 97;

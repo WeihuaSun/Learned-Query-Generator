@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 43 AND workclass = 'Without-pay' AND education = 'Assoc-voc' AND occupation = 'Sales' AND relationship = 'Own-child' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_loss <= 2057 AND hours_per_week <= 79 AND native_country = 'England';

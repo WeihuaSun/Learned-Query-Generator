@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 89 AND workclass = '?' AND education = '11th' AND marital_status = 'Widowed' AND occupation = 'Protective-serv' AND relationship = 'Not-in-family' AND race = 'White' AND sex = 'Female' AND capital_gain <= 7298 AND hours_per_week <= 42 AND native_country = 'Japan';

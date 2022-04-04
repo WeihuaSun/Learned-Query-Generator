@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 75 AND workclass = 'Local-gov' AND education_num <= 8 AND marital_status = 'Separated' AND relationship = 'Unmarried' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female';

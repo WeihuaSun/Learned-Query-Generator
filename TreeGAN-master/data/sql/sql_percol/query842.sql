@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 82.0 AND workclass = 'Self-emp-inc' AND education = '10th' AND education_num <= 15.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Priv-house-serv' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_gain <= 16354.0 AND capital_loss <= 1228.0 AND hours_per_week <= 63.0 AND native_country = 'Yugoslavia';

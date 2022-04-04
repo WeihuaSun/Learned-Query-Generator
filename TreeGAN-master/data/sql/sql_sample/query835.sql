@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 87 AND education_num <= 13 AND marital_status = 'Widowed' AND occupation = 'Exec-managerial' AND race = 'Black' AND sex = 'Female' AND capital_gain <= 9386 AND capital_loss <= 2057 AND native_country = 'Hungary';

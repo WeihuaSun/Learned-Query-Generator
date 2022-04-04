@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 25.0 AND workclass = 'Self-emp-inc' AND education = 'Bachelors' AND education_num <= 10.0 AND marital_status = 'Divorced' AND race = 'White' AND capital_gain <= 46913.0 AND capital_loss <= 1960.0 AND hours_per_week <= 71.0;

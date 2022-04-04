@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 55.0 AND workclass = 'Federal-gov' AND education = '11th' AND education_num <= 21.0 AND race = 'Black' AND sex = 'Male' AND hours_per_week <= 70.0 AND native_country = 'Columbia';

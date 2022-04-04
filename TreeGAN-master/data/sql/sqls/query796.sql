@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-not-inc' AND education_num <= 15 AND marital_status = 'Widowed' AND relationship = 'Husband' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 15831 AND capital_loss <= 1429 AND hours_per_week <= 92 AND native_country = 'Jamaica';

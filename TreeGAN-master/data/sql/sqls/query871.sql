@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 74 AND workclass = 'Local-gov' AND education = '1st-4th' AND education_num <= 15 AND marital_status = 'Never-married' AND relationship = 'Wife' AND sex = 'Female' AND capital_gain <= 3818 AND capital_loss <= 1887 AND native_country = 'Iran';

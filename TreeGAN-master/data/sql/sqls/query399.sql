@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = '11th' AND marital_status = 'Separated' AND occupation = 'Prof-specialty' AND relationship = 'Unmarried' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 15831;

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 49 AND education_num <= 15 AND marital_status = 'Married-spouse-absent' AND occupation = '?' AND relationship = 'Not-in-family' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND native_country = 'Yugoslavia';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 73 AND workclass = 'Self-emp-not-inc' AND education = '12th' AND education_num <= 11 AND marital_status = 'Never-married' AND occupation = 'Handlers-cleaners' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Male' AND capital_gain <= 6097 AND capital_loss <= 2080 AND hours_per_week <= 77 AND native_country = 'Japan';

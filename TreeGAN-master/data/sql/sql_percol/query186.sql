@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education_num <= 15.0 AND marital_status = 'Married-civ-spouse' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_gain <= 7135.0;

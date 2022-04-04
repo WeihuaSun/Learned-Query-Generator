@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 81 AND workclass = 'State-gov' AND education = '1st-4th' AND education_num <= 8 AND marital_status = 'Never-married' AND occupation = 'Priv-house-serv' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 7978 AND capital_loss <= 2179 AND hours_per_week <= 43;

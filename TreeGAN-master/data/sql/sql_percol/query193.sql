@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 32.0 AND workclass = 'State-gov' AND marital_status = 'Divorced' AND occupation = 'Priv-house-serv' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Female' AND capital_gain <= 48232.0 AND native_country = 'Cuba';

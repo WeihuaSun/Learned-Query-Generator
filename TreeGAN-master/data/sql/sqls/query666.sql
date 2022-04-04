@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND education = 'Masters' AND education_num <= 12 AND marital_status = 'Divorced' AND occupation = '?' AND race = 'White' AND sex = 'Female' AND native_country = 'Hong';

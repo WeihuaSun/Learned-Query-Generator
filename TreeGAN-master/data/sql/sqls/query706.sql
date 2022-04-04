@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 81 AND workclass = 'State-gov' AND education = '1st-4th' AND education_num <= 15 AND occupation = 'Prof-specialty' AND relationship = 'Wife' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 20051 AND native_country = 'Nicaragua';

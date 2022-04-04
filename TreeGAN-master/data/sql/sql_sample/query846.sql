@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 41 AND workclass = 'Never-worked' AND education = 'Assoc-voc' AND education_num <= 8 AND occupation = '?' AND relationship = 'Own-child' AND sex = 'Female' AND capital_gain <= 3818 AND capital_loss <= 2080 AND native_country = 'England';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 58.0 AND education_num <= 15.0 AND marital_status = 'Widowed' AND relationship = 'Other-relative' AND sex = 'Female' AND capital_gain <= 21539.0 AND capital_loss <= 775.0 AND hours_per_week <= 69.0;

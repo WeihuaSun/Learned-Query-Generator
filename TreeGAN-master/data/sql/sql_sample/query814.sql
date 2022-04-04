@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 41 AND workclass = 'Local-gov' AND education = 'Doctorate' AND marital_status = 'Married-AF-spouse' AND relationship = 'Own-child' AND race = 'Black' AND hours_per_week <= 79 AND native_country = 'England';

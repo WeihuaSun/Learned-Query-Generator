@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 62.0 AND workclass = 'Never-worked' AND education_num <= 17.0 AND marital_status = 'Married-civ-spouse' AND relationship = 'Other-relative' AND race = 'Black' AND capital_gain <= 20467.0 AND capital_loss <= 1197.0 AND hours_per_week <= 62.0;

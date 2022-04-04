@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = '7th-8th' AND education_num <= 13.0 AND marital_status = 'Married-AF-spouse' AND occupation = 'Transport-moving' AND relationship = 'Unmarried' AND race = 'White' AND capital_gain <= 14463.0;

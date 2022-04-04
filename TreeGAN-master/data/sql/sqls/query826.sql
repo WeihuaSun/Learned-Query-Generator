@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 49 AND education = '9th' AND education_num <= 7 AND marital_status = 'Married-AF-spouse' AND occupation = 'Protective-serv' AND race = 'White' AND capital_gain <= 15831 AND hours_per_week <= 56 AND native_country = 'Hong';

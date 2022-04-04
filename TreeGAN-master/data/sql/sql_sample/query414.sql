@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 58 AND workclass = 'Private' AND education = 'Prof-school' AND education_num <= 16 AND marital_status = 'Widowed' AND occupation = 'Sales' AND relationship = 'Own-child' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND native_country = 'Hong';

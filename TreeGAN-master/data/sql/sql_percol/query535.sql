@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 53.0 AND workclass = 'Local-gov' AND education_num <= 16.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Prof-specialty' AND relationship = 'Other-relative' AND hours_per_week <= 42.0 AND native_country = 'Honduras';

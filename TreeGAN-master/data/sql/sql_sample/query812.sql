@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 43 AND workclass = 'Never-worked' AND education = 'Doctorate' AND education_num <= 10 AND marital_status = 'Married-civ-spouse' AND occupation = 'Craft-repair' AND relationship = 'Unmarried' AND hours_per_week <= 17 AND native_country = 'Hungary';

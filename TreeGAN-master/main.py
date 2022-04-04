@@ -1,8 +1,7 @@
 import os
 import pickle
-import time
 import argparse
-
+import time 
 import torch
 
 import tree_gan
@@ -11,15 +10,14 @@ from tree_gan.learning_utils import tree_gan_evaluate
 torch.set_default_dtype(torch.float32)
 
 def main(args):
-
     sql_data_dir = os.path.join('data', 'sql')
-    sql_model_path = os.path.join('models', 'sql.model')
-    sql_bnf_path = os.path.join(sql_data_dir, 'SQL_sample.bnf')
-    sql_lark_path = os.path.join(sql_data_dir, 'sql_lang.lark')
-    sql_text_dir = os.path.join(sql_data_dir, 'sqls')
-    sql_action_getter_path = os.path.join(sql_data_dir, 'action_getter.pickle')
-    sql_action_sequences_dir = os.path.join(sql_data_dir, 'actsqu')
-
+    sql_model_path = os.path.join('models', f'sql_{args.choice}.model')
+    sql_bnf_path = os.path.join(sql_data_dir, f'SQL_{args.choice}.bnf')
+    sql_lark_path = os.path.join(sql_data_dir, f'sql_lang_{args.choice}.lark')
+    sql_text_dir = os.path.join(sql_data_dir, f'sql_{args.choice}')
+    sql_action_getter_path = os.path.join(sql_data_dir, f'action_getter.pickle')
+    sql_action_sequences_dir = os.path.join(sql_data_dir, f'actsqu_{args.choice}')
+    
     # If exists, load the last checkpoints from the model file path
     if args.pretrained:
         checkpoint = args.ckpt
@@ -77,8 +75,8 @@ def main(args):
         gae_lambda=0.95,  # lambda value for td(lambda) returns
         eps_clip=0.2,  # clip parameter for PPO
         device=torch.device('cuda' if torch.cuda.is_available() else 'cpu'),
-
-        random_seed=1234,
+        
+        random_seed=int(time.time()),
         lr=1e-4,
         buffer_timestep=10000,
         lr_decay_order=5,
@@ -130,6 +128,7 @@ if __name__ == '__main__':
     parser.add_argument("--ckpt", type=str, default="", help="train from pre-trained weights checkpoint")
     parser.add_argument("--save_dir", type=str, default="", help="output path for trained model weights")
     parser.add_argument("--stats", type=str, default="", help="output path for saving training stats(losses, rewards)")
+    parser.add_argument("--choice",type=str, default="percol")
     arguments = parser.parse_args()
 
     main(arguments)

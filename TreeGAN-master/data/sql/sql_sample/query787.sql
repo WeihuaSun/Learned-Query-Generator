@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 41 AND education_num <= 10 AND marital_status = 'Married-civ-spouse' AND occupation = 'Other-service' AND relationship = 'Unmarried' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 14344 AND capital_loss <= 2559;

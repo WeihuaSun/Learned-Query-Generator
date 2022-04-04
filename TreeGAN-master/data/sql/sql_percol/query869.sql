@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = 'Preschool' AND education_num <= 14.0 AND marital_status = 'Widowed' AND occupation = 'Tech-support' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Male' AND native_country = 'Hong';

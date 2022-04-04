@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND education = 'Assoc-acdm' AND education_num <= 10 AND marital_status = 'Married-spouse-absent' AND sex = 'Female' AND capital_gain <= 10605 AND capital_loss <= 2057 AND hours_per_week <= 97 AND native_country = 'United-States';

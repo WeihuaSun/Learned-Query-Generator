@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 59.0 AND marital_status = 'Married-AF-spouse' AND occupation = 'Handlers-cleaners' AND race = 'Asian-Pac-Islander' AND capital_loss <= 249.0 AND hours_per_week <= 46.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND education = '11th' AND education_num <= 11 AND marital_status = 'Married-AF-spouse' AND occupation = 'Tech-support' AND relationship = 'Wife' AND race = 'Black' AND sex = 'Male' AND capital_loss <= 1594 AND native_country = 'Iran';

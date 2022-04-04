@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 26 AND workclass = 'Local-gov' AND education = '7th-8th' AND marital_status = 'Separated' AND occupation = '?' AND relationship = 'Own-child' AND sex = 'Female' AND capital_loss <= 2559 AND hours_per_week <= 79 AND native_country = 'India';

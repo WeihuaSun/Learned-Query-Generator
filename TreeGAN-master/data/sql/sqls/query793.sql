@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 47 AND education_num <= 15 AND marital_status = 'Separated' AND relationship = 'Husband' AND race = 'Amer-Indian-Eskimo' AND capital_gain <= 7298 AND hours_per_week <= 92;

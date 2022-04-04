@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 48.0 AND workclass = 'Without-pay' AND education = '10th' AND marital_status = 'Married-spouse-absent' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND hours_per_week <= 61.0;

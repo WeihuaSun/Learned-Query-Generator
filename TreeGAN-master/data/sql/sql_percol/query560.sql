@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 49.0 AND marital_status = 'Married-civ-spouse' AND relationship = 'Husband' AND race = 'Black' AND sex = 'Female' AND capital_gain <= 39611.0 AND capital_loss <= 1348.0 AND native_country = 'Portugal';

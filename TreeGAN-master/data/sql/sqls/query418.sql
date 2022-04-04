@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 49 AND workclass = '?' AND education = '12th' AND marital_status = 'Married-spouse-absent' AND occupation = '?' AND relationship = 'Not-in-family' AND race = 'Amer-Indian-Eskimo' AND hours_per_week <= 56 AND native_country = 'Japan';

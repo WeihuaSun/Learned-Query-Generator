@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 73.0 AND education_num <= 9.0 AND marital_status = 'Separated' AND race = 'White' AND capital_gain <= 49393.0 AND capital_loss <= 555.0 AND hours_per_week <= 61.0;

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = '10th' AND education_num <= 12.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Armed-Forces' AND relationship = 'Other-relative' AND sex = 'Female' AND capital_loss <= 532.0 AND hours_per_week <= 46.0 AND native_country = 'Taiwan';

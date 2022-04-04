@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 47 AND workclass = 'Private' AND education = '11th' AND education_num <= 8 AND marital_status = 'Married-spouse-absent' AND occupation = 'Craft-repair' AND relationship = 'Not-in-family' AND race = 'Amer-Indian-Eskimo' AND capital_gain <= 15831 AND hours_per_week <= 41 AND native_country = 'Yugoslavia';

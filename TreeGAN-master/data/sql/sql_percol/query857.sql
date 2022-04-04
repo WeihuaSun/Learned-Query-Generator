@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 45.0 AND education = 'Assoc-acdm' AND education_num <= 15.0 AND race = 'Black' AND capital_gain <= 1091.0 AND capital_loss <= 1030.0 AND hours_per_week <= 41.0 AND native_country = 'Hong';

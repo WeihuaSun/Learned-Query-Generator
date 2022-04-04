@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND occupation = 'Craft-repair' AND relationship = 'Wife' AND race = 'Amer-Indian-Eskimo' AND capital_gain <= 2580 AND capital_loss <= 2174 AND hours_per_week <= 13;

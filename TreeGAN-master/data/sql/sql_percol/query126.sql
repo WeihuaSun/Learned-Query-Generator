@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = 'Preschool' AND marital_status = 'Separated' AND occupation = 'Priv-house-serv' AND relationship = 'Unmarried' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_gain <= 17551.0 AND capital_loss <= 1702.0;

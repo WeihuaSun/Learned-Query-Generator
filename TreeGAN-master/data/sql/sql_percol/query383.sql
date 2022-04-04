@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 35.0 AND workclass = 'Never-worked' AND education = '7th-8th' AND education_num <= 17.0 AND occupation = 'Handlers-cleaners' AND relationship = 'Own-child' AND race = 'Other' AND capital_gain <= 13160.0 AND native_country = 'Cuba';

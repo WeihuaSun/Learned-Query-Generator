@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = 'Assoc-acdm' AND marital_status = 'Married-spouse-absent' AND occupation = 'Sales' AND relationship = 'Wife' AND race = 'White' AND sex = 'Female' AND capital_gain <= 9386 AND hours_per_week <= 79 AND native_country = 'El-Salvador';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education = '5th-6th' AND education_num <= 15 AND occupation = 'Prof-specialty' AND race = 'Black' AND capital_gain <= 20051 AND capital_loss <= 2179 AND hours_per_week <= 32 AND native_country = 'Japan';

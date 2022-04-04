@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 41 AND workclass = 'Without-pay' AND education = 'Prof-school' AND education_num <= 13 AND marital_status = 'Married-AF-spouse' AND occupation = 'Adm-clerical' AND relationship = 'Husband' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 9386 AND capital_loss <= 2129 AND native_country = 'Hong';

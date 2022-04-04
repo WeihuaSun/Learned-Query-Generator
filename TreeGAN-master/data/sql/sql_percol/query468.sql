@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 48.0 AND workclass = 'Private' AND education = 'Masters' AND education_num <= 17.0 AND marital_status = 'Married-spouse-absent' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND capital_gain <= 26858.0 AND capital_loss <= 853.0;

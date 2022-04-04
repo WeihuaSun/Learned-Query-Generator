@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 41 AND workclass = 'Private' AND education = '11th' AND education_num <= 10 AND marital_status = 'Married-AF-spouse' AND occupation = 'Adm-clerical' AND relationship = 'Own-child' AND race = 'White' AND sex = 'Female' AND capital_loss <= 2057 AND hours_per_week <= 68 AND native_country = 'Cambodia';

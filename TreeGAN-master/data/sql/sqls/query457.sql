@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 73 AND workclass = 'Private' AND education = '9th' AND education_num <= 8 AND marital_status = 'Married-spouse-absent' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 6097 AND capital_loss <= 1944 AND hours_per_week <= 16 AND native_country = 'Trinadad&Tobago';

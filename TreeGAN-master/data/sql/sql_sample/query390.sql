@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND education = 'Assoc-acdm' AND marital_status = 'Married-civ-spouse' AND occupation = 'Craft-repair' AND relationship = 'Unmarried' AND sex = 'Male' AND hours_per_week <= 68 AND native_country = 'England';

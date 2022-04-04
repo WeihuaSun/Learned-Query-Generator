@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 66.0 AND education = 'Bachelors' AND education_num <= 15.0 AND occupation = 'Priv-house-serv' AND race = 'Amer-Indian-Eskimo' AND capital_gain <= 3730.0 AND capital_loss <= 1771.0 AND hours_per_week <= 74.0;

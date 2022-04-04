@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 46 AND workclass = 'Self-emp-inc' AND marital_status = 'Married-spouse-absent' AND relationship = 'Other-relative' AND capital_loss <= 2080 AND hours_per_week <= 67 AND native_country = 'Trinadad&Tobago';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 89 AND education_num <= 15 AND marital_status = 'Widowed' AND occupation = '?' AND sex = 'Female' AND capital_gain <= 15831 AND hours_per_week <= 77 AND native_country = 'Nicaragua';

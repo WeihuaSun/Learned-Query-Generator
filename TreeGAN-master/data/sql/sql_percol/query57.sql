@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 60.0 AND workclass = 'Local-gov' AND education = 'Bachelors' AND education_num <= 12.0 AND marital_status = 'Separated' AND occupation = 'Exec-managerial' AND relationship = 'Husband' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 16270.0 AND capital_loss <= 3401.0 AND native_country = 'Cuba';

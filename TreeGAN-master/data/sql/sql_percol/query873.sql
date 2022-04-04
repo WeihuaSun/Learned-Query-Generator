@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Federal-gov' AND education_num <= 12.0 AND marital_status = 'Married-AF-spouse' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND capital_gain <= 24025.0;

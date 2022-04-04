@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 42.0 AND education = 'Assoc-acdm' AND education_num <= 12.0 AND marital_status = 'Widowed' AND occupation = 'Priv-house-serv' AND relationship = 'Husband' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 20051.0 AND native_country = 'Cuba';

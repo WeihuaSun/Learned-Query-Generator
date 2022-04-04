@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = '7th-8th' AND education_num <= 13 AND marital_status = 'Never-married' AND occupation = 'Sales' AND relationship = 'Wife' AND race = 'White' AND sex = 'Female' AND native_country = 'India';

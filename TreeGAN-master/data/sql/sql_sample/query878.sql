@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 58 AND workclass = 'Never-worked' AND education_num <= 16 AND marital_status = 'Married-spouse-absent' AND relationship = 'Wife' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 8614 AND capital_loss <= 1876 AND hours_per_week <= 97 AND native_country = 'Taiwan';

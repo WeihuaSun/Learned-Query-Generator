@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE marital_status = 'Separated' AND occupation = 'Adm-clerical' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 14344 AND hours_per_week <= 97 AND native_country = 'Hungary';

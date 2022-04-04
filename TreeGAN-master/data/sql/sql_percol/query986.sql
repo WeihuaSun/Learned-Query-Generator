@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 35.0 AND workclass = 'Never-worked' AND education = 'Masters' AND education_num <= 14.0 AND marital_status = 'Divorced' AND occupation = 'Priv-house-serv' AND relationship = 'Unmarried' AND capital_gain <= 33300.0 AND hours_per_week <= 60.0 AND native_country = 'Hong';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-not-inc' AND education = '10th' AND education_num <= 8 AND marital_status = 'Divorced' AND occupation = 'Protective-serv' AND race = 'White' AND sex = 'Female' AND capital_gain <= 7298 AND capital_loss <= 3004 AND hours_per_week <= 67 AND native_country = 'Iran';

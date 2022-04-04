@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education = '5th-6th' AND education_num <= 3 AND marital_status = 'Married-spouse-absent' AND relationship = 'Other-relative' AND race = 'White' AND capital_loss <= 1887 AND native_country = 'Yugoslavia';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 70.0 AND workclass = 'Self-emp-inc' AND education = 'Masters' AND education_num <= 14.0 AND marital_status = 'Separated' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND capital_gain <= 4139.0 AND capital_loss <= 960.0 AND hours_per_week <= 69.0 AND native_country = 'Taiwan';

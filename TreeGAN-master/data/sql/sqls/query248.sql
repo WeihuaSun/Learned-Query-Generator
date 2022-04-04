@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 49 AND education = '9th' AND education_num <= 8 AND marital_status = 'Married-spouse-absent' AND occupation = '?' AND relationship = 'Other-relative' AND sex = 'Male' AND capital_gain <= 7298 AND capital_loss <= 3004 AND hours_per_week <= 32 AND native_country = 'Nicaragua';

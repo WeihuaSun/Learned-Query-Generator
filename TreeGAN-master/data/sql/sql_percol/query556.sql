@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Federal-gov' AND education_num <= 16.0 AND occupation = 'Exec-managerial' AND relationship = 'Husband' AND capital_gain <= 7513.0 AND native_country = 'Columbia';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Without-pay' AND marital_status = 'Separated' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND hours_per_week <= 47.0 AND native_country = 'Portugal';

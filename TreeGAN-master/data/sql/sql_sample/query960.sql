@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 58 AND workclass = 'Local-gov' AND education = 'Doctorate' AND education_num <= 3 AND marital_status = 'Never-married' AND sex = 'Female' AND native_country = 'Taiwan';

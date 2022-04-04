@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 36.0 AND workclass = 'Self-emp-inc' AND education = 'Bachelors' AND marital_status = 'Married-civ-spouse' AND occupation = 'Armed-Forces' AND relationship = 'Husband' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_loss <= 350.0 AND hours_per_week <= 10.0 AND native_country = 'Hong';

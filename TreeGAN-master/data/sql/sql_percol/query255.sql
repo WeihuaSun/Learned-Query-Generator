@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 50.0 AND education = 'Bachelors' AND marital_status = 'Separated' AND occupation = 'Armed-Forces' AND relationship = 'Other-relative' AND capital_gain <= 35400.0 AND capital_loss <= 1675.0;

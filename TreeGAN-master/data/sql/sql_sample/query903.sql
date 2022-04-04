@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 87 AND education = 'Doctorate' AND education_num <= 11 AND marital_status = 'Never-married' AND relationship = 'Own-child' AND sex = 'Female' AND capital_gain <= 3818 AND capital_loss <= 2467 AND hours_per_week <= 79 AND native_country = 'El-Salvador';

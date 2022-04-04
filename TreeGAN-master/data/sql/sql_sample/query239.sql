@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = 'Prof-school' AND marital_status = 'Never-married' AND occupation = 'Prof-specialty' AND race = 'White' AND sex = 'Male' AND capital_loss <= 2559 AND hours_per_week <= 97 AND native_country = 'Taiwan';

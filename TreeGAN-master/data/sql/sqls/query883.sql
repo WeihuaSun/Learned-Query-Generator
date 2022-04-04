@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 89 AND workclass = 'Self-emp-not-inc' AND education = '12th' AND marital_status = 'Divorced' AND occupation = 'Tech-support' AND relationship = 'Husband' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND native_country = 'Hong';

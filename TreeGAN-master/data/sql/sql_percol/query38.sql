@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 45.0 AND workclass = 'Never-worked' AND education = 'Masters' AND education_num <= 17.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Handlers-cleaners' AND relationship = 'Husband' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 53348.0 AND native_country = 'Cuba';

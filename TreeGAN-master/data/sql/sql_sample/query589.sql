@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Without-pay' AND education = '11th' AND education_num <= 11 AND marital_status = 'Married-civ-spouse' AND occupation = 'Transport-moving' AND relationship = 'Unmarried' AND race = 'Other' AND sex = 'Female' AND capital_loss <= 2467 AND hours_per_week <= 79 AND native_country = 'Taiwan';

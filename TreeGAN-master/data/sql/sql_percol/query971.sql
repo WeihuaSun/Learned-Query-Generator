@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 31.0 AND workclass = 'State-gov' AND education = '10th' AND education_num <= 10.0 AND occupation = 'Farming-fishing' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Male' AND capital_gain <= 1868.0 AND capital_loss <= 1948.0 AND hours_per_week <= 74.0;

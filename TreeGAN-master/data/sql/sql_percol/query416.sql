@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = 'Assoc-acdm' AND education_num <= 11.0 AND occupation = 'Adm-clerical' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND capital_gain <= 32462.0 AND capital_loss <= 74.0 AND hours_per_week <= 105.0;

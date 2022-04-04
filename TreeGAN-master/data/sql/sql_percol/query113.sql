@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND education = '1st-4th' AND marital_status = 'Married-AF-spouse' AND occupation = 'Handlers-cleaners' AND relationship = 'Unmarried' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND hours_per_week <= 69.0 AND native_country = 'Columbia';

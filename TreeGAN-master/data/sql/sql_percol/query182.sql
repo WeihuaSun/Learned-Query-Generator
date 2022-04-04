@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 49.0 AND workclass = 'Local-gov' AND education = '7th-8th' AND marital_status = 'Married-spouse-absent' AND occupation = 'Handlers-cleaners' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_loss <= 845.0 AND hours_per_week <= 98.0 AND native_country = 'England';

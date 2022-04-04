@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 75 AND workclass = 'Never-worked' AND education = '11th' AND occupation = 'Sales' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND native_country = 'Cambodia';

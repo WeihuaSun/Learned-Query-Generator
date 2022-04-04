@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Never-worked' AND education = 'Doctorate' AND marital_status = 'Married-AF-spouse' AND occupation = 'Craft-repair' AND relationship = 'Unmarried' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 14344 AND native_country = 'England';

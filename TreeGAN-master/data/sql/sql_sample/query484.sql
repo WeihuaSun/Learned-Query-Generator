@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 58 AND education_num <= 10 AND marital_status = 'Never-married' AND occupation = 'Prof-specialty' AND relationship = 'Own-child' AND capital_loss <= 2051 AND hours_per_week <= 97;

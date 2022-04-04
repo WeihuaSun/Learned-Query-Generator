@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Doctorate' AND marital_status = 'Separated' AND occupation = 'Sales' AND race = 'Other' AND sex = 'Male' AND hours_per_week <= 97 AND native_country = 'Cambodia';

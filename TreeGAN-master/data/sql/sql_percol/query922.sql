@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Bachelors' AND marital_status = 'Separated' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_gain <= 41181.0 AND hours_per_week <= 96.0 AND native_country = 'Portugal';

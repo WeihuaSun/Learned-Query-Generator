@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 46 AND workclass = 'Local-gov' AND education = '9th' AND education_num <= 3 AND marital_status = 'Married-AF-spouse' AND occupation = 'Tech-support' AND relationship = 'Unmarried' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 7978 AND capital_loss <= 3004 AND native_country = 'Iran';

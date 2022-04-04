@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Masters' AND education_num <= 3 AND marital_status = 'Married-spouse-absent' AND occupation = 'Prof-specialty' AND relationship = 'Husband' AND race = 'Black' AND sex = 'Male' AND native_country = 'Nicaragua';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = '11th' AND marital_status = 'Divorced' AND occupation = 'Prof-specialty' AND relationship = 'Husband' AND race = 'Black' AND sex = 'Male' AND capital_loss <= 1944 AND native_country = 'Portugal';

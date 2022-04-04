@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Assoc-acdm' AND education_num <= 16 AND marital_status = 'Never-married' AND occupation = 'Transport-moving' AND relationship = 'Not-in-family' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 14344 AND capital_loss <= 2467 AND native_country = 'Puerto-Rico';

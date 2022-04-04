@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 73 AND education = '11th' AND education_num <= 15 AND marital_status = 'Separated' AND occupation = '?' AND relationship = 'Not-in-family' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 7298 AND capital_loss <= 2174 AND hours_per_week <= 77 AND native_country = 'Japan';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education_num <= 21.0 AND occupation = 'Prof-specialty' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND capital_gain <= 120847.0 AND capital_loss <= 1886.0 AND native_country = 'Cuba';

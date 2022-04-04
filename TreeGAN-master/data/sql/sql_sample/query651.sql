@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education_num <= 5 AND marital_status = 'Married-AF-spouse' AND race = 'Asian-Pac-Islander' AND capital_loss <= 2051 AND native_country = 'England';

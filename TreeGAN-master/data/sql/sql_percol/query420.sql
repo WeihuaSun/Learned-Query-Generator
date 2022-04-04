@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 76.0 AND workclass = 'Without-pay' AND education = '10th' AND education_num <= 20.0 AND marital_status = 'Married-AF-spouse' AND occupation = 'Priv-house-serv' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 24016.0 AND capital_loss <= 119.0 AND hours_per_week <= 38.0;

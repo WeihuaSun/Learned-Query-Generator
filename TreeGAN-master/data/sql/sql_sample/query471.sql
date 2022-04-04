@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 26 AND workclass = 'Local-gov' AND education = 'Doctorate' AND education_num <= 16 AND relationship = 'Unmarried' AND race = 'Other' AND capital_gain <= 2977 AND capital_loss <= 2057 AND hours_per_week <= 79 AND native_country = 'El-Salvador';

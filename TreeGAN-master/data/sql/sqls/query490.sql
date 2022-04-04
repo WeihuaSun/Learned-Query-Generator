@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = '9th' AND education_num <= 15 AND marital_status = 'Widowed' AND occupation = 'Prof-specialty' AND relationship = 'Wife' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_loss <= 2179 AND hours_per_week <= 56 AND native_country = 'Portugal';

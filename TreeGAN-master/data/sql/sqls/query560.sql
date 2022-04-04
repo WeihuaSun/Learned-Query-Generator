@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 47 AND education = '11th' AND education_num <= 11 AND marital_status = 'Married-spouse-absent' AND occupation = 'Priv-house-serv' AND relationship = 'Husband' AND capital_gain <= 6097 AND capital_loss <= 3004;

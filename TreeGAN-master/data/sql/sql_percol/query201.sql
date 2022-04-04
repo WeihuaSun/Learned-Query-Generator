@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 54.0 AND workclass = 'Federal-gov' AND education = 'Some-college' AND education_num <= 10.0 AND marital_status = 'Separated' AND occupation = 'Armed-Forces' AND relationship = 'Own-child' AND sex = 'Female' AND capital_gain <= 27092.0 AND capital_loss <= 1290.0 AND hours_per_week <= 67.0 AND native_country = 'Columbia';

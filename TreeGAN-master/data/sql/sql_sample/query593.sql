@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 58 AND workclass = 'Local-gov' AND education = 'Doctorate' AND education_num <= 16 AND marital_status = 'Never-married' AND occupation = 'Other-service' AND relationship = 'Husband' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 3818 AND capital_loss <= 2559 AND native_country = 'Hungary';

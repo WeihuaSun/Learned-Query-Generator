@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Federal-gov' AND education_num <= 13.0 AND marital_status = 'Divorced' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_loss <= 703.0 AND hours_per_week <= 54.0 AND native_country = 'England';

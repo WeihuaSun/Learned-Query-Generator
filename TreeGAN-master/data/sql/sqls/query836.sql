@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = '12th' AND education_num <= 15 AND marital_status = 'Widowed' AND occupation = 'Prof-specialty' AND relationship = 'Wife' AND race = 'Black' AND sex = 'Female' AND capital_loss <= 2174 AND native_country = 'Iran';

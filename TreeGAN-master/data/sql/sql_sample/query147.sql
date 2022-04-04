@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = 'Prof-school' AND marital_status = 'Widowed' AND occupation = 'Adm-clerical' AND relationship = 'Not-in-family' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND hours_per_week <= 68 AND native_country = 'Hong';

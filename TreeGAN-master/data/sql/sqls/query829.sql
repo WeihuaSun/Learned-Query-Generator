@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = '11th' AND marital_status = 'Married-AF-spouse' AND relationship = 'Other-relative' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 7978 AND capital_loss <= 1887 AND hours_per_week <= 32 AND native_country = 'Portugal';

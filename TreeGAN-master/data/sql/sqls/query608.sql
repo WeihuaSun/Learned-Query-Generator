@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 49 AND education_num <= 15 AND occupation = 'Tech-support' AND relationship = 'Other-relative' AND race = 'White' AND capital_gain <= 7298 AND capital_loss <= 3004 AND hours_per_week <= 92 AND native_country = 'Ireland';

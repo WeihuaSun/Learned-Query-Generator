@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 46.0 AND occupation = 'Transport-moving' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND capital_gain <= 4378.0 AND capital_loss <= 1321.0;

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 74 AND education = '10th' AND education_num <= 11 AND relationship = 'Unmarried' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_loss <= 1944 AND hours_per_week <= 92 AND native_country = 'Hong';

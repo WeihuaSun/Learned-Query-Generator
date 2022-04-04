@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND education = '7th-8th' AND marital_status = 'Married-AF-spouse' AND occupation = 'Tech-support' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 11856.0 AND native_country = 'India';

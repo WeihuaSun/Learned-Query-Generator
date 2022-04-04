@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 41 AND workclass = 'Without-pay' AND education = 'Assoc-voc' AND education_num <= 11 AND marital_status = 'Never-married' AND occupation = 'Transport-moving' AND relationship = 'Wife' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 9386 AND capital_loss <= 2080 AND hours_per_week <= 79 AND native_country = 'El-Salvador';

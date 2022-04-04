@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 74 AND workclass = 'Self-emp-not-inc' AND education = '12th' AND marital_status = 'Widowed' AND occupation = '?' AND relationship = 'Wife' AND capital_gain <= 15831 AND capital_loss <= 2174 AND native_country = 'Jamaica';

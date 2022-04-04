@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 41 AND workclass = 'Never-worked' AND education = 'Assoc-voc' AND education_num <= 13 AND marital_status = 'Separated' AND occupation = 'Sales' AND relationship = 'Unmarried' AND race = 'Black' AND sex = 'Female' AND native_country = 'England';

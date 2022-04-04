@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 81 AND workclass = 'Local-gov' AND education = '12th' AND education_num <= 12 AND marital_status = 'Married-spouse-absent' AND occupation = 'Prof-specialty' AND relationship = 'Unmarried' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 3887 AND capital_loss <= 1944 AND hours_per_week <= 67 AND native_country = 'Trinadad&Tobago';

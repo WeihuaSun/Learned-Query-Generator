@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = 'Assoc-acdm' AND education_num <= 11 AND occupation = 'Other-service' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 14344 AND capital_loss <= 2080 AND hours_per_week <= 30;

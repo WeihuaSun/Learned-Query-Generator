@@ -1,0 +1,59 @@
+start : "SELECT" space selcols space "FROM" space table space "WHERE" space preds ";" opt_whitespace
+
+selcols: star | aggregate | cols
+
+aggregate : aggregate_token l_bracket aggregate_col r_bracket
+                |"COUNT" l_bracket star r_bracket
+
+cols : cols comma colset
+        | colset
+
+aggregate_token : "MAX" | "MIN" | "AVG" | "COUNT" | "SUM"
+
+aggregate_col : colset 
+
+table : tablename
+
+preds : preds space logicpred space pred
+            |pred
+
+logicpred : "AND" | "OR" | "NOT"
+
+op : ">" | "<" | "=" | "!=" | "<=" | ">="
+
+ope : "=" | "!="
+
+star : "*"
+
+comma : ","
+
+whitespace : " "| "\n" 
+
+space : " "
+
+opt_whitespace : whitespace?
+
+digit : "0" | non_zero_digit
+
+non_zero_digit : "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
+
+point : "."
+l_bracket : "("
+r_bracket : ")"
+
+tablename : "census"
+age_val : "26" | "87" | "26" | "58" | "57" | "41" | "20" | "43" | "41" | "75"
+education_num_val : "8" | "3" | "11" | "13" | "5" | "16" | "11" | "13" | "10" | "10"
+capital_gain_val : "14344" | "1506" | "3818" | "2977" | "991" | "9386" | "5060" | "4101" | "8614" | "10605"
+capital_loss_val : "2051" | "2467" | "2002" | "1876" | "2057" | "2080" | "2559" | "1672" | "1974" | "2129"
+hours_per_week_val : "79" | "97" | "30" | "41" | "23" | "17" | "68" | "12" | "13" | "85"
+workclass_val : "'Private'" | "'Never-worked'" | "'Never-worked'" | "'Private'" | "'Without-pay'" | "'Local-gov'" | "'Without-pay'" | "'Never-worked'" | "'Local-gov'" | "'Local-gov'"
+education_val : "'Prof-school'" | "'Prof-school'" | "'Assoc-voc'" | "'7th-8th'" | "'Assoc-voc'" | "'Doctorate'" | "'Doctorate'" | "'11th'" | "'Assoc-acdm'" | "'Assoc-acdm'"
+marital_status_val : "'Married-spouse-absent'" | "'Never-married'" | "'Married-AF-spouse'" | "'Separated'" | "'Widowed'" | "'Married-civ-spouse'" | "'Never-married'" | "'Married-spouse-absent'" | "'Married-AF-spouse'" | "'Married-civ-spouse'"
+occupation_val : "'?'" | "'Prof-specialty'" | "'Sales'" | "'Exec-managerial'" | "'Other-service'" | "'Adm-clerical'" | "'Transport-moving'" | "'Craft-repair'" | "'Adm-clerical'" | "'?'"
+relationship_val : "'Wife'" | "'Unmarried'" | "'Unmarried'" | "'Own-child'" | "'Own-child'" | "'Not-in-family'" | "'Husband'" | "'Wife'" | "'Own-child'" | "'Own-child'"
+race_val : "'Other'" | "'Asian-Pac-Islander'" | "'White'" | "'Amer-Indian-Eskimo'" | "'Other'" | "'White'" | "'Asian-Pac-Islander'" | "'Other'" | "'White'" | "'Black'"
+sex_val : "'Female'" | "'Female'" | "'Female'" | "'Female'" | "'Male'" | "'Female'" | "'Female'" | "'Female'" | "'Female'" | "'Male'"
+native_country_val : "'Poland'" | "'Hong'" | "'Taiwan'" | "'Puerto-Rico'" | "'El-Salvador'" | "'England'" | "'United-States'" | "'India'" | "'Cambodia'" | "'Hungary'"
+colset :"age" | "education_num" | "capital_gain" | "capital_loss" | "hours_per_week" | "workclass" | "education" | "marital_status" | "occupation" | "relationship" | "race" | "sex" | "native_country"
+pred : "TRUE"  | "age" space op space age_val  | "education_num" space op space education_num_val  | "capital_gain" space op space capital_gain_val  | "capital_loss" space op space capital_loss_val  | "hours_per_week" space op space hours_per_week_val  | "workclass" space ope space workclass_val   | "education" space ope space education_val   | "marital_status" space ope space marital_status_val   | "occupation" space ope space occupation_val   | "relationship" space ope space relationship_val   | "race" space ope space race_val   | "sex" space ope space sex_val   | "native_country" space ope space native_country_val  

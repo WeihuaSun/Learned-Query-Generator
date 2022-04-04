@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 53.0 AND workclass = 'Local-gov' AND education_num <= 9.0 AND marital_status = 'Divorced' AND relationship = 'Unmarried' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 15215.0 AND capital_loss <= 1213.0 AND hours_per_week <= 56.0 AND native_country = 'Hong';

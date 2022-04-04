@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 26.0 AND workclass = 'Local-gov' AND education = 'Preschool' AND marital_status = 'Married-civ-spouse' AND occupation = 'Exec-managerial' AND relationship = 'Unmarried' AND race = 'White' AND sex = 'Male' AND native_country = 'Taiwan';

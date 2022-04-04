@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education_num <= 11 AND marital_status = 'Married-civ-spouse' AND race = 'Asian-Pac-Islander' AND capital_gain <= 2977 AND capital_loss <= 2129 AND native_country = 'Hong';

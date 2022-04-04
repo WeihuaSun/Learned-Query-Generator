@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 43 AND workclass = 'Local-gov' AND education = '7th-8th' AND education_num <= 13 AND marital_status = 'Never-married' AND occupation = 'Sales' AND relationship = 'Wife' AND sex = 'Female' AND capital_gain <= 10605 AND capital_loss <= 2051 AND hours_per_week <= 85 AND native_country = 'Taiwan';

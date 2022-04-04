@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 41 AND workclass = 'Private' AND education = '7th-8th' AND education_num <= 13 AND marital_status = 'Separated' AND race = 'Black' AND sex = 'Female' AND capital_gain <= 14344 AND capital_loss <= 2467 AND hours_per_week <= 97 AND native_country = 'United-States';

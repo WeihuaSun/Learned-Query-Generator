@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education_num <= 13 AND occupation = '?' AND relationship = 'Own-child' AND capital_gain <= 10605 AND capital_loss <= 2467 AND hours_per_week <= 41 AND native_country = 'Poland';

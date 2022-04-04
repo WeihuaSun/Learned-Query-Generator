@@ -1,0 +1,62 @@
+start : "SELECT" space selcols space "FROM" space table space "WHERE" space preds ";" opt_whitespace
+
+selcols: star | aggregate | cols
+
+aggregate : aggregate_token l_bracket aggregate_col r_bracket
+                |"COUNT" l_bracket star r_bracket
+
+cols : cols comma colset
+        | colset
+
+aggregate_token : "MAX" | "MIN" | "AVG" | "COUNT" | "SUM"
+
+aggregate_col : colset 
+
+table : tablename
+
+preds : preds space logicpred space pred
+            |pred
+
+logicpred : "AND" | "OR" | "NOT"
+
+op : ">" | "<" | "=" | "!=" | "<=" | ">="
+
+ope : "=" | "!="
+
+star : "*"
+
+comma : ","
+
+whitespace : " "| "\n" 
+
+space : " "
+
+opt_whitespace : whitespace?
+
+digit : "0" | non_zero_digit
+
+maybe_digit : digit? 
+
+
+non_zero_digit : "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
+
+point : "."
+l_bracket : "("
+r_bracket : ")"
+
+tablename : "census"
+age_val : non_zero_digit maybe_digit maybe_digit point maybe_digit
+education_num_val : non_zero_digit maybe_digit maybe_digit point maybe_digit
+capital_gain_val : non_zero_digit maybe_digit maybe_digit maybe_digit maybe_digit maybe_digit point maybe_digit
+capital_loss_val : non_zero_digit maybe_digit maybe_digit maybe_digit maybe_digit point maybe_digit
+hours_per_week_val : non_zero_digit maybe_digit maybe_digit point maybe_digit
+workclass_val : "'Federal-gov'" | "'Local-gov'" | "'Private'" | "'Local-gov'" | "'Never-worked'" | "'Local-gov'" | "'Self-emp-inc'" | "'Private'" | "'State-gov'" | "'Without-pay'"
+education_val : "'11th'" | "'10th'" | "'Preschool'" | "'Bachelors'" | "'7th-8th'" | "'Some-college'" | "'1st-4th'" | "'Assoc-acdm'" | "'10th'" | "'Masters'"
+marital_status_val : "'Married-spouse-absent'" | "'Separated'" | "'Separated'" | "'Divorced'" | "'Married-civ-spouse'" | "'Widowed'" | "'Married-AF-spouse'" | "'Married-civ-spouse'" | "'Divorced'" | "'Widowed'"
+occupation_val : "'Priv-house-serv'" | "'Adm-clerical'" | "'Prof-specialty'" | "'Armed-Forces'" | "'Exec-managerial'" | "'Handlers-cleaners'" | "'Tech-support'" | "'Other-service'" | "'Farming-fishing'" | "'Transport-moving'"
+relationship_val : "'Husband'" | "'Other-relative'" | "'Other-relative'" | "'Own-child'" | "'Unmarried'" | "'Other-relative'" | "'Other-relative'" | "'Other-relative'" | "'Husband'" | "'Own-child'"
+race_val : "'Amer-Indian-Eskimo'" | "'Amer-Indian-Eskimo'" | "'White'" | "'Black'" | "'Asian-Pac-Islander'" | "'Other'" | "'White'" | "'Asian-Pac-Islander'" | "'Black'" | "'Asian-Pac-Islander'"
+sex_val : "'Female'" | "'Male'" | "'Male'" | "'Female'" | "'Female'" | "'Male'" | "'Female'" | "'Male'" | "'Male'" | "'Female'"
+native_country_val : "'Cuba'" | "'Portugal'" | "'Outlying-US(Guam-USVI-etc)'" | "'Columbia'" | "'Taiwan'" | "'Yugoslavia'" | "'Hong'" | "'India'" | "'Honduras'" | "'England'"
+colset :"age" | "education_num" | "capital_gain" | "capital_loss" | "hours_per_week" | "workclass" | "education" | "marital_status" | "occupation" | "relationship" | "race" | "sex" | "native_country"
+pred : "TRUE"  | "age" space op space age_val  | "education_num" space op space education_num_val  | "capital_gain" space op space capital_gain_val  | "capital_loss" space op space capital_loss_val  | "hours_per_week" space op space hours_per_week_val  | "workclass" space ope space workclass_val   | "education" space ope space education_val   | "marital_status" space ope space marital_status_val   | "occupation" space ope space occupation_val   | "relationship" space ope space relationship_val   | "race" space ope space race_val   | "sex" space ope space sex_val   | "native_country" space ope space native_country_val  

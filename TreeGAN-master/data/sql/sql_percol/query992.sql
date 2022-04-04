@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND education = 'Preschool' AND occupation = 'Armed-Forces' AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Female' AND hours_per_week <= 61.0;

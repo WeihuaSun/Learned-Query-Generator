@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Never-worked' AND education = 'Prof-school' AND education_num <= 11 AND marital_status = 'Never-married' AND occupation = 'Craft-repair' AND relationship = 'Wife' AND race = 'Black' AND capital_loss <= 2559 AND hours_per_week <= 17 AND native_country = 'El-Salvador';

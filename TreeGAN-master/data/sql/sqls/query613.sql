@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 49 AND workclass = 'Private' AND education_num <= 11 AND marital_status = 'Married-spouse-absent' AND occupation = 'Handlers-cleaners' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Male' AND capital_loss <= 2174 AND native_country = 'Portugal';

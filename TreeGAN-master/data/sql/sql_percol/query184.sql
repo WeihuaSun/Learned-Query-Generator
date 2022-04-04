@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education = 'Some-college' AND marital_status = 'Divorced' AND occupation = 'Tech-support' AND relationship = 'Own-child' AND race = 'Black' AND sex = 'Female' AND capital_loss <= 1691.0 AND hours_per_week <= 50.0 AND native_country = 'India';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 73 AND workclass = 'Local-gov' AND marital_status = 'Widowed' AND occupation = 'Prof-specialty' AND relationship = 'Unmarried' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 3887 AND capital_loss <= 1977;

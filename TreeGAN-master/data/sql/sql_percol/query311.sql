@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 65.0 AND workclass = 'Self-emp-inc' AND relationship = 'Other-relative' AND capital_gain <= 30177.0 AND capital_loss <= 817.0 AND hours_per_week <= 7.0 AND native_country = 'Columbia';

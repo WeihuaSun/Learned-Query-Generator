@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 46 AND education = '9th' AND education_num <= 11 AND marital_status = 'Never-married' AND relationship = 'Not-in-family' AND capital_gain <= 7978 AND capital_loss <= 3004 AND hours_per_week <= 41;

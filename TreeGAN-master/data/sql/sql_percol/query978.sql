@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 64.0 AND workclass = 'Private' AND education_num <= 12.0 AND marital_status = 'Married-spouse-absent' AND occupation = 'Exec-managerial' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND capital_gain <= 41919.0 AND hours_per_week <= 64.0 AND native_country = 'Cuba';

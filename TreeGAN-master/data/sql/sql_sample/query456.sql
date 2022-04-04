@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 41 AND workclass = 'Never-worked' AND education = 'Doctorate' AND marital_status = 'Never-married' AND occupation = 'Transport-moving' AND relationship = 'Own-child' AND race = 'White' AND sex = 'Female' AND capital_gain <= 14344 AND capital_loss <= 1974 AND hours_per_week <= 79 AND native_country = 'England';

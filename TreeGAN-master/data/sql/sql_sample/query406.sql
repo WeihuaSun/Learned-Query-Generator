@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Without-pay' AND education = '7th-8th' AND education_num <= 11 AND marital_status = 'Married-spouse-absent' AND relationship = 'Unmarried' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 8614 AND capital_loss <= 2051 AND hours_per_week <= 30 AND native_country = 'El-Salvador';

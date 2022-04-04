@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 68.0 AND workclass = 'Without-pay' AND education_num <= 9.0 AND marital_status = 'Widowed' AND occupation = 'Other-service' AND capital_gain <= 4037.0 AND capital_loss <= 293.0;

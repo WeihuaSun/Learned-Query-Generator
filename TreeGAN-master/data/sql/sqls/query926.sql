@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 49 AND workclass = '?' AND education_num <= 15 AND marital_status = 'Widowed' AND occupation = '?' AND relationship = 'Unmarried' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 15831 AND capital_loss <= 2179 AND hours_per_week <= 67;

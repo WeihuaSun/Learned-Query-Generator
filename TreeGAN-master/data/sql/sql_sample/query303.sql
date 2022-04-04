@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Without-pay' AND education = 'Prof-school' AND education_num <= 10 AND marital_status = 'Widowed' AND occupation = '?' AND relationship = 'Unmarried' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 9386 AND hours_per_week <= 13 AND native_country = 'El-Salvador';

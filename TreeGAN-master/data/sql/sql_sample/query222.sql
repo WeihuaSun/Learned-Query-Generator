@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = '7th-8th' AND marital_status = 'Married-civ-spouse' AND relationship = 'Own-child' AND race = 'Black' AND sex = 'Female' AND hours_per_week <= 79 AND native_country = 'Cambodia';

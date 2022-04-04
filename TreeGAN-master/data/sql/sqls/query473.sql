@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 81 AND education = 'Masters' AND education_num <= 11 AND relationship = 'Husband' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 3818 AND capital_loss <= 1977;

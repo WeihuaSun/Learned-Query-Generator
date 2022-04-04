@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 68.0 AND workclass = 'Local-gov' AND education = '7th-8th' AND marital_status = 'Married-AF-spouse' AND occupation = 'Adm-clerical' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 46865.0 AND native_country = 'England';

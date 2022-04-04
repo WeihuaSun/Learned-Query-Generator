@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = '1st-4th' AND education_num <= 13.0 AND marital_status = 'Widowed' AND occupation = 'Tech-support' AND relationship = 'Other-relative' AND capital_loss <= 315.0 AND native_country = 'Portugal';

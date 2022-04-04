@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = '1st-4th' AND marital_status = 'Separated' AND occupation = '?' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Female' AND capital_gain <= 20051 AND hours_per_week <= 56 AND native_country = 'Trinadad&Tobago';

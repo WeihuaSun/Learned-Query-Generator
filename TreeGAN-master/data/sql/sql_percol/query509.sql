@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = '1st-4th' AND education_num <= 15.0 AND marital_status = 'Separated' AND occupation = 'Farming-fishing' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 24425.0 AND native_country = 'Taiwan';

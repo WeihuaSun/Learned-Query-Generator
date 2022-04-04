@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 73 AND workclass = 'Self-emp-not-inc' AND education = '9th' AND occupation = 'Tech-support' AND race = 'Amer-Indian-Eskimo' AND capital_gain <= 20051 AND capital_loss <= 3004;

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 61.0 AND workclass = 'Local-gov' AND education_num <= 10.0 AND marital_status = 'Widowed' AND occupation = 'Exec-managerial' AND capital_gain <= 15159.0 AND capital_loss <= 293.0 AND hours_per_week <= 78.0;

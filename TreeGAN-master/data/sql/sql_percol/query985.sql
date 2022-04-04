@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 85.0 AND education = '1st-4th' AND education_num <= 11.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Armed-Forces' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Male' AND hours_per_week <= 71.0 AND native_country = 'Taiwan';

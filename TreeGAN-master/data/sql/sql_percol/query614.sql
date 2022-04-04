@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = '7th-8th' AND education_num <= 15.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Armed-Forces' AND relationship = 'Own-child' AND race = 'Black' AND sex = 'Female' AND hours_per_week <= 68.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

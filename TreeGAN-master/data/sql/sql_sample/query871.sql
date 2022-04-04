@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Without-pay' AND education_num <= 10 AND marital_status = 'Married-civ-spouse' AND occupation = 'Craft-repair' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND capital_gain <= 14344 AND capital_loss <= 2559 AND hours_per_week <= 97 AND native_country = 'Hong';

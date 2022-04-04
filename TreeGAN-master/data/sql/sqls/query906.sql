@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education = '12th' AND education_num <= 11 AND marital_status = 'Married-spouse-absent' AND occupation = 'Prof-specialty' AND relationship = 'Unmarried' AND race = 'Amer-Indian-Eskimo' AND capital_loss <= 2080 AND native_country = 'Japan';

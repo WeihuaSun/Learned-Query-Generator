@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Masters' AND education_num <= 7 AND marital_status = 'Married-AF-spouse' AND occupation = 'Tech-support' AND relationship = 'Unmarried' AND sex = 'Male' AND capital_gain <= 7978 AND capital_loss <= 3004 AND native_country = 'Portugal';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND education = '12th' AND marital_status = 'Never-married' AND occupation = '?' AND relationship = 'Unmarried' AND race = 'Other' AND capital_gain <= 15831 AND hours_per_week <= 43 AND native_country = 'Ireland';

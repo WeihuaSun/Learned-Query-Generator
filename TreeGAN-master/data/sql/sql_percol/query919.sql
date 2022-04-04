@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 51.0 AND education_num <= 11.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Exec-managerial' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_gain <= 1554.0 AND native_country = 'Yugoslavia';

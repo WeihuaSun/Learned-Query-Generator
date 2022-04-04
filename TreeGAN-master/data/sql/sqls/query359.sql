@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 73 AND education = '1st-4th' AND education_num <= 3 AND occupation = 'Protective-serv' AND relationship = 'Not-in-family' AND sex = 'Male' AND capital_gain <= 6097 AND capital_loss <= 3004 AND hours_per_week <= 92 AND native_country = 'Yugoslavia';

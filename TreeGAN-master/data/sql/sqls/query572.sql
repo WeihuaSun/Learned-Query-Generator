@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-not-inc' AND education = '11th' AND education_num <= 3 AND occupation = 'Protective-serv' AND relationship = 'Not-in-family' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 3887 AND capital_loss <= 1594 AND hours_per_week <= 67 AND native_country = 'Portugal';

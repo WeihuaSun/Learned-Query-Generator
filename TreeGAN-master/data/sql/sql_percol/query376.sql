@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND marital_status = 'Married-spouse-absent' AND occupation = 'Other-service' AND relationship = 'Unmarried' AND capital_gain <= 33591.0 AND hours_per_week <= 74.0;

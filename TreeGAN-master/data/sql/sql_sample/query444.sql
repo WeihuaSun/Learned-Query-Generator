@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 57 AND workclass = 'Never-worked' AND education = 'Assoc-acdm' AND education_num <= 10 AND marital_status = 'Never-married' AND occupation = 'Exec-managerial' AND relationship = 'Own-child' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 3818 AND capital_loss <= 2080 AND hours_per_week <= 85 AND native_country = 'Puerto-Rico';

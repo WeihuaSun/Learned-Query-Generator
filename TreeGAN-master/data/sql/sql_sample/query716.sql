@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 43 AND occupation = 'Adm-clerical' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 10605 AND capital_loss <= 2057 AND hours_per_week <= 97 AND native_country = 'Hong';

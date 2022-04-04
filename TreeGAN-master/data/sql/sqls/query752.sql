@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 89 AND education_num <= 3 AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 3887 AND hours_per_week <= 67 AND native_country = 'Trinadad&Tobago';

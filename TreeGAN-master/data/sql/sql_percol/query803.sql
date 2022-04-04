@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 87.0 AND education_num <= 4.0 AND occupation = 'Exec-managerial' AND relationship = 'Unmarried' AND race = 'Amer-Indian-Eskimo' AND capital_gain <= 45600.0 AND capital_loss <= 585.0 AND hours_per_week <= 66.0 AND native_country = 'Hong';

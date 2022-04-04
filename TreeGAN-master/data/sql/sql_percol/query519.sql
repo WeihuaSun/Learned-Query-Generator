@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 41.0 AND education = '10th' AND education_num <= 8.0 AND occupation = 'Exec-managerial' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 24131.0 AND capital_loss <= 1354.0 AND hours_per_week <= 35.0;

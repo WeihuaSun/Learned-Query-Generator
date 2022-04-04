@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 38 AND workclass = 'Local-gov' AND education = '1st-4th' AND education_num <= 3 AND marital_status = 'Widowed' AND occupation = '?' AND race = 'Black' AND sex = 'Female' AND capital_gain <= 20051 AND capital_loss <= 2174 AND hours_per_week <= 92 AND native_country = 'Japan';

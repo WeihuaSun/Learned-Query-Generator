@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 89 AND workclass = 'Self-emp-inc' AND education = 'Masters' AND marital_status = 'Never-married' AND occupation = 'Priv-house-serv' AND relationship = 'Not-in-family' AND sex = 'Male' AND capital_loss <= 1887 AND hours_per_week <= 56 AND native_country = 'Hong';

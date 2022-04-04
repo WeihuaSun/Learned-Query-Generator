@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = '7th-8th' AND education_num <= 12.0 AND occupation = 'Other-service' AND race = 'White' AND sex = 'Female' AND capital_gain <= 11459.0 AND hours_per_week <= 34.0;

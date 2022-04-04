@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 99.0 AND workclass = 'Never-worked' AND education = 'Preschool' AND education_num <= 8.0 AND marital_status = 'Married-civ-spouse' AND race = 'Amer-Indian-Eskimo' AND capital_gain <= 21916.0 AND capital_loss <= 2140.0 AND hours_per_week <= 41.0;

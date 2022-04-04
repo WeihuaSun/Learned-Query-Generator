@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = 'Assoc-acdm' AND education_num <= 10.0 AND marital_status = 'Married-spouse-absent' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_gain <= 9035.0 AND capital_loss <= 1046.0 AND hours_per_week <= 68.0 AND native_country = 'Honduras';

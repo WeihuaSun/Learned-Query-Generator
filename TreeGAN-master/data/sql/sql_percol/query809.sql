@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = '10th' AND education_num <= 20.0 AND marital_status = 'Widowed' AND relationship = 'Other-relative' AND capital_gain <= 11489.0 AND hours_per_week <= 12.0;

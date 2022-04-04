@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 26 AND workclass = 'Without-pay' AND education = 'Prof-school' AND marital_status = 'Married-civ-spouse' AND occupation = 'Sales' AND relationship = 'Own-child' AND race = 'White' AND sex = 'Male' AND capital_gain <= 5060 AND capital_loss <= 2129 AND hours_per_week <= 68 AND native_country = 'Puerto-Rico';

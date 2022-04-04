@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = 'Doctorate' AND marital_status = 'Married-AF-spouse' AND occupation = 'Adm-clerical' AND race = 'White' AND capital_loss <= 2057 AND hours_per_week <= 97 AND native_country = 'El-Salvador';

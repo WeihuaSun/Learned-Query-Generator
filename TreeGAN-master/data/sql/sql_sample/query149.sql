@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Without-pay' AND education = '7th-8th' AND education_num <= 13 AND marital_status = 'Widowed' AND occupation = 'Adm-clerical' AND race = 'Asian-Pac-Islander' AND hours_per_week <= 30 AND native_country = 'Hong';

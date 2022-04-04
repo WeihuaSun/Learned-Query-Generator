@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 41 AND education = 'Assoc-voc' AND education_num <= 13 AND marital_status = 'Separated' AND race = 'White' AND sex = 'Female' AND capital_gain <= 9386 AND capital_loss <= 2559 AND hours_per_week <= 97 AND native_country = 'Cambodia';

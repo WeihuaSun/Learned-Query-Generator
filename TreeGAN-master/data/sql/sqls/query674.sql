@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = '12th' AND education_num <= 15 AND occupation = 'Handlers-cleaners' AND relationship = 'Not-in-family' AND race = 'Other' AND hours_per_week <= 32 AND native_country = 'Yugoslavia';

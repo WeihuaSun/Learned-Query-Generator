@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 67.0 AND occupation = 'Armed-Forces' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 16053.0 AND hours_per_week <= 69.0 AND native_country = 'Taiwan';

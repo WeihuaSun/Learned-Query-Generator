@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 66.0 AND education = '1st-4th' AND education_num <= 14.0 AND marital_status = 'Widowed' AND sex = 'Male' AND capital_gain <= 48802.0 AND capital_loss <= 1961.0 AND hours_per_week <= 73.0;

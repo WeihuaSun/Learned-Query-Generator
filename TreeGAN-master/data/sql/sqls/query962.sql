@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 89 AND workclass = 'Local-gov' AND education = '12th' AND education_num <= 3 AND occupation = 'Craft-repair' AND relationship = 'Unmarried' AND sex = 'Female' AND capital_gain <= 20051 AND capital_loss <= 2080 AND hours_per_week <= 67 AND native_country = 'Yugoslavia';

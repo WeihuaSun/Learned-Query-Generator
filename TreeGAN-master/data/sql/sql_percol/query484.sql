@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 34.0 AND education = 'Preschool' AND occupation = 'Other-service' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_loss <= 1549.0 AND native_country = 'Honduras';

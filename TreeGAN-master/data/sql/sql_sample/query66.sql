@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education_num <= 10 AND occupation = 'Other-service' AND relationship = 'Own-child' AND sex = 'Female' AND hours_per_week <= 79 AND native_country = 'Hong';

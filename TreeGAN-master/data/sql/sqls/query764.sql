@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education_num <= 7 AND marital_status = 'Married-spouse-absent' AND relationship = 'Unmarried' AND race = 'Black' AND capital_gain <= 20051 AND capital_loss <= 1944 AND native_country = 'Iran';

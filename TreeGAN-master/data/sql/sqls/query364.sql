@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND marital_status = 'Married-spouse-absent' AND occupation = 'Protective-serv' AND race = 'Black' AND capital_gain <= 6097 AND capital_loss <= 2174 AND native_country = 'Trinadad&Tobago';

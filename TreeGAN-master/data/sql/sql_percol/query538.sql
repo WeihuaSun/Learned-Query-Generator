@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = '11th' AND education_num <= 17.0 AND marital_status = 'Separated' AND occupation = 'Exec-managerial' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Male' AND capital_gain <= 44641.0 AND capital_loss <= 517.0 AND native_country = 'England';

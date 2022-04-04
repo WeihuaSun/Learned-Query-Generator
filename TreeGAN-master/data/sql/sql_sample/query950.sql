@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Without-pay' AND education = 'Prof-school' AND marital_status = 'Separated' AND occupation = 'Craft-repair' AND relationship = 'Own-child' AND race = 'Other' AND sex = 'Male' AND capital_loss <= 2129 AND native_country = 'Cambodia';

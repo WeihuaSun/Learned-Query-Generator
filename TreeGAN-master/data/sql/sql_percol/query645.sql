@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 42.0 AND education = '10th' AND education_num <= 11.0 AND sex = 'Male' AND capital_gain <= 18772.0 AND capital_loss <= 1942.0 AND hours_per_week <= 63.0 AND native_country = 'Honduras';

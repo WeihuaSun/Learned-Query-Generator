@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Without-pay' AND education = '11th' AND education_num <= 11 AND marital_status = 'Married-spouse-absent' AND occupation = 'Adm-clerical' AND relationship = 'Own-child' AND race = 'White' AND sex = 'Female' AND capital_gain <= 9386 AND capital_loss <= 2559 AND hours_per_week <= 17 AND native_country = 'Puerto-Rico';

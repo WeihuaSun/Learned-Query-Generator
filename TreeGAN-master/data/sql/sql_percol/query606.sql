@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = 'Some-college' AND education_num <= 13.0 AND occupation = 'Armed-Forces' AND relationship = 'Own-child' AND capital_loss <= 1675.0 AND hours_per_week <= 55.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

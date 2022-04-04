@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 44.0 AND workclass = 'Local-gov' AND education = 'Assoc-acdm' AND education_num <= 20.0 AND marital_status = 'Separated' AND occupation = 'Tech-support' AND relationship = 'Other-relative' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 27285.0 AND capital_loss <= 146.0 AND hours_per_week <= 74.0 AND native_country = 'England';

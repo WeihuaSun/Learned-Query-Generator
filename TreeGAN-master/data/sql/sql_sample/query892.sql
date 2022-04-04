@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = 'Assoc-voc' AND education_num <= 10 AND marital_status = 'Married-spouse-absent' AND occupation = 'Sales' AND relationship = 'Unmarried' AND race = 'White' AND sex = 'Female' AND capital_gain <= 3818 AND capital_loss <= 2559 AND hours_per_week <= 85 AND native_country = 'United-States';

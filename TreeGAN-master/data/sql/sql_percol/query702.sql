@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 65.0 AND education_num <= 9.0 AND marital_status = 'Married-civ-spouse' AND race = 'Asian-Pac-Islander' AND capital_gain <= 898.0 AND capital_loss <= 1596.0 AND hours_per_week <= 62.0;

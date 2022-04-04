@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 53.0 AND education = '10th' AND education_num <= 11.0 AND marital_status = 'Widowed' AND occupation = 'Transport-moving' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_gain <= 36218.0 AND capital_loss <= 51.0 AND hours_per_week <= 71.0 AND native_country = 'Taiwan';

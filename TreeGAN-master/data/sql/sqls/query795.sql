@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-not-inc' AND education = '9th' AND education_num <= 3 AND marital_status = 'Married-AF-spouse' AND occupation = '?' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Female' AND native_country = 'Nicaragua';

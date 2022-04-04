@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 73.0 AND education = '1st-4th' AND marital_status = 'Widowed' AND occupation = 'Adm-clerical' AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Male' AND native_country = 'Yugoslavia';

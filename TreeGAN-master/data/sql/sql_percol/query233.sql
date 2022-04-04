@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 94.0 AND workclass = 'Private' AND education = 'Assoc-acdm' AND occupation = 'Prof-specialty' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND native_country = 'Cuba';

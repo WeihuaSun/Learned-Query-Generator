@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Private' AND education = 'Prof-school' AND education_num <= 11 AND marital_status = 'Married-spouse-absent' AND occupation = 'Other-service' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 8614 AND capital_loss <= 2129 AND hours_per_week <= 79 AND native_country = 'Hungary';

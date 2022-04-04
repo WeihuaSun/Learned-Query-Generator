@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 87 AND education = 'Assoc-voc' AND education_num <= 10 AND occupation = 'Adm-clerical' AND relationship = 'Husband' AND race = 'Asian-Pac-Islander' AND capital_gain <= 9386 AND capital_loss <= 2467 AND hours_per_week <= 97 AND native_country = 'El-Salvador';

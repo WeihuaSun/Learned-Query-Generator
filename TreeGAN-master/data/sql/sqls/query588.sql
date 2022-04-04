@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 49 AND workclass = 'State-gov' AND education_num <= 3 AND occupation = '?' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND native_country = 'Trinadad&Tobago';

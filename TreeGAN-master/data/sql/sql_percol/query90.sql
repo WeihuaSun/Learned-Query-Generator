@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 74.0 AND education_num <= 16.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Adm-clerical' AND relationship = 'Own-child' AND race = 'Black' AND sex = 'Female' AND capital_gain <= 23902.0 AND capital_loss <= 1733.0 AND hours_per_week <= 61.0;

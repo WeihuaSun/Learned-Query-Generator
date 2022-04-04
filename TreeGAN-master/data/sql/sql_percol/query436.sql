@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 59.0 AND education = 'Bachelors' AND education_num <= 11.0 AND marital_status = 'Married-AF-spouse' AND occupation = 'Armed-Forces' AND relationship = 'Husband' AND race = 'Asian-Pac-Islander' AND capital_gain <= 33822.0 AND capital_loss <= 392.0 AND hours_per_week <= 84.0 AND native_country = 'Yugoslavia';

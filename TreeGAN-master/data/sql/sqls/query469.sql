@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 89 AND workclass = 'State-gov' AND education = '12th' AND occupation = 'Prof-specialty' AND relationship = 'Other-relative' AND sex = 'Male' AND native_country = 'Ireland';

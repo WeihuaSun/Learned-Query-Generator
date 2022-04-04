@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 57.0 AND workclass = 'Without-pay' AND education = '7th-8th' AND marital_status = 'Married-civ-spouse' AND occupation = 'Farming-fishing' AND relationship = 'Husband' AND race = 'White' AND sex = 'Male' AND capital_gain <= 33553.0 AND capital_loss <= 3375.0 AND hours_per_week <= 46.0 AND native_country = 'Honduras';

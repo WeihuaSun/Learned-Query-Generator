@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 62.0 AND education = '10th' AND education_num <= 9.0 AND marital_status = 'Divorced' AND occupation = 'Exec-managerial' AND relationship = 'Own-child' AND race = 'Amer-Indian-Eskimo' AND capital_loss <= 351.0 AND hours_per_week <= 59.0 AND native_country = 'Cuba';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Private' AND education = 'Prof-school' AND education_num <= 16 AND occupation = 'Sales' AND relationship = 'Husband' AND race = 'Other' AND sex = 'Female' AND capital_loss <= 2051;

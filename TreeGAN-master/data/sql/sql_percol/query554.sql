@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 72.0 AND education = '10th' AND marital_status = 'Married-spouse-absent' AND occupation = 'Priv-house-serv' AND relationship = 'Unmarried' AND sex = 'Female' AND capital_gain <= 891.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

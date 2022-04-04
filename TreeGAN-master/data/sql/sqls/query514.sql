@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 74 AND education = '1st-4th' AND education_num <= 8 AND occupation = 'Tech-support' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 7978 AND capital_loss <= 2174 AND hours_per_week <= 92 AND native_country = 'Japan';

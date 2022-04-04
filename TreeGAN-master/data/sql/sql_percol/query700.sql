@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 72.0 AND workclass = 'Without-pay' AND education = 'Bachelors' AND education_num <= 16.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Handlers-cleaners' AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Female' AND capital_loss <= 656.0 AND native_country = 'Yugoslavia';

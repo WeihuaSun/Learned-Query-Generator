@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 57 AND education = 'Assoc-voc' AND marital_status = 'Married-AF-spouse' AND race = 'White' AND capital_gain <= 4101 AND capital_loss <= 2002 AND hours_per_week <= 97 AND native_country = 'United-States';

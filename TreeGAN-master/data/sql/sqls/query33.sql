@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = '?' AND education = '11th' AND education_num <= 8 AND marital_status = 'Separated' AND relationship = 'Wife' AND sex = 'Female' AND capital_gain <= 2580 AND capital_loss <= 1594 AND hours_per_week <= 92 AND native_country = 'Trinadad&Tobago';

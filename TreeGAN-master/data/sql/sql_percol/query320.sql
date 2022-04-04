@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 38.0 AND education = 'Preschool' AND education_num <= 17.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Transport-moving' AND relationship = 'Husband' AND race = 'Black' AND sex = 'Female' AND capital_loss <= 5.0 AND hours_per_week <= 52.0 AND native_country = 'Hong';

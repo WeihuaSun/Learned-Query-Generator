@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Preschool' AND marital_status = 'Married-civ-spouse' AND occupation = 'Tech-support' AND sex = 'Female' AND capital_gain <= 26652.0;

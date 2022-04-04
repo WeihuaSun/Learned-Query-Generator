@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND education_num <= 14.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Armed-Forces' AND relationship = 'Own-child' AND race = 'Amer-Indian-Eskimo' AND hours_per_week <= 80.0;

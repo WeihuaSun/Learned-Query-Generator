@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 45.0 AND workclass = 'Federal-gov' AND education = '11th' AND education_num <= 13.0 AND marital_status = 'Divorced' AND occupation = 'Armed-Forces' AND relationship = 'Husband' AND sex = 'Female' AND capital_gain <= 42181.0 AND capital_loss <= 1921.0 AND hours_per_week <= 63.0;

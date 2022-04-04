@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND education_num <= 14.0 AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND capital_gain <= 24969.0 AND hours_per_week <= 61.0 AND native_country = 'India';

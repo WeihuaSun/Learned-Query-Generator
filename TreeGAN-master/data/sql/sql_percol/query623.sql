@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = '10th' AND marital_status = 'Separated' AND occupation = 'Farming-fishing' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Male' AND capital_loss <= 381.0 AND native_country = 'Cuba';

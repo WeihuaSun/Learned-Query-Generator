@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND education = '11th' AND occupation = 'Other-service' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND capital_gain <= 14029.0 AND hours_per_week <= 87.0 AND native_country = 'Portugal';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = '?' AND education = '1st-4th' AND education_num <= 12 AND marital_status = 'Married-AF-spouse' AND occupation = 'Tech-support' AND relationship = 'Unmarried' AND race = 'White' AND native_country = 'Japan';

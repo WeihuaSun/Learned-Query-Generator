@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 20 AND education_num <= 16 AND occupation = 'Prof-specialty' AND relationship = 'Own-child' AND race = 'White' AND capital_gain <= 14344 AND native_country = 'India';

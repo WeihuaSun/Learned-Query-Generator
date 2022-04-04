@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 33.0 AND workclass = 'Private' AND education_num <= 6.0 AND occupation = 'Handlers-cleaners' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 25656.0 AND capital_loss <= 1760.0 AND hours_per_week <= 41.0 AND native_country = 'Portugal';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 74 AND workclass = '?' AND education = '1st-4th' AND education_num <= 15 AND marital_status = 'Married-AF-spouse' AND occupation = 'Priv-house-serv' AND relationship = 'Other-relative' AND hours_per_week <= 77 AND native_country = 'Yugoslavia';

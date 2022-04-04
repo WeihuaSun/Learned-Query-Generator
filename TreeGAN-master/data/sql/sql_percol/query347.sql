@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Federal-gov' AND education = '11th' AND education_num <= 9.0 AND occupation = 'Tech-support' AND relationship = 'Husband' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND hours_per_week <= 60.0 AND native_country = 'Portugal';

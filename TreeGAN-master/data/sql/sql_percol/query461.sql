@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 38.0 AND workclass = 'Private' AND education = 'Masters' AND education_num <= 15.0 AND marital_status = 'Married-spouse-absent' AND occupation = 'Prof-specialty' AND relationship = 'Husband' AND sex = 'Male' AND capital_gain <= 43122.0 AND capital_loss <= 832.0 AND hours_per_week <= 70.0 AND native_country = 'Portugal';

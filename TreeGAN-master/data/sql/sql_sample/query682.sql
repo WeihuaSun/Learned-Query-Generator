@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 75 AND workclass = 'Local-gov' AND education = 'Doctorate' AND education_num <= 13 AND occupation = 'Other-service' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 9386 AND capital_loss <= 2559 AND hours_per_week <= 85;

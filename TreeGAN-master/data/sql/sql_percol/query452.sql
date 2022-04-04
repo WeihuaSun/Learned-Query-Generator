@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 32.0 AND workclass = 'Local-gov' AND education = 'Preschool' AND education_num <= 13.0 AND marital_status = 'Widowed' AND occupation = 'Transport-moving' AND relationship = 'Other-relative' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 27133.0 AND capital_loss <= 1108.0 AND hours_per_week <= 86.0 AND native_country = 'Taiwan';

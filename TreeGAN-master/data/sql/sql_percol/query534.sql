@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = 'Assoc-acdm' AND education_num <= 15.0 AND marital_status = 'Divorced' AND relationship = 'Other-relative' AND sex = 'Female' AND native_country = 'Yugoslavia';

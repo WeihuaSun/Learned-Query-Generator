@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 43.0 AND workclass = 'Self-emp-inc' AND education_num <= 15.0 AND marital_status = 'Separated' AND relationship = 'Unmarried' AND sex = 'Female' AND capital_gain <= 43391.0 AND hours_per_week <= 64.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education_num <= 16 AND marital_status = 'Never-married' AND sex = 'Female' AND capital_gain <= 4101 AND capital_loss <= 2559 AND hours_per_week <= 97 AND native_country = 'Hungary';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND marital_status = 'Never-married' AND occupation = 'Prof-specialty' AND relationship = 'Unmarried' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 15831 AND native_country = 'Portugal';

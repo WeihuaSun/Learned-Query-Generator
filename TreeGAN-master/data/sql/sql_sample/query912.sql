@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE marital_status = 'Married-AF-spouse' AND occupation = 'Adm-clerical' AND relationship = 'Own-child' AND race = 'Other' AND capital_gain <= 4101 AND native_country = 'Puerto-Rico';

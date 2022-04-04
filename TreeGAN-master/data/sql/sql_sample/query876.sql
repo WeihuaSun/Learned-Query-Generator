@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND education = 'Prof-school' AND education_num <= 13 AND marital_status = 'Married-spouse-absent' AND occupation = 'Adm-clerical' AND relationship = 'Unmarried' AND race = 'Other' AND sex = 'Female' AND hours_per_week <= 85 AND native_country = 'Taiwan';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 75 AND education = 'Doctorate' AND education_num <= 11 AND occupation = 'Craft-repair' AND race = 'Other' AND capital_gain <= 14344 AND capital_loss <= 2002 AND hours_per_week <= 23 AND native_country = 'Taiwan';

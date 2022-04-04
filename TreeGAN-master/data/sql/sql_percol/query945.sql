@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = '7th-8th' AND education_num <= 18.0 AND marital_status = 'Separated' AND occupation = 'Tech-support' AND relationship = 'Husband' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_gain <= 48061.0;

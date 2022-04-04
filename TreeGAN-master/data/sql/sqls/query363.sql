@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 81 AND workclass = 'Self-emp-inc' AND education = '12th' AND education_num <= 7 AND marital_status = 'Married-spouse-absent' AND occupation = '?' AND relationship = 'Not-in-family' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_loss <= 1887 AND hours_per_week <= 67 AND native_country = 'Japan';

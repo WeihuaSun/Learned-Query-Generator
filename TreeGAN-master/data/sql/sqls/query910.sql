@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 73 AND workclass = '?' AND education_num <= 3 AND marital_status = 'Married-spouse-absent' AND occupation = 'Prof-specialty' AND relationship = 'Other-relative' AND capital_gain <= 20051 AND capital_loss <= 1594 AND hours_per_week <= 67 AND native_country = 'Portugal';

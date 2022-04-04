@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = 'Masters' AND education_num <= 17.0 AND marital_status = 'Separated' AND occupation = 'Tech-support' AND relationship = 'Other-relative' AND capital_gain <= 36275.0 AND native_country = 'Columbia';

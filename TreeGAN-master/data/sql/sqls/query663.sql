@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 46 AND education_num <= 3 AND occupation = '?' AND race = 'Black' AND sex = 'Female' AND capital_loss <= 2080 AND hours_per_week <= 77 AND native_country = 'Hong';

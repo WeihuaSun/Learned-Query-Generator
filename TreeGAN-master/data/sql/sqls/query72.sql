@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 73 AND workclass = 'State-gov' AND education = '11th' AND education_num <= 12 AND occupation = 'Prof-specialty' AND relationship = 'Not-in-family' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 6097 AND capital_loss <= 1887 AND hours_per_week <= 41;

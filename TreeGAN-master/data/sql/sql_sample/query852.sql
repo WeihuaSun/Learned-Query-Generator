@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 87 AND education_num <= 10 AND marital_status = 'Married-AF-spouse' AND occupation = '?' AND race = 'White' AND sex = 'Female' AND capital_gain <= 8614 AND capital_loss <= 2129;

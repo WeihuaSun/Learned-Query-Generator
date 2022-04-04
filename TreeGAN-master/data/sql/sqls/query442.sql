@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education = '9th' AND marital_status = 'Separated' AND occupation = '?' AND relationship = 'Not-in-family' AND sex = 'Male' AND capital_gain <= 7298 AND capital_loss <= 2179;

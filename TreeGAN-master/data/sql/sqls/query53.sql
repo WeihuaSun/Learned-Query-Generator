@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = '9th' AND marital_status = 'Widowed' AND occupation = '?' AND relationship = 'Not-in-family' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 15831 AND capital_loss <= 2080 AND hours_per_week <= 67 AND native_country = 'Nicaragua';

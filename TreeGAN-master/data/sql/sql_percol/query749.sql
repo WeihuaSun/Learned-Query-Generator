@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND education = '1st-4th' AND marital_status = 'Widowed' AND occupation = 'Prof-specialty' AND relationship = 'Husband' AND race = 'Other' AND sex = 'Female' AND capital_loss <= 1837.0;

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND education = 'Doctorate' AND education_num <= 11 AND occupation = '?' AND relationship = 'Unmarried' AND sex = 'Male' AND hours_per_week <= 30 AND native_country = 'Puerto-Rico';

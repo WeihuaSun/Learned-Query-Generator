@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = 'Masters' AND education_num <= 11 AND marital_status = 'Never-married' AND occupation = 'Protective-serv' AND relationship = 'Wife' AND race = 'Amer-Indian-Eskimo' AND hours_per_week <= 56 AND native_country = 'Trinadad&Tobago';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 39.0 AND workclass = 'State-gov' AND education_num <= 9.0 AND marital_status = 'Divorced' AND occupation = 'Other-service' AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 41718.0 AND capital_loss <= 1133.0 AND hours_per_week <= 79.0 AND native_country = 'England';

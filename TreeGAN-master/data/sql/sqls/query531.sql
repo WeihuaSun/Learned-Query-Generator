@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 89 AND workclass = 'Self-emp-not-inc' AND education = '11th' AND education_num <= 11 AND marital_status = 'Divorced' AND occupation = 'Prof-specialty' AND relationship = 'Unmarried' AND sex = 'Male' AND capital_gain <= 7978 AND capital_loss <= 3004 AND hours_per_week <= 92 AND native_country = 'Iran';

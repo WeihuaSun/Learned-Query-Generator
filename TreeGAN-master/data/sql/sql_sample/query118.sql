@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 26 AND workclass = 'Never-worked' AND education = 'Assoc-voc' AND education_num <= 11 AND marital_status = 'Never-married' AND occupation = '?' AND relationship = 'Wife' AND race = 'Other' AND sex = 'Female' AND hours_per_week <= 41 AND native_country = 'England';

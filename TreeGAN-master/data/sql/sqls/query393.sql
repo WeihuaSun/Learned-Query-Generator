@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND education = '12th' AND education_num <= 11 AND marital_status = 'Never-married' AND occupation = '?' AND relationship = 'Husband' AND sex = 'Female' AND capital_gain <= 6097 AND capital_loss <= 1944 AND hours_per_week <= 56 AND native_country = 'Yugoslavia';

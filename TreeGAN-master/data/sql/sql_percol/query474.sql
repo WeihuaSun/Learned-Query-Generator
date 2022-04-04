@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 27.0 AND workclass = 'Private' AND education = 'Assoc-acdm' AND education_num <= 11.0 AND marital_status = 'Widowed' AND occupation = 'Exec-managerial' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Male' AND capital_gain <= 14122.0 AND capital_loss <= 2583.0 AND hours_per_week <= 32.0 AND native_country = 'England';

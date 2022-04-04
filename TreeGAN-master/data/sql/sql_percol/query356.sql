@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education_num <= 14.0 AND relationship = 'Unmarried' AND race = 'Asian-Pac-Islander' AND capital_gain <= 23817.0 AND native_country = 'Yugoslavia';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = '5th-6th' AND marital_status = 'Divorced' AND relationship = 'Not-in-family' AND race = 'Other' AND sex = 'Female' AND capital_loss <= 1944 AND native_country = 'Yugoslavia';

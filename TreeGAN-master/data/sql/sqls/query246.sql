@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 89 AND education_num <= 3 AND relationship = 'Unmarried' AND capital_gain <= 6097 AND capital_loss <= 2174 AND hours_per_week <= 42 AND native_country = 'Iran';

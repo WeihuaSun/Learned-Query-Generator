@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = 'Masters' AND marital_status = 'Divorced' AND occupation = 'Handlers-cleaners' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 39418.0 AND capital_loss <= 2109.0 AND native_country = 'Hong';

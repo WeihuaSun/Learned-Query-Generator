@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education_num <= 15.0 AND marital_status = 'Separated' AND occupation = 'Tech-support' AND relationship = 'Unmarried' AND race = 'White' AND sex = 'Male' AND capital_loss <= 1509.0 AND hours_per_week <= 67.0 AND native_country = 'Cuba';

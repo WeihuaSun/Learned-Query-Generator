@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = '7th-8th' AND marital_status = 'Widowed' AND relationship = 'Unmarried' AND race = 'Asian-Pac-Islander' AND capital_gain <= 16995.0 AND hours_per_week <= 75.0 AND native_country = 'Honduras';

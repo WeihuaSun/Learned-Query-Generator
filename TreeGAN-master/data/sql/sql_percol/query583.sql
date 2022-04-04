@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Masters' AND education_num <= 15.0 AND marital_status = 'Divorced' AND occupation = 'Tech-support' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Female' AND native_country = 'India';

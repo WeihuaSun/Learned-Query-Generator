@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 58 AND workclass = 'Never-worked' AND education = 'Assoc-voc' AND education_num <= 5 AND marital_status = 'Never-married' AND occupation = 'Transport-moving' AND relationship = 'Own-child' AND race = 'White' AND sex = 'Male' AND capital_gain <= 9386 AND native_country = 'Cambodia';

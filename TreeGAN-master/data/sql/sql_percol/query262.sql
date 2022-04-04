@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 51.0 AND workclass = 'Local-gov' AND education_num <= 16.0 AND marital_status = 'Divorced' AND occupation = 'Adm-clerical' AND relationship = 'Other-relative' AND race = 'White' AND capital_gain <= 22216.0 AND capital_loss <= 1207.0 AND native_country = 'India';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-not-inc' AND education_num <= 12 AND relationship = 'Husband' AND race = 'White' AND capital_loss <= 1977 AND native_country = 'Trinadad&Tobago';

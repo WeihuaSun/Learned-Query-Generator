@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = 'Masters' AND marital_status = 'Married-civ-spouse' AND occupation = 'Adm-clerical' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND capital_loss <= 1549.0;

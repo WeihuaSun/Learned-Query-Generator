@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 58 AND education = 'Doctorate' AND education_num <= 13 AND relationship = 'Wife' AND race = 'Asian-Pac-Islander' AND hours_per_week <= 85 AND native_country = 'Hong';

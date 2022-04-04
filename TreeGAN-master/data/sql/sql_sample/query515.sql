@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND marital_status = 'Married-civ-spouse' AND occupation = 'Exec-managerial' AND relationship = 'Own-child' AND sex = 'Female' AND capital_loss <= 2129;

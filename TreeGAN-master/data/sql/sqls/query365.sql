@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = '9th' AND education_num <= 11 AND occupation = 'Priv-house-serv' AND relationship = 'Not-in-family' AND race = 'Amer-Indian-Eskimo' AND capital_gain <= 20051 AND capital_loss <= 1944 AND hours_per_week <= 92 AND native_country = 'Portugal';

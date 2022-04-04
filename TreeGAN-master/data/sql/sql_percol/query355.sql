@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 26.0 AND education_num <= 12.0 AND marital_status = 'Divorced' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 21648.0 AND capital_loss <= 181.0 AND hours_per_week <= 41.0;

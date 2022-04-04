@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 46 AND workclass = 'Self-emp-not-inc' AND education = '10th' AND marital_status = 'Married-spouse-absent' AND occupation = '?' AND relationship = 'Not-in-family' AND race = 'White' AND native_country = 'Trinadad&Tobago';

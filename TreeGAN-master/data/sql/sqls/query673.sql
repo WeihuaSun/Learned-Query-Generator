@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 81 AND workclass = 'State-gov' AND occupation = 'Priv-house-serv' AND relationship = 'Unmarried' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 20051 AND hours_per_week <= 92 AND native_country = 'Japan';

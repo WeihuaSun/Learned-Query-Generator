@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 74 AND education_num <= 11 AND marital_status = 'Married-spouse-absent' AND occupation = 'Prof-specialty' AND sex = 'Female' AND capital_gain <= 20051 AND hours_per_week <= 56;

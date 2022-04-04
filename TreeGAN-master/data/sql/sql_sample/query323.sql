@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 41 AND workclass = 'Never-worked' AND education = '7th-8th' AND education_num <= 11 AND marital_status = 'Widowed' AND occupation = 'Transport-moving' AND relationship = 'Unmarried' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 8614 AND capital_loss <= 2129 AND hours_per_week <= 30 AND native_country = 'United-States';

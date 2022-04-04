@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 58 AND workclass = 'Local-gov' AND education = '11th' AND education_num <= 13 AND marital_status = 'Never-married' AND race = 'Other' AND capital_gain <= 14344 AND capital_loss <= 2080 AND hours_per_week <= 23 AND native_country = 'England';

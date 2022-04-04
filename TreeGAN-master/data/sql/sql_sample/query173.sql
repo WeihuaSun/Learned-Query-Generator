@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Without-pay' AND education = 'Doctorate' AND education_num <= 11 AND marital_status = 'Never-married' AND occupation = 'Sales' AND relationship = 'Wife' AND race = 'White' AND native_country = 'Hong';

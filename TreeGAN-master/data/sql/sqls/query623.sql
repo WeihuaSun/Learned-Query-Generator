@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 74 AND workclass = 'Self-emp-not-inc' AND education = '12th' AND education_num <= 11 AND marital_status = 'Married-spouse-absent' AND occupation = 'Craft-repair' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_loss <= 2080 AND hours_per_week <= 77 AND native_country = 'Iran';

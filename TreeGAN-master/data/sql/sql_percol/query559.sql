@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education_num <= 20.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Prof-specialty' AND relationship = 'Own-child' AND capital_gain <= 5664.0 AND capital_loss <= 6.0 AND hours_per_week <= 83.0;

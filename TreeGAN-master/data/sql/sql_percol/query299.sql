@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = 'Preschool' AND occupation = 'Farming-fishing' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Male' AND hours_per_week <= 53.0 AND native_country = 'Hong';

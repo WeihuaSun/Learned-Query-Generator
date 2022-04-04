@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 43.0 AND education = '7th-8th' AND education_num <= 10.0 AND marital_status = 'Divorced' AND occupation = 'Handlers-cleaners' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_loss <= 1750.0 AND native_country = 'Yugoslavia';

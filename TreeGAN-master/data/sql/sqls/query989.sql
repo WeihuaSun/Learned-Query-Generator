@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education_num <= 8 AND marital_status = 'Married-spouse-absent' AND relationship = 'Other-relative' AND race = 'White' AND capital_loss <= 2174 AND hours_per_week <= 13;

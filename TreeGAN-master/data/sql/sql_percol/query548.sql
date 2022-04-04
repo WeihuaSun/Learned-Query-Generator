@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 26.0 AND workclass = 'Never-worked' AND education_num <= 11.0 AND marital_status = 'Divorced' AND relationship = 'Other-relative' AND race = 'White' AND capital_gain <= 26904.0 AND hours_per_week <= 64.0 AND native_country = 'India';

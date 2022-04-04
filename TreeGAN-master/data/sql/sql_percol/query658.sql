@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 69.0 AND education = '11th' AND education_num <= 11.0 AND marital_status = 'Married-AF-spouse' AND relationship = 'Own-child' AND sex = 'Male' AND capital_gain <= 49218.0 AND hours_per_week <= 90.0 AND native_country = 'Columbia';

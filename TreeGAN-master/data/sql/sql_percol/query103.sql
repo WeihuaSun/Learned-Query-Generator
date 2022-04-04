@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 27.0 AND workclass = 'Never-worked' AND education_num <= 15.0 AND marital_status = 'Married-spouse-absent' AND occupation = 'Tech-support' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander';

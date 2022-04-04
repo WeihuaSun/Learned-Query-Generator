@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education_num <= 11 AND marital_status = 'Married-AF-spouse' AND occupation = '?' AND relationship = 'Unmarried' AND race = 'Other' AND sex = 'Male' AND hours_per_week <= 43 AND native_country = 'Iran';

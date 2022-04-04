@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 81 AND education = '9th' AND education_num <= 15 AND marital_status = 'Never-married' AND occupation = 'Tech-support' AND relationship = 'Unmarried' AND race = 'White' AND sex = 'Male' AND capital_loss <= 3004 AND native_country = 'Yugoslavia';

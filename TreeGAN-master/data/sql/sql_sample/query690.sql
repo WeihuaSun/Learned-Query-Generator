@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = '11th' AND education_num <= 11 AND marital_status = 'Never-married' AND occupation = 'Adm-clerical' AND race = 'Black' AND capital_loss <= 2467 AND native_country = 'India';

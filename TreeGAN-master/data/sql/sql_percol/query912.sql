@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education_num <= 15.0 AND marital_status = 'Married-civ-spouse' AND race = 'Amer-Indian-Eskimo' AND capital_gain <= 23954.0 AND capital_loss <= 640.0 AND hours_per_week <= 74.0;

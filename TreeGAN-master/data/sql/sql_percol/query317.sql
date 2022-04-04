@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 43.0 AND workclass = 'Local-gov' AND education = '1st-4th' AND education_num <= 13.0 AND occupation = 'Priv-house-serv' AND capital_loss <= 522.0 AND hours_per_week <= 67.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

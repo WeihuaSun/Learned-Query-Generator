@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = 'Masters' AND education_num <= 18.0 AND marital_status = 'Widowed' AND relationship = 'Own-child' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 3578.0 AND hours_per_week <= 68.0 AND native_country = 'England';

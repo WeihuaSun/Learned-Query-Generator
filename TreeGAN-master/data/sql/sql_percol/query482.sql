@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 45.0 AND workclass = 'Never-worked' AND education = 'Masters' AND education_num <= 18.0 AND marital_status = 'Divorced' AND occupation = 'Tech-support' AND relationship = 'Husband' AND race = 'White' AND sex = 'Female' AND capital_gain <= 13561.0 AND capital_loss <= 1050.0 AND hours_per_week <= 64.0 AND native_country = 'England';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = '1st-4th' AND education_num <= 12 AND marital_status = 'Married-spouse-absent' AND relationship = 'Husband' AND sex = 'Male' AND capital_loss <= 3004 AND native_country = 'Ireland';

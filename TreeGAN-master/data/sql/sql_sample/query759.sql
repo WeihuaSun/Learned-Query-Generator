@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Without-pay' AND education = 'Assoc-acdm' AND occupation = 'Sales' AND relationship = 'Husband' AND race = 'White' AND sex = 'Female' AND hours_per_week <= 85 AND native_country = 'England';

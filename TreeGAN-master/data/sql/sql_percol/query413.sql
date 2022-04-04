@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 54.0 AND workclass = 'Never-worked' AND education = 'Preschool' AND education_num <= 17.0 AND marital_status = 'Widowed' AND occupation = 'Prof-specialty' AND sex = 'Female' AND capital_gain <= 26542.0 AND capital_loss <= 488.0 AND hours_per_week <= 76.0 AND native_country = 'Cuba';

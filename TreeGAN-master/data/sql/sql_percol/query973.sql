@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = '7th-8th' AND education_num <= 14.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Other-service' AND relationship = 'Husband' AND race = 'Black' AND sex = 'Female' AND capital_loss <= 564.0 AND native_country = 'Yugoslavia';

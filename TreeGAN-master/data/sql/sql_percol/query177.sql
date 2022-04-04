@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND education = 'Preschool' AND education_num <= 12.0 AND marital_status = 'Widowed' AND race = 'Asian-Pac-Islander' AND capital_loss <= 96.0 AND hours_per_week <= 73.0;

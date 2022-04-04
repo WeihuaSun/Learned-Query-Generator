@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = '1st-4th' AND education_num <= 12 AND marital_status = 'Married-spouse-absent' AND occupation = 'Prof-specialty' AND relationship = 'Not-in-family' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 7978 AND hours_per_week <= 77 AND native_country = 'Japan';

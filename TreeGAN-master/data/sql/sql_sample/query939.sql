@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 41 AND workclass = 'Never-worked' AND education = 'Prof-school' AND marital_status = 'Widowed' AND occupation = 'Exec-managerial' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 10605 AND capital_loss <= 2002 AND hours_per_week <= 41;

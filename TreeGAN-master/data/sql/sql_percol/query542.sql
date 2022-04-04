@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education_num <= 17.0 AND marital_status = 'Widowed' AND relationship = 'Own-child' AND race = 'Amer-Indian-Eskimo' AND capital_gain <= 23532.0 AND capital_loss <= 121.0 AND hours_per_week <= 77.0 AND native_country = 'Taiwan';

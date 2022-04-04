@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 49 AND education_num <= 15 AND relationship = 'Not-in-family' AND sex = 'Male' AND capital_gain <= 3818 AND hours_per_week <= 77 AND native_country = 'Yugoslavia';

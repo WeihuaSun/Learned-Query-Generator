@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 43 AND workclass = 'Never-worked' AND education = '11th' AND education_num <= 10 AND relationship = 'Own-child' AND race = 'White' AND capital_gain <= 14344 AND capital_loss <= 2129 AND hours_per_week <= 41 AND native_country = 'Poland';

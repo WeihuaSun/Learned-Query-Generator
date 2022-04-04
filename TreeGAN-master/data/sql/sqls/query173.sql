@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = '9th' AND education_num <= 15 AND relationship = 'Other-relative' AND sex = 'Female' AND capital_gain <= 7978 AND capital_loss <= 2179 AND native_country = 'Nicaragua';

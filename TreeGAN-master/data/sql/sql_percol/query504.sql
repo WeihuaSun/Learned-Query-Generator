@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education_num <= 18.0 AND marital_status = 'Separated' AND occupation = 'Farming-fishing' AND relationship = 'Husband' AND race = 'White' AND sex = 'Male' AND capital_gain <= 13986.0;

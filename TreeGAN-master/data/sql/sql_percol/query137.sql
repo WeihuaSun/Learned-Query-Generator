@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 87.0 AND education = 'Some-college' AND relationship = 'Other-relative' AND race = 'Black' AND capital_gain <= 10432.0 AND hours_per_week <= 52.0 AND native_country = 'England';

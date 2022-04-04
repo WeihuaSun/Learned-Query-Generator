@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 73 AND workclass = 'Self-emp-inc' AND education = '11th' AND education_num <= 11 AND marital_status = 'Divorced' AND occupation = '?' AND relationship = 'Wife' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 7978 AND capital_loss <= 1594 AND hours_per_week <= 77 AND native_country = 'Trinadad&Tobago';

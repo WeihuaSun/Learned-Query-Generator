@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 43 AND workclass = 'Private' AND occupation = 'Prof-specialty' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 3818 AND capital_loss <= 3004 AND hours_per_week <= 43;

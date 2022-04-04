@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND education_num <= 8 AND occupation = 'Handlers-cleaners' AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Male' AND native_country = 'Japan';

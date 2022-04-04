@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Private' AND education = 'Assoc-acdm' AND education_num <= 10 AND marital_status = 'Married-civ-spouse' AND occupation = 'Other-service' AND relationship = 'Own-child' AND race = 'Black' AND sex = 'Female' AND native_country = 'England';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 46 AND workclass = 'State-gov' AND education_num <= 12 AND occupation = 'Prof-specialty' AND relationship = 'Unmarried' AND race = 'Other' AND sex = 'Female' AND capital_loss <= 1594 AND hours_per_week <= 32 AND native_country = 'Portugal';

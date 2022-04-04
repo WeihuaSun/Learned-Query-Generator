@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Assoc-acdm' AND education_num <= 11 AND marital_status = 'Widowed' AND occupation = 'Adm-clerical' AND relationship = 'Unmarried' AND race = 'Other' AND sex = 'Female' AND native_country = 'India';

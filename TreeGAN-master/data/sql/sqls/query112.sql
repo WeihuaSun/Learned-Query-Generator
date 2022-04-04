@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education_num <= 7 AND marital_status = 'Married-spouse-absent' AND capital_gain <= 20051 AND capital_loss <= 2174 AND hours_per_week <= 92 AND native_country = 'Ireland';

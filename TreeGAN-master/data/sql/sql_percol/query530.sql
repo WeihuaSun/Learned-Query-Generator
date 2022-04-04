@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 64.0 AND education = 'Preschool' AND marital_status = 'Widowed' AND occupation = 'Other-service' AND relationship = 'Own-child' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 39703.0 AND capital_loss <= 1145.0;

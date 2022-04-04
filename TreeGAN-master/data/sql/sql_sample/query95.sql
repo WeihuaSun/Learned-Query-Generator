@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 57 AND marital_status = 'Married-civ-spouse' AND occupation = '?' AND relationship = 'Unmarried' AND race = 'Amer-Indian-Eskimo' AND capital_gain <= 4101 AND capital_loss <= 2129 AND hours_per_week <= 97;

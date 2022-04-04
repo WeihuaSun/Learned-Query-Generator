@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 73 AND education = '9th' AND education_num <= 15 AND marital_status = 'Married-spouse-absent' AND occupation = 'Prof-specialty' AND relationship = 'Husband' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_loss <= 2080;

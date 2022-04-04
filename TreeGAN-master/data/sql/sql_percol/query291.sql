@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = '10th' AND marital_status = 'Divorced' AND race = 'Asian-Pac-Islander' AND capital_gain <= 40591.0 AND capital_loss <= 1954.0 AND hours_per_week <= 104.0;

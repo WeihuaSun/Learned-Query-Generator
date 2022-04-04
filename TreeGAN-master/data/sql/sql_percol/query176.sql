@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND occupation = 'Prof-specialty' AND relationship = 'Unmarried' AND race = 'Black' AND sex = 'Male' AND hours_per_week <= 85.0 AND native_country = 'Yugoslavia';

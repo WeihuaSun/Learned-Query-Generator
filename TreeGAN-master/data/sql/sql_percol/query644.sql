@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 71.0 AND workclass = 'Local-gov' AND race = 'Black' AND capital_gain <= 3034.0 AND capital_loss <= 98.0 AND hours_per_week <= 42.0 AND native_country = 'Columbia';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 58 AND workclass = 'Local-gov' AND education = 'Prof-school' AND education_num <= 16 AND marital_status = 'Married-spouse-absent' AND relationship = 'Unmarried' AND race = 'White' AND capital_gain <= 10605 AND capital_loss <= 2129 AND native_country = 'Cambodia';

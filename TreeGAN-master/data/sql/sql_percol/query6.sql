@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 76.0 AND workclass = 'Private' AND education = '10th' AND marital_status = 'Divorced' AND occupation = 'Adm-clerical' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_loss <= 2093.0;

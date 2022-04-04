@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 43 AND workclass = 'Never-worked' AND education = 'Assoc-acdm' AND education_num <= 10 AND marital_status = 'Married-AF-spouse' AND occupation = '?' AND relationship = 'Unmarried' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 10605 AND capital_loss <= 2129 AND hours_per_week <= 85 AND native_country = 'Poland';

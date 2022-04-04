@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 80.0 AND marital_status = 'Married-spouse-absent' AND occupation = 'Exec-managerial' AND relationship = 'Husband' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND native_country = 'Cuba';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND education = '7th-8th' AND occupation = 'Craft-repair' AND relationship = 'Wife' AND sex = 'Female' AND capital_gain <= 4101 AND native_country = 'United-States';

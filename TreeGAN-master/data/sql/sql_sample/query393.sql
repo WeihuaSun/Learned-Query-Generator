@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = 'Assoc-acdm' AND education_num <= 10 AND relationship = 'Own-child' AND race = 'Black' AND sex = 'Female' AND capital_gain <= 4101 AND hours_per_week <= 79 AND native_country = 'Hungary';

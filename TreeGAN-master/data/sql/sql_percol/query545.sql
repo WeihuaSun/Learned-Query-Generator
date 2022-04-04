@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = '1st-4th' AND education_num <= 13.0 AND marital_status = 'Separated' AND occupation = 'Handlers-cleaners' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 29706.0 AND hours_per_week <= 59.0 AND native_country = 'Columbia';

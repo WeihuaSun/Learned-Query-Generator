@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND occupation = '?' AND relationship = 'Other-relative' AND race = 'Other' AND sex = 'Female' AND capital_loss <= 2080 AND native_country = 'Trinadad&Tobago';

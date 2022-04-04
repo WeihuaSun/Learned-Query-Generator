@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 26 AND workclass = 'Private' AND education = 'Prof-school' AND education_num <= 13 AND marital_status = 'Married-civ-spouse' AND occupation = 'Adm-clerical' AND relationship = 'Own-child' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_loss <= 2467 AND native_country = 'India';

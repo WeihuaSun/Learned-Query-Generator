@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE marital_status = 'Married-spouse-absent' AND occupation = 'Other-service' AND relationship = 'Other-relative' AND capital_gain <= 41344.0 AND capital_loss <= 184.0 AND hours_per_week <= 47.0 AND native_country = 'Cuba';

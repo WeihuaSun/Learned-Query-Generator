@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Prof-school' AND marital_status = 'Married-AF-spouse' AND occupation = '?' AND relationship = 'Unmarried' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 9386 AND native_country = 'England';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 44.0 AND workclass = 'Local-gov' AND education_num <= 17.0 AND relationship = 'Husband' AND race = 'Other' AND capital_gain <= 17621.0 AND capital_loss <= 494.0 AND hours_per_week <= 75.0 AND native_country = 'India';

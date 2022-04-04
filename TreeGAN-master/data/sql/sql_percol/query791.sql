@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 46.0 AND workclass = 'Local-gov' AND education = '11th' AND education_num <= 18.0 AND occupation = 'Transport-moving' AND sex = 'Male' AND capital_gain <= 19602.0 AND capital_loss <= 756.0 AND hours_per_week <= 46.0 AND native_country = 'England';

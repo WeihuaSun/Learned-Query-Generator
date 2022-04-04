@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 75 AND workclass = 'Without-pay' AND education = 'Assoc-acdm' AND education_num <= 16 AND relationship = 'Own-child' AND sex = 'Female' AND hours_per_week <= 97 AND native_country = 'Poland';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE occupation = 'Exec-managerial' AND relationship = 'Own-child' AND race = 'Black' AND sex = 'Female' AND capital_gain <= 22049.0 AND capital_loss <= 2110.0 AND hours_per_week <= 44.0 AND native_country = 'Columbia';

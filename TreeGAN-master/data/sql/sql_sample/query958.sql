@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 75 AND workclass = 'Never-worked' AND education = 'Assoc-voc' AND marital_status = 'Married-spouse-absent' AND occupation = 'Sales' AND relationship = 'Husband' AND race = 'White' AND sex = 'Female' AND capital_gain <= 4101 AND hours_per_week <= 79 AND native_country = 'Hungary';

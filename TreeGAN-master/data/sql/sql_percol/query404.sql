@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND education = '10th' AND marital_status = 'Widowed' AND occupation = 'Tech-support' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_gain <= 32568.0 AND hours_per_week <= 69.0;

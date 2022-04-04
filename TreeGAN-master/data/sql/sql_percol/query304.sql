@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education = 'Bachelors' AND marital_status = 'Widowed' AND occupation = 'Armed-Forces' AND relationship = 'Own-child' AND race = 'White' AND sex = 'Male' AND capital_gain <= 29389.0 AND hours_per_week <= 42.0 AND native_country = 'Yugoslavia';

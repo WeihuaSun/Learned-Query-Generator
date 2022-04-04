@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 55.0 AND workclass = 'Without-pay' AND education = 'Bachelors' AND marital_status = 'Divorced' AND relationship = 'Unmarried' AND race = 'Black' AND sex = 'Male';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 65.0 AND workclass = 'Without-pay' AND education_num <= 17.0 AND occupation = 'Exec-managerial' AND relationship = 'Other-relative' AND capital_loss <= 1832.0 AND hours_per_week <= 85.0;

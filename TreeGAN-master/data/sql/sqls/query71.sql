@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = '10th' AND education_num <= 7 AND marital_status = 'Divorced' AND relationship = 'Not-in-family' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 20051 AND capital_loss <= 1887 AND native_country = 'Portugal';

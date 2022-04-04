@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Without-pay' AND education = 'Assoc-acdm' AND marital_status = 'Widowed' AND relationship = 'Other-relative' AND race = 'Other' AND capital_loss <= 1876.0 AND native_country = 'Portugal';

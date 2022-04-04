@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 49 AND workclass = 'Local-gov' AND education = '12th' AND education_num <= 8 AND marital_status = 'Married-spouse-absent' AND occupation = 'Handlers-cleaners' AND relationship = 'Wife' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 3818 AND capital_loss <= 2179 AND native_country = 'Jamaica';

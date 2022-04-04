@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 47 AND workclass = 'Private' AND education = '11th' AND education_num <= 11 AND marital_status = 'Divorced' AND relationship = 'Unmarried' AND sex = 'Male' AND capital_gain <= 20051 AND capital_loss <= 1977 AND hours_per_week <= 92 AND native_country = 'Trinadad&Tobago';

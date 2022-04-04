@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND marital_status = 'Married-spouse-absent' AND occupation = 'Protective-serv' AND relationship = 'Unmarried' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 15831 AND capital_loss <= 2080 AND native_country = 'Japan';

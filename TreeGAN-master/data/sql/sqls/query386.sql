@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 73 AND workclass = 'Self-emp-inc' AND education = 'Masters' AND marital_status = 'Separated' AND occupation = 'Protective-serv' AND relationship = 'Wife' AND race = 'Other' AND sex = 'Female' AND capital_loss <= 2179 AND native_country = 'Ireland';

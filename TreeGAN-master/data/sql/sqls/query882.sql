@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 81 AND workclass = 'State-gov' AND marital_status = 'Divorced' AND relationship = 'Other-relative' AND capital_gain <= 3887 AND capital_loss <= 3004 AND hours_per_week <= 56 AND native_country = 'Ireland';

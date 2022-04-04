@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 78.0 AND education_num <= 15.0 AND occupation = 'Exec-managerial' AND sex = 'Male' AND capital_gain <= 15633.0 AND capital_loss <= 56.0 AND hours_per_week <= 86.0 AND native_country = 'Hong';

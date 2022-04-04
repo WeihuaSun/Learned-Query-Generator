@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 20 AND workclass = 'Without-pay' AND education = 'Assoc-voc' AND education_num <= 13 AND marital_status = 'Married-AF-spouse' AND occupation = 'Adm-clerical' AND relationship = 'Unmarried' AND race = 'Black' AND sex = 'Female' AND capital_gain <= 8614 AND capital_loss <= 2080 AND hours_per_week <= 79 AND native_country = 'El-Salvador';

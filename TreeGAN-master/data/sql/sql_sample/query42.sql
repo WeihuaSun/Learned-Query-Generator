@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE workclass = 'Without-pay' AND education = 'Assoc-acdm' AND education_num <= 16 AND marital_status = 'Married-spouse-absent' AND occupation = '?' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_loss <= 2559 AND hours_per_week <= 79 AND native_country = 'India';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 64.0 AND workclass = 'State-gov' AND education_num <= 19.0 AND relationship = 'Other-relative' AND race = 'White' AND capital_gain <= 1435.0 AND capital_loss <= 1764.0 AND hours_per_week <= 74.0 AND native_country = 'Hong';

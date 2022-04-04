@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 26 AND education = '7th-8th' AND marital_status = 'Married-civ-spouse' AND relationship = 'Unmarried' AND race = 'White' AND sex = 'Female' AND capital_loss <= 2051 AND hours_per_week <= 79;

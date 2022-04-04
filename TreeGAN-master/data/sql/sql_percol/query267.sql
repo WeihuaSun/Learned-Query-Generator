@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE education_num <= 13.0 AND marital_status = 'Widowed' AND occupation = 'Other-service' AND race = 'Asian-Pac-Islander' AND capital_gain <= 50663.0 AND hours_per_week <= 59.0;

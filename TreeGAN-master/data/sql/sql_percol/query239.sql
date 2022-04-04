@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 86.0 AND workclass = 'Without-pay' AND education = 'Some-college' AND marital_status = 'Separated' AND occupation = 'Other-service' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND hours_per_week <= 104.0 AND native_country = 'Taiwan';

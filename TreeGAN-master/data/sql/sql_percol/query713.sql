@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM census WHERE age <= 65.0 AND workclass = 'Local-gov' AND education_num <= 18.0 AND occupation = 'Adm-clerical' AND relationship = 'Unmarried' AND sex = 'Male' AND capital_loss <= 2035.0 AND native_country = 'Portugal';
