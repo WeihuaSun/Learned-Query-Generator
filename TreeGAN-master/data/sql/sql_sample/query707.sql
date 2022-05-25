@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 57 AND workclass = 'Never-worked' AND education = 'Prof-school' AND education_num <= 16 AND marital_status = 'Married-AF-spouse' AND occupation = 'Other-service' AND relationship = 'Husband' AND capital_gain <= 3818 AND capital_loss <= 2057 AND hours_per_week <= 85 AND native_country = 'El-Salvador';

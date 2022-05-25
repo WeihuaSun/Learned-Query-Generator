@@ -1,0 +1,1 @@
+[t,mi_idx][t.id=mi_idx.movie_id][(t.production_year=1995)(mi_idx.info_type_id>113)]

@@ -1,0 +1,1 @@
+[t,mi,mk,mc][t.id=mk.movie_id,t.id=mc.movie_id,t.id=mi.movie_id][(t.production_year>1950,t.production_year<2000)()(mk.keyword_id=398)(mc.company_type_id=2)]

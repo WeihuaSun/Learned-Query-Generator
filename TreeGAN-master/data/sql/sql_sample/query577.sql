@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 58 AND workclass = 'Private' AND education = 'Assoc-voc' AND marital_status = 'Never-married' AND occupation = 'Adm-clerical' AND relationship = 'Wife' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND hours_per_week <= 79 AND native_country = 'Puerto-Rico';

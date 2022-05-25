@@ -1,0 +1,1 @@
+[mk,mc,ci][mk.movie_id=mc.movie_id,mc.movie_id=ci.movie_id][()(mc.company_type_id>2)(ci.role_id>4ci.role_id<4)]

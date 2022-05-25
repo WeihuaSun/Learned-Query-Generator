@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 93.0 AND education_num <= 13.0 AND marital_status = 'Divorced' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_loss <= 629.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

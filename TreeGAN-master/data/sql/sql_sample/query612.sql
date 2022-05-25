@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND education = 'Doctorate' AND marital_status = 'Married-AF-spouse' AND occupation = 'Sales' AND relationship = 'Own-child' AND sex = 'Female' AND capital_loss <= 2057 AND hours_per_week <= 85 AND native_country = 'El-Salvador';

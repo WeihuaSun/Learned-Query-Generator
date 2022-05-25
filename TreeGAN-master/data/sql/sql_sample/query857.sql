@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = 'Assoc-voc' AND education_num <= 16 AND marital_status = 'Never-married' AND occupation = 'Sales' AND relationship = 'Own-child' AND sex = 'Female' AND capital_loss <= 2467;

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 58 AND education = 'Assoc-voc' AND education_num <= 16 AND occupation = 'Other-service' AND relationship = 'Not-in-family' AND race = 'White' AND capital_gain <= 8614 AND capital_loss <= 2467 AND hours_per_week <= 85 AND native_country = 'El-Salvador';

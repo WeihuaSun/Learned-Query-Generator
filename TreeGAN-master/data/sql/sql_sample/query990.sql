@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND education = 'Prof-school' AND education_num <= 16 AND marital_status = 'Widowed' AND occupation = 'Sales' AND sex = 'Female' AND hours_per_week <= 85;

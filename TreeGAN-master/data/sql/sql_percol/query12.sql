@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 53.0 AND workclass = 'Local-gov' AND education_num <= 14.0 AND marital_status = 'Divorced' AND occupation = 'Farming-fishing' AND relationship = 'Husband' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_gain <= 44453.0 AND capital_loss <= 858.0;

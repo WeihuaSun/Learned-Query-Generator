@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND occupation = 'Farming-fishing' AND relationship = 'Own-child' AND race = 'White' AND capital_gain <= 43690.0 AND capital_loss <= 1567.0 AND hours_per_week <= 54.0 AND native_country = 'Honduras';

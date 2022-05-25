@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education_num <= 19.0 AND marital_status = 'Separated' AND occupation = 'Other-service' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_loss <= 1135.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

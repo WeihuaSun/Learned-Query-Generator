@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 40.0 AND workclass = 'Local-gov' AND education_num <= 14.0 AND occupation = 'Armed-Forces' AND relationship = 'Husband' AND race = 'White' AND capital_gain <= 43813.0 AND hours_per_week <= 71.0 AND native_country = 'Hong';

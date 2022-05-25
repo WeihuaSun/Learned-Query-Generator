@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 61.0 AND workclass = 'Self-emp-inc' AND education_num <= 20.0 AND marital_status = 'Divorced' AND occupation = 'Armed-Forces' AND relationship = 'Other-relative' AND capital_gain <= 18438.0 AND capital_loss <= 711.0 AND hours_per_week <= 64.0 AND native_country = 'Taiwan';

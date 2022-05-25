@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 58.0 AND workclass = 'Local-gov' AND education = '1st-4th' AND education_num <= 14.0 AND marital_status = 'Married-spouse-absent' AND occupation = 'Exec-managerial' AND relationship = 'Own-child' AND capital_gain <= 15212.0 AND capital_loss <= 1450.0 AND hours_per_week <= 41.0 AND native_country = 'Yugoslavia';

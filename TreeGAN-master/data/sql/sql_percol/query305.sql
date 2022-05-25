@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 49.0 AND workclass = 'State-gov' AND education = 'Some-college' AND marital_status = 'Widowed' AND occupation = 'Armed-Forces' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 35702.0 AND capital_loss <= 600.0;

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 71.0 AND workclass = 'Self-emp-inc' AND education = '10th' AND education_num <= 21.0 AND marital_status = 'Widowed' AND occupation = 'Adm-clerical' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 1677.0 AND hours_per_week <= 71.0 AND native_country = 'Honduras';

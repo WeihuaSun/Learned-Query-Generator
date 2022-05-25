@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND marital_status = 'Married-spouse-absent' AND occupation = 'Transport-moving' AND relationship = 'Wife' AND sex = 'Female' AND capital_gain <= 8614 AND capital_loss <= 2051 AND native_country = 'Puerto-Rico';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 47.0 AND workclass = 'Private' AND education = 'Assoc-acdm' AND education_num <= 14.0 AND relationship = 'Unmarried' AND sex = 'Female' AND capital_gain <= 13702.0 AND capital_loss <= 1370.0 AND hours_per_week <= 84.0 AND native_country = 'Hong';

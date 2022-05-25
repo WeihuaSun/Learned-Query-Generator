@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education = 'Assoc-acdm' AND marital_status = 'Married-AF-spouse' AND occupation = 'Handlers-cleaners' AND relationship = 'Husband' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_loss <= 1910.0 AND hours_per_week <= 60.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

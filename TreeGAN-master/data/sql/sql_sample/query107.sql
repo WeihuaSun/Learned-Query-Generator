@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 58 AND workclass = 'Local-gov' AND marital_status = 'Widowed' AND relationship = 'Own-child' AND capital_loss <= 2129 AND hours_per_week <= 68 AND native_country = 'England';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 57 AND workclass = 'Without-pay' AND education_num <= 11 AND marital_status = 'Widowed' AND occupation = 'Adm-clerical' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_loss <= 2080 AND hours_per_week <= 79 AND native_country = 'Taiwan';

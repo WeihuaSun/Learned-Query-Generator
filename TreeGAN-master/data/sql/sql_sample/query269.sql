@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 57 AND workclass = 'Local-gov' AND occupation = 'Exec-managerial' AND relationship = 'Not-in-family' AND race = 'White' AND sex = 'Female' AND capital_gain <= 9386 AND native_country = 'Cambodia';

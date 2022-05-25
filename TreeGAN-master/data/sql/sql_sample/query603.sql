@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 87 AND education = 'Assoc-acdm' AND marital_status = 'Widowed' AND occupation = 'Transport-moving' AND race = 'Other' AND capital_gain <= 10605 AND capital_loss <= 2080;

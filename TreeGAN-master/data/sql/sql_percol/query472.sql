@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = 'Masters' AND education_num <= 11.0 AND occupation = 'Transport-moving' AND race = 'White' AND sex = 'Male' AND capital_gain <= 24819.0 AND native_country = 'Portugal';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 86.0 AND workclass = 'State-gov' AND education = '10th' AND education_num <= 11.0 AND occupation = 'Handlers-cleaners' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Female' AND capital_gain <= 27688.0 AND capital_loss <= 293.0;

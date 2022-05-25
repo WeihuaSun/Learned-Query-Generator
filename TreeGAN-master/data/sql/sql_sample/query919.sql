@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 75 AND workclass = 'Private' AND education = 'Assoc-acdm' AND education_num <= 13 AND occupation = '?' AND relationship = 'Unmarried' AND sex = 'Female' AND capital_loss <= 2129 AND hours_per_week <= 23 AND native_country = 'United-States';

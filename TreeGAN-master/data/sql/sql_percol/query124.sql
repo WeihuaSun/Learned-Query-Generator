@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 55.0 AND workclass = 'Self-emp-inc' AND marital_status = 'Married-civ-spouse' AND relationship = 'Other-relative' AND race = 'White' AND capital_gain <= 42474.0 AND hours_per_week <= 85.0 AND native_country = 'Hong';

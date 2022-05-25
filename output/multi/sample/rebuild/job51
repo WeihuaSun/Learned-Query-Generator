@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM movie_companies mc WHERE  AND mc.company_type_id>2;

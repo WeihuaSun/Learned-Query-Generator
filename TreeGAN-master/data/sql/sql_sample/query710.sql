@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 75 AND education = 'Prof-school' AND education_num <= 13 AND occupation = 'Prof-specialty' AND race = 'White' AND capital_gain <= 5060 AND hours_per_week <= 17;

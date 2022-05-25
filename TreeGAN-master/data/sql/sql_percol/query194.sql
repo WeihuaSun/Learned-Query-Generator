@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = 'Assoc-acdm' AND education_num <= 10.0 AND marital_status = 'Divorced' AND occupation = 'Exec-managerial' AND relationship = 'Husband' AND capital_loss <= 1620.0;

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 58 AND education = 'Assoc-acdm' AND education_num <= 10 AND marital_status = 'Married-AF-spouse' AND capital_gain <= 9386 AND capital_loss <= 1876 AND hours_per_week <= 41;

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND marital_status = 'Married-civ-spouse' AND occupation = 'Priv-house-serv' AND relationship = 'Own-child' AND sex = 'Male' AND capital_gain <= 49812.0 AND capital_loss <= 1269.0;

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 75 AND workclass = 'Local-gov' AND education = 'Prof-school' AND education_num <= 13 AND marital_status = 'Married-AF-spouse' AND occupation = 'Adm-clerical' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_gain <= 9386 AND capital_loss <= 2467 AND hours_per_week <= 41;

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 57 AND workclass = 'Private' AND education_num <= 16 AND relationship = 'Own-child' AND capital_loss <= 2057 AND hours_per_week <= 41 AND native_country = 'Puerto-Rico';

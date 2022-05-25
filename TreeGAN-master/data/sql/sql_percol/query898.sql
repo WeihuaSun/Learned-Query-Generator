@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education_num <= 17.0 AND marital_status = 'Widowed' AND relationship = 'Husband' AND race = 'White' AND hours_per_week <= 74.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

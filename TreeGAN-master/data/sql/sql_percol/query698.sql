@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 85.0 AND workclass = 'Local-gov' AND education = '11th' AND education_num <= 11.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Priv-house-serv' AND capital_gain <= 23243.0;

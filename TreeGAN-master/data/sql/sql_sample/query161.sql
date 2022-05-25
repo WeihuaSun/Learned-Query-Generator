@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Prof-school' AND education_num <= 10 AND marital_status = 'Never-married' AND occupation = '?' AND relationship = 'Not-in-family' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 2977 AND capital_loss <= 2559 AND hours_per_week <= 97 AND native_country = 'India';

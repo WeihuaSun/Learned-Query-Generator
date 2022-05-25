@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 58 AND workclass = 'Never-worked' AND education = '11th' AND marital_status = 'Married-AF-spouse' AND occupation = 'Prof-specialty' AND relationship = 'Unmarried' AND race = 'Black' AND sex = 'Female' AND capital_loss <= 2467 AND native_country = 'Poland';

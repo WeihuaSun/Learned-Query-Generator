@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 58 AND workclass = 'Never-worked' AND education = 'Prof-school' AND education_num <= 10 AND marital_status = 'Married-AF-spouse' AND relationship = 'Unmarried' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 4101 AND native_country = 'England';

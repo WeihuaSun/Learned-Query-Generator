@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 45.0 AND workclass = 'Local-gov' AND education = '7th-8th' AND marital_status = 'Separated' AND occupation = 'Farming-fishing' AND relationship = 'Husband' AND sex = 'Female' AND hours_per_week <= 86.0 AND native_country = 'England';

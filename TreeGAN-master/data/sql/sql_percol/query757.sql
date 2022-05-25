@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Preschool' AND marital_status = 'Married-civ-spouse' AND occupation = 'Priv-house-serv' AND race = 'White' AND capital_loss <= 94.0 AND native_country = 'Hong';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 41 AND education_num <= 13 AND occupation = 'Adm-clerical' AND relationship = 'Own-child' AND sex = 'Female' AND capital_gain <= 3818 AND capital_loss <= 2129 AND hours_per_week <= 85 AND native_country = 'Hungary';

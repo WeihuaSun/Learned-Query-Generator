@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = '10th' AND marital_status = 'Separated' AND occupation = 'Adm-clerical' AND race = 'Amer-Indian-Eskimo' AND capital_loss <= 331.0;

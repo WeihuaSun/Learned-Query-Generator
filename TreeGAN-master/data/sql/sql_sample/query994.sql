@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 26 AND workclass = 'Without-pay' AND education_num <= 13 AND relationship = 'Not-in-family' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 5060 AND capital_loss <= 2467 AND hours_per_week <= 13;

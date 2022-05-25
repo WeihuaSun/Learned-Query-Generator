@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = 'Assoc-voc' AND marital_status = 'Never-married' AND occupation = 'Prof-specialty' AND race = 'White' AND sex = 'Female' AND capital_loss <= 2129 AND native_country = 'England';

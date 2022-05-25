@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Some-college' AND marital_status = 'Married-AF-spouse' AND occupation = 'Transport-moving' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_loss <= 1961.0 AND native_country = 'Yugoslavia';

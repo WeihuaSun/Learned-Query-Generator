@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 49.0 AND workclass = 'Federal-gov' AND education = '10th' AND education_num <= 7.0 AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_loss <= 1500.0 AND hours_per_week <= 32.0 AND native_country = 'Cuba';

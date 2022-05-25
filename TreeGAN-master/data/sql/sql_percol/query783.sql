@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 41.0 AND workclass = 'State-gov' AND education_num <= 17.0 AND marital_status = 'Married-AF-spouse' AND relationship = 'Unmarried' AND race = 'White' AND sex = 'Female' AND capital_gain <= 996.0 AND capital_loss <= 1230.0 AND hours_per_week <= 54.0 AND native_country = 'Honduras';

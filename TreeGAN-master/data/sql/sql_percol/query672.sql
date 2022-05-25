@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = '10th' AND marital_status = 'Married-AF-spouse' AND occupation = 'Tech-support' AND relationship = 'Unmarried' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_loss <= 3898.0 AND native_country = 'Columbia';

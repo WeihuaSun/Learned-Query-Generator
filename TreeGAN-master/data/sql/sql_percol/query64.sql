@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 62.0 AND workclass = 'Self-emp-inc' AND education = '1st-4th' AND marital_status = 'Married-spouse-absent' AND occupation = 'Farming-fishing' AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 20057.0 AND hours_per_week <= 49.0 AND native_country = 'Cuba';

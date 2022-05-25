@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 30.0 AND workclass = 'State-gov' AND education = 'Preschool' AND marital_status = 'Married-civ-spouse' AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 30912.0 AND capital_loss <= 1425.0 AND hours_per_week <= 42.0;

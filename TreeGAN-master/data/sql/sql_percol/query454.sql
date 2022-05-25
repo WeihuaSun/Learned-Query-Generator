@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 94.0 AND workclass = 'Local-gov' AND education = '11th' AND education_num <= 22.0 AND marital_status = 'Divorced' AND occupation = 'Transport-moving' AND relationship = 'Husband' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 25943.0 AND capital_loss <= 1340.0 AND hours_per_week <= 20.0 AND native_country = 'Cuba';

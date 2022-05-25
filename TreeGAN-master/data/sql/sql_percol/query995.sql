@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 44.0 AND workclass = 'Private' AND education = '11th' AND marital_status = 'Divorced' AND relationship = 'Unmarried' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 9496.0 AND hours_per_week <= 35.0 AND native_country = 'India';

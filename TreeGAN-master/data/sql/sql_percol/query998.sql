@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 59.0 AND workclass = 'Federal-gov' AND education = 'Bachelors' AND education_num <= 10.0 AND marital_status = 'Married-AF-spouse' AND occupation = 'Adm-clerical' AND capital_gain <= 19197.0 AND capital_loss <= 783.0 AND hours_per_week <= 62.0 AND native_country = 'Cuba';

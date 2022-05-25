@@ -1,0 +1,1 @@
+[t,mk,mc,ci][t.id=ci.movie_id,t.id=mk.movie_id,t.id=mc.movie_id][()(mk.keyword_id=117)()()]

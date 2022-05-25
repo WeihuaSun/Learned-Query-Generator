@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 29.0 AND workclass = 'Private' AND occupation = 'Tech-support' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND capital_loss <= 1118.0 AND native_country = 'India';

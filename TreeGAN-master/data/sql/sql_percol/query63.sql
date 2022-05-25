@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 70.0 AND workclass = 'Private' AND education = 'Bachelors' AND education_num <= 11.0 AND marital_status = 'Separated' AND occupation = 'Armed-Forces' AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Male' AND capital_loss <= 677.0 AND native_country = 'Yugoslavia';

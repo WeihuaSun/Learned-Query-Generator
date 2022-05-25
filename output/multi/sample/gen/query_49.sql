@@ -1,0 +1,1 @@
+[mk,mi_idx][mk.movie_id=mi_idx.movie_id][()(mi_idx.info_type_id!=113)]

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 63.0 AND workclass = 'Local-gov' AND education = 'Bachelors' AND occupation = 'Priv-house-serv' AND relationship = 'Other-relative' AND sex = 'Female' AND hours_per_week <= 58.0 AND native_country = 'Yugoslavia';

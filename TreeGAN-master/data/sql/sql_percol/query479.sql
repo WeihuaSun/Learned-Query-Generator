@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 41.0 AND workclass = 'Federal-gov' AND education = 'Bachelors' AND education_num <= 13.0 AND marital_status = 'Divorced' AND occupation = 'Armed-Forces' AND relationship = 'Own-child' AND race = 'Other' AND sex = 'Male' AND hours_per_week <= 67.0 AND native_country = 'Hong';

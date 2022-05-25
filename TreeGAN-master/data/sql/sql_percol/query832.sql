@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Bachelors' AND education_num <= 16.0 AND marital_status = 'Divorced' AND occupation = 'Farming-fishing' AND relationship = 'Husband' AND hours_per_week <= 74.0 AND native_country = 'Columbia';

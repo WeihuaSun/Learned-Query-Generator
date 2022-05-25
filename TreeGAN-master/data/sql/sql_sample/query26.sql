@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Never-worked' AND education = 'Assoc-voc' AND education_num <= 13 AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 10605 AND hours_per_week <= 30;

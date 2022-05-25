@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 43 AND workclass = 'Never-worked' AND education = 'Doctorate' AND education_num <= 10 AND occupation = 'Exec-managerial' AND race = 'Other' AND capital_gain <= 9386 AND capital_loss <= 2467 AND native_country = 'El-Salvador';

@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM cast_info ci WHERE  AND ci.role_id>2 AND ci.role_id<4;

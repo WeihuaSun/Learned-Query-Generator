@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 43.0 AND workclass = 'State-gov' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Female' AND capital_gain <= 15997.0 AND hours_per_week <= 85.0 AND native_country = 'Columbia';

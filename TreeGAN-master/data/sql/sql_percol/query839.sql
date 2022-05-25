@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education_num <= 17.0 AND marital_status = 'Separated' AND occupation = 'Prof-specialty' AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 13531.0 AND capital_loss <= 1621.0 AND native_country = 'Yugoslavia';

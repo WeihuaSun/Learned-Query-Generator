@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 57.0 AND workclass = 'Self-emp-inc' AND education = '7th-8th' AND relationship = 'Other-relative' AND race = 'Black' AND capital_gain <= 36980.0 AND hours_per_week <= 79.0 AND native_country = 'England';

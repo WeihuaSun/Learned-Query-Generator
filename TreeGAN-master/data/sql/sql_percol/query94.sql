@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND marital_status = 'Widowed' AND occupation = 'Transport-moving' AND relationship = 'Own-child' AND race = 'Black' AND sex = 'Female' AND capital_gain <= 46475.0 AND hours_per_week <= 65.0 AND native_country = 'Yugoslavia';

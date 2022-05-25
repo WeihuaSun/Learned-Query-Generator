@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 75 AND workclass = 'Private' AND education = '7th-8th' AND education_num <= 10 AND occupation = '?' AND race = 'White' AND capital_gain <= 9386 AND capital_loss <= 2129 AND hours_per_week <= 23 AND native_country = 'Hungary';

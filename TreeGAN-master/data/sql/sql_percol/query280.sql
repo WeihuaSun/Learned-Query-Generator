@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education_num <= 17.0 AND marital_status = 'Widowed' AND race = 'Asian-Pac-Islander' AND capital_gain <= 34990.0 AND capital_loss <= 922.0 AND hours_per_week <= 70.0;

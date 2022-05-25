@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = '10th' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Female' AND capital_gain <= 22248.0 AND hours_per_week <= 68.0 AND native_country = 'Portugal';

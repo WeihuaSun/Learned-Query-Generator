@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = '11th' AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 7984.0 AND hours_per_week <= 51.0 AND native_country = 'India';

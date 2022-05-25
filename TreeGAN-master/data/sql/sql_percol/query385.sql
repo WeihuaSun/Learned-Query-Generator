@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Bachelors' AND education_num <= 15.0 AND marital_status = 'Married-spouse-absent' AND occupation = 'Handlers-cleaners' AND race = 'Black' AND sex = 'Female' AND capital_gain <= 38202.0 AND capital_loss <= 1731.0 AND hours_per_week <= 78.0 AND native_country = 'Hong';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 49.0 AND workclass = 'Without-pay' AND marital_status = 'Married-spouse-absent' AND occupation = 'Other-service' AND race = 'White' AND sex = 'Male' AND hours_per_week <= 55.0 AND native_country = 'Hong';

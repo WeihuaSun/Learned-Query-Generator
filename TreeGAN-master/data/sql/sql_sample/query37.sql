@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 75 AND workclass = 'Private' AND education = 'Doctorate' AND education_num <= 8 AND marital_status = 'Married-civ-spouse' AND occupation = '?' AND relationship = 'Wife' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 3818 AND capital_loss <= 2080 AND hours_per_week <= 23 AND native_country = 'Puerto-Rico';

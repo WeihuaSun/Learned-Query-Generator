@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 87 AND education_num <= 10 AND marital_status = 'Married-civ-spouse' AND occupation = 'Craft-repair' AND relationship = 'Husband' AND capital_loss <= 2129 AND native_country = 'El-Salvador';

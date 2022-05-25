@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 40.0 AND workclass = 'Private' AND education = '10th' AND marital_status = 'Separated' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND native_country = 'Portugal';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 57 AND education_num <= 13 AND relationship = 'Husband' AND race = 'Asian-Pac-Islander' AND capital_gain <= 5060 AND capital_loss <= 2559 AND hours_per_week <= 79 AND native_country = 'Hungary';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 50.0 AND workclass = 'State-gov' AND education = '1st-4th' AND occupation = 'Armed-Forces' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_gain <= 13945.0 AND native_country = 'India';

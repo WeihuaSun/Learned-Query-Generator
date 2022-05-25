@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Federal-gov' AND education = '7th-8th' AND education_num <= 15.0 AND marital_status = 'Separated' AND occupation = 'Prof-specialty' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 24116.0 AND capital_loss <= 65.0 AND hours_per_week <= 60.0 AND native_country = 'Portugal';

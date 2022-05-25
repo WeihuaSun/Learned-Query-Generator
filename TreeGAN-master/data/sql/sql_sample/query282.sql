@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = 'Assoc-acdm' AND education_num <= 10 AND marital_status = 'Married-civ-spouse' AND occupation = 'Prof-specialty' AND race = 'Other' AND sex = 'Female' AND native_country = 'Hungary';

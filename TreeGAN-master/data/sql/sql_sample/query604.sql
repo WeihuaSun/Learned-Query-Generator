@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = '7th-8th' AND education_num <= 5 AND occupation = '?' AND relationship = 'Not-in-family' AND capital_loss <= 1974 AND native_country = 'Taiwan';

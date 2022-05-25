@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 41 AND marital_status = 'Married-AF-spouse' AND occupation = 'Other-service' AND relationship = 'Wife' AND sex = 'Male' AND capital_loss <= 2129 AND hours_per_week <= 30 AND native_country = 'England';

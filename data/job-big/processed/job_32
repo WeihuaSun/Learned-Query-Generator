@@ -1,0 +1,1 @@
+[t,mk,mc][t.id=mk.movie_id,t.id=mc.movie_id][()(mk.keyword_id=398)(mc.company_type_id=2)]

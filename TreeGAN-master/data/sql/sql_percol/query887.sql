@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 48.0 AND workclass = 'Private' AND education_num <= 9.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Handlers-cleaners' AND race = 'White' AND sex = 'Male' AND capital_gain <= 31061.0 AND hours_per_week <= 54.0;

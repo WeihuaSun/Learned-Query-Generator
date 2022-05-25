@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = '7th-8th' AND marital_status = 'Separated' AND race = 'Other' AND sex = 'Female' AND capital_loss <= 919.0 AND native_country = 'Hong';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Preschool' AND marital_status = 'Divorced' AND relationship = 'Unmarried' AND race = 'Amer-Indian-Eskimo' AND capital_gain <= 18776.0 AND hours_per_week <= 60.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

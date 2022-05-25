@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education_num <= 6.0 AND marital_status = 'Married-spouse-absent' AND occupation = 'Armed-Forces' AND relationship = 'Husband' AND sex = 'Female' AND capital_gain <= 41026.0 AND hours_per_week <= 86.0 AND native_country = 'England';

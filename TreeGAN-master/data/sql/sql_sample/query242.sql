@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Doctorate' AND occupation = 'Exec-managerial' AND relationship = 'Not-in-family' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 10605 AND capital_loss <= 2467 AND native_country = 'Hong';

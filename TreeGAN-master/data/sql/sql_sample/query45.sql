@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND education = 'Doctorate' AND education_num <= 11 AND capital_gain <= 10605 AND capital_loss <= 2129 AND hours_per_week <= 85 AND native_country = 'Cambodia';

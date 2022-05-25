@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 64.0 AND education = 'Assoc-acdm' AND education_num <= 16.0 AND occupation = 'Other-service' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND capital_loss <= 144.0 AND hours_per_week <= 112.0;

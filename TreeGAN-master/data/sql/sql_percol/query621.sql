@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 69.0 AND workclass = 'Without-pay' AND education = '10th' AND marital_status = 'Divorced' AND relationship = 'Husband' AND sex = 'Female' AND native_country = 'England';

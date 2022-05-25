@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 45.0 AND workclass = 'Self-emp-inc' AND marital_status = 'Married-AF-spouse' AND occupation = 'Handlers-cleaners' AND relationship = 'Husband' AND race = 'Black' AND sex = 'Female' AND hours_per_week <= 81.0;

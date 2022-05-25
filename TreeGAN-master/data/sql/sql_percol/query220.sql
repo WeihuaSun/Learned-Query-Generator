@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 81.0 AND workclass = 'Self-emp-inc' AND education = '7th-8th' AND education_num <= 16.0 AND marital_status = 'Widowed' AND occupation = 'Tech-support' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND hours_per_week <= 79.0 AND native_country = 'Taiwan';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 45.0 AND workclass = 'State-gov' AND education = '10th' AND education_num <= 11.0 AND marital_status = 'Widowed' AND occupation = 'Handlers-cleaners' AND relationship = 'Unmarried' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 5083.0 AND hours_per_week <= 53.0 AND native_country = 'Cuba';

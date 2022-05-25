@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Without-pay' AND education = 'Prof-school' AND education_num <= 11 AND relationship = 'Wife' AND race = 'Other' AND sex = 'Female' AND capital_loss <= 2129;

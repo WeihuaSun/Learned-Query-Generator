@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND education = 'Assoc-acdm' AND education_num <= 11.0 AND marital_status = 'Separated' AND occupation = 'Other-service' AND relationship = 'Own-child' AND sex = 'Male' AND capital_gain <= 3915.0 AND capital_loss <= 1322.0 AND hours_per_week <= 94.0 AND native_country = 'Honduras';

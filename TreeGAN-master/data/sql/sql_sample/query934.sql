@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Private' AND education = 'Doctorate' AND education_num <= 16 AND marital_status = 'Married-AF-spouse' AND occupation = 'Adm-clerical' AND race = 'Black' AND sex = 'Female' AND capital_gain <= 14344 AND capital_loss <= 2559 AND native_country = 'Hungary';

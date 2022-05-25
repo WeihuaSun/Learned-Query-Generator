@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 43 AND workclass = 'Never-worked' AND education = 'Prof-school' AND education_num <= 13 AND marital_status = 'Never-married' AND occupation = 'Adm-clerical' AND relationship = 'Unmarried' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_loss <= 2080 AND hours_per_week <= 41 AND native_country = 'India';

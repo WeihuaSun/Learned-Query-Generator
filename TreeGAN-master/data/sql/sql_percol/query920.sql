@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education = '10th' AND education_num <= 15.0 AND marital_status = 'Married-civ-spouse' AND relationship = 'Own-child' AND hours_per_week <= 52.0;

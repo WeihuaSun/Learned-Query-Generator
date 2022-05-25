@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 57 AND workclass = 'Never-worked' AND education_num <= 10 AND marital_status = 'Married-civ-spouse' AND occupation = 'Sales' AND relationship = 'Not-in-family' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 10605 AND capital_loss <= 2467 AND hours_per_week <= 17 AND native_country = 'Hungary';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = 'Doctorate' AND education_num <= 16 AND marital_status = 'Married-spouse-absent' AND occupation = 'Prof-specialty' AND race = 'White' AND sex = 'Female' AND capital_loss <= 1876 AND hours_per_week <= 97 AND native_country = 'Puerto-Rico';

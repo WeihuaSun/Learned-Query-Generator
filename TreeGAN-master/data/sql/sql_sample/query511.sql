@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 58 AND education = 'Assoc-acdm' AND education_num <= 13 AND occupation = '?' AND relationship = 'Not-in-family' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 14344 AND capital_loss <= 2559 AND hours_per_week <= 85 AND native_country = 'Cambodia';

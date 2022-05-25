@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Local-gov' AND education = '7th-8th' AND education_num <= 11 AND marital_status = 'Married-civ-spouse' AND occupation = 'Craft-repair' AND relationship = 'Own-child' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 8614 AND capital_loss <= 2129 AND hours_per_week <= 30 AND native_country = 'United-States';

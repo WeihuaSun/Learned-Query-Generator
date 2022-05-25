@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND education_num <= 14.0 AND marital_status = 'Married-spouse-absent' AND occupation = 'Adm-clerical' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND native_country = 'Cuba';

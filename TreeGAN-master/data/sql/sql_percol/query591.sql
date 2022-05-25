@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = 'Some-college' AND marital_status = 'Married-AF-spouse' AND occupation = 'Handlers-cleaners' AND relationship = 'Own-child' AND race = 'White' AND sex = 'Male' AND capital_gain <= 47468.0 AND native_country = 'Hong';

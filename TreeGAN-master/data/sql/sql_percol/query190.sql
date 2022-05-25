@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 35.0 AND education_num <= 9.0 AND occupation = 'Tech-support' AND race = 'Asian-Pac-Islander' AND capital_gain <= 32037.0 AND capital_loss <= 1100.0 AND hours_per_week <= 52.0 AND native_country = 'Columbia';

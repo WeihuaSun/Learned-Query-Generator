@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 73.0 AND education = '11th' AND education_num <= 16.0 AND marital_status = 'Married-spouse-absent' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_loss <= 83.0 AND hours_per_week <= 57.0 AND native_country = 'Columbia';

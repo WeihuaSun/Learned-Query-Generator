@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Without-pay' AND education = '1st-4th' AND education_num <= 18.0 AND marital_status = 'Widowed' AND occupation = 'Exec-managerial' AND relationship = 'Other-relative' AND sex = 'Male' AND capital_gain <= 10996.0 AND capital_loss <= 654.0 AND native_country = 'England';

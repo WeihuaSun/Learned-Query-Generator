@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 46.0 AND workclass = 'Self-emp-inc' AND education_num <= 17.0 AND occupation = 'Farming-fishing' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_gain <= 24980.0 AND capital_loss <= 407.0 AND native_country = 'Yugoslavia';

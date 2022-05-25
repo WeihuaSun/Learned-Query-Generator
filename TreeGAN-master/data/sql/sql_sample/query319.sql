@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 43 AND education = 'Assoc-voc' AND education_num <= 10 AND occupation = 'Transport-moving' AND race = 'Asian-Pac-Islander' AND capital_gain <= 8614 AND capital_loss <= 2559 AND hours_per_week <= 13 AND native_country = 'El-Salvador';

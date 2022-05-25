@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education_num <= 15.0 AND occupation = 'Exec-managerial' AND relationship = 'Unmarried' AND race = 'Asian-Pac-Islander' AND capital_loss <= 1884.0;

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 41 AND education = 'Assoc-acdm' AND education_num <= 16 AND marital_status = 'Married-spouse-absent' AND occupation = 'Transport-moving' AND relationship = 'Unmarried' AND race = 'White' AND sex = 'Female' AND capital_loss <= 2051 AND native_country = 'Taiwan';

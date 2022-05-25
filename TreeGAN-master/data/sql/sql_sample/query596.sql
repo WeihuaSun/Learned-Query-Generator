@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 43 AND workclass = 'Local-gov' AND education = 'Prof-school' AND education_num <= 10 AND marital_status = 'Never-married' AND occupation = 'Craft-repair' AND relationship = 'Own-child' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 8614 AND capital_loss <= 2467 AND native_country = 'Cambodia';

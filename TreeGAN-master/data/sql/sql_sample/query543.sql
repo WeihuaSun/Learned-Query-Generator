@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 26 AND workclass = 'Local-gov' AND education = 'Assoc-acdm' AND relationship = 'Own-child' AND race = 'Black' AND sex = 'Female' AND capital_gain <= 14344 AND capital_loss <= 2057 AND hours_per_week <= 41 AND native_country = 'Poland';

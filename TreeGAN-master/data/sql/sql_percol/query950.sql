@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education_num <= 5.0 AND marital_status = 'Married-AF-spouse' AND race = 'Amer-Indian-Eskimo' AND capital_gain <= 7181.0 AND capital_loss <= 548.0 AND hours_per_week <= 62.0 AND native_country = 'Columbia';

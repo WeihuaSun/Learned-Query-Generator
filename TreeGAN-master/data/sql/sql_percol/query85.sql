@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 67.0 AND education = 'Bachelors' AND education_num <= 18.0 AND occupation = 'Farming-fishing' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_gain <= 40838.0 AND capital_loss <= 1761.0 AND hours_per_week <= 85.0 AND native_country = 'Columbia';

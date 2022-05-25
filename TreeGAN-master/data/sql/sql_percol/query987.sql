@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 63.0 AND workclass = 'Without-pay' AND marital_status = 'Separated' AND occupation = 'Tech-support' AND relationship = 'Own-child' AND capital_gain <= 24274.0 AND native_country = 'Cuba';

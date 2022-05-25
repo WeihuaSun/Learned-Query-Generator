@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = 'Bachelors' AND education_num <= 11.0 AND marital_status = 'Widowed' AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Male' AND native_country = 'Portugal';

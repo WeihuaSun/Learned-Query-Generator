@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = 'Assoc-acdm' AND marital_status = 'Married-civ-spouse' AND occupation = 'Armed-Forces' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 19773.0 AND native_country = 'Hong';

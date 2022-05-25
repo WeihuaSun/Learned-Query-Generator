@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = 'Assoc-acdm' AND education_num <= 11 AND marital_status = 'Separated' AND occupation = 'Other-service' AND relationship = 'Own-child' AND race = 'Amer-Indian-Eskimo' AND hours_per_week <= 30 AND native_country = 'El-Salvador';

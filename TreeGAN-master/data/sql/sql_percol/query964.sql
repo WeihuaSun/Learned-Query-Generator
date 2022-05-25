@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 95.0 AND education = '7th-8th' AND education_num <= 2.0 AND marital_status = 'Widowed' AND relationship = 'Other-relative' AND race = 'Black' AND capital_gain <= 24821.0 AND capital_loss <= 1288.0 AND hours_per_week <= 78.0;

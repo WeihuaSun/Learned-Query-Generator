@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND education = '10th' AND education_num <= 7.0 AND marital_status = 'Divorced' AND occupation = 'Adm-clerical' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_loss <= 1034.0;

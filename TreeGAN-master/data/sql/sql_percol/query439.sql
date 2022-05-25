@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 63.0 AND education = 'Preschool' AND education_num <= 13.0 AND marital_status = 'Married-spouse-absent' AND occupation = 'Exec-managerial' AND capital_gain <= 13454.0 AND capital_loss <= 296.0 AND hours_per_week <= 87.0 AND native_country = 'Taiwan';

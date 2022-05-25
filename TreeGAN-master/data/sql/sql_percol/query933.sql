@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 67.0 AND education = '1st-4th' AND education_num <= 11.0 AND occupation = 'Prof-specialty' AND sex = 'Female' AND capital_gain <= 48682.0 AND capital_loss <= 453.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

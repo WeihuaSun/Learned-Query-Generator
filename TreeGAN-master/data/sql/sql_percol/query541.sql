@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND education = '11th' AND education_num <= 11.0 AND marital_status = 'Married-AF-spouse' AND occupation = 'Other-service' AND relationship = 'Husband' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 7364.0 AND capital_loss <= 1269.0 AND hours_per_week <= 58.0 AND native_country = 'Cuba';

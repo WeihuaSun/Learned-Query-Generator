@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education_num <= 9.0 AND relationship = 'Other-relative' AND capital_gain <= 6808.0 AND capital_loss <= 1404.0 AND hours_per_week <= 54.0;

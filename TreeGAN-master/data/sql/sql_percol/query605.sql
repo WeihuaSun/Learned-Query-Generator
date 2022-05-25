@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 61.0 AND education_num <= 14.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Handlers-cleaners' AND sex = 'Male' AND capital_gain <= 7010.0 AND capital_loss <= 1256.0 AND hours_per_week <= 93.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

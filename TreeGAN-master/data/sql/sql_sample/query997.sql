@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 43 AND workclass = 'Private' AND education = '11th' AND education_num <= 13 AND marital_status = 'Widowed' AND occupation = 'Adm-clerical' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND hours_per_week <= 23 AND native_country = 'Taiwan';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Without-pay' AND education = 'Prof-school' AND education_num <= 16 AND marital_status = 'Widowed' AND occupation = 'Prof-specialty' AND race = 'Other' AND capital_gain <= 3818 AND capital_loss <= 2051 AND hours_per_week <= 97 AND native_country = 'Cambodia';

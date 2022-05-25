@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 26 AND workclass = 'Never-worked' AND education = 'Assoc-voc' AND education_num <= 11 AND occupation = 'Other-service' AND relationship = 'Wife' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 14344 AND hours_per_week <= 12 AND native_country = 'Cambodia';

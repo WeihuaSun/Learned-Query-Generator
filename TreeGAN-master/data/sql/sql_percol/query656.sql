@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 53.0 AND education = 'Preschool' AND education_num <= 11.0 AND marital_status = 'Widowed' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_gain <= 30199.0;

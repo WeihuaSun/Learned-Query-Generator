@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education_num <= 17.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Prof-specialty' AND capital_gain <= 10988.0 AND capital_loss <= 455.0 AND hours_per_week <= 71.0;

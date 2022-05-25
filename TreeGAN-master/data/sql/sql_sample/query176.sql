@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Doctorate' AND marital_status = 'Married-spouse-absent' AND occupation = 'Adm-clerical' AND relationship = 'Wife' AND race = 'White' AND sex = 'Female' AND capital_loss <= 2129 AND native_country = 'Cambodia';

@@ -1,0 +1,24 @@
+<start> ::= <table_1> | <table_2> | <table_3> | <table_4> | <table_5> | <table_6>
+
+<table_1> ::= "t" | "mi" | "mk" | "mi_idx" | "mc" | "ci"
+<table_2> ::= "t,mi" | "t,mk" | "t,mi_idx" | "t,mc" | "t,ci" | "mi,mk" | "mi,mi_idx" | "mi,mc" | "mi,ci" | "mk,mi_idx" | "mk,mc" | "mk,ci" | "mi_idx,mc" | "mi_idx,ci" | "mc,ci"
+<table_3> ::= "t,mi,mk" | "t,mi,mi_idx" | "t,mi,mc" | "t,mi,ci" | "t,mk,mi_idx" | "t,mk,mc" | "t,mk,ci" | "t,mi_idx,mc" | "t,mi_idx,ci" | "t,mc,ci" | "mi,mk,mi_idx" | "mi,mk,mc" | "mi,mk,ci" | "mi,mi_idx,mc" | "mi,mi_idx,ci" | "mi,mc,ci" | "mk,mi_idx,mc" | "mk,mi_idx,ci" | "mk,mc,ci" | "mi_idx,mc,ci"
+<table_4> ::= "t,mi,mk,mi_idx" | "t,mi,mk,mc" | "t,mi,mk,ci" | "t,mi,mi_idx,mc" | "t,mi,mi_idx,ci" | "t,mi,mc,ci" | "t,mk,mi_idx,mc" | "t,mk,mi_idx,ci" | "t,mk,mc,ci" | "t,mi_idx,mc,ci" | "mi,mk,mi_idx,mc" | "mi,mk,mi_idx,ci" | "mi,mk,mc,ci" | "mi,mi_idx,mc,ci" | "mk,mi_idx,mc,ci"
+<table_5> ::= "t,mi,mk,mi_idx,mc" | "t,mi,mk,mi_idx,ci" | "t,mi,mk,mc,ci" | "t,mi,mi_idx,mc,ci" | "t,mk,mi_idx,mc,ci" | "mi,mk,mi_idx,mc,ci"
+<table_6> ::= "t,mi,mk,mi_idx,mc,ci"
+
+
+<joinkey_t_mi> ::= "t.id,mi.movie_id"
+<joinkey_t_mk> ::= "t.id,mk.movie_id"
+<joinkey_t_miidx> ::= "t.id,mi_idx.movie_id"
+<joinkey_t_mc> ::= "t.id,mc.movie_id"
+<joinkey_t_ci> ::= "t.id,ci.movie_id"
+
+<joinkey_mi_mk> ::= "mi.movie_id,mk.movie_id"
+<joinkey_mi_miidx> ::= "mi.movie_id,mi_idx.movie_id"
+<joinkey_mi_mc> ::= "mi.movie_id,mc.movie_id"
+<joinkey_mi_ci> ::= "mi.movie_id,ci.movie_id"
+
+<joinkey_mk_miidx> ::= 
+
+

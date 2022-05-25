@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 36.0 AND workclass = 'State-gov' AND education_num <= 13.0 AND sex = 'Male' AND capital_gain <= 3069.0 AND capital_loss <= 1613.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

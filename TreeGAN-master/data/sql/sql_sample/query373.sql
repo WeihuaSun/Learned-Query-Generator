@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 26 AND workclass = 'Local-gov' AND education_num <= 5 AND relationship = 'Unmarried' AND race = 'White' AND capital_gain <= 1506 AND capital_loss <= 2057 AND hours_per_week <= 79 AND native_country = 'United-States';

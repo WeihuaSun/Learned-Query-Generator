@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Without-pay' AND education = 'Doctorate' AND marital_status = 'Married-AF-spouse' AND occupation = '?' AND relationship = 'Own-child' AND race = 'Black' AND sex = 'Female' AND hours_per_week <= 23 AND native_country = 'India';

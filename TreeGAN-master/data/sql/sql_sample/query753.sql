@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 75 AND workclass = 'Private' AND education = 'Prof-school' AND education_num <= 13 AND marital_status = 'Married-spouse-absent' AND race = 'White' AND sex = 'Female' AND capital_gain <= 4101 AND capital_loss <= 2002 AND hours_per_week <= 97 AND native_country = 'India';

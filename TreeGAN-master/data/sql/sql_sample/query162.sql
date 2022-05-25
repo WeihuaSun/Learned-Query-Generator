@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 41 AND education = 'Assoc-acdm' AND education_num <= 11 AND occupation = 'Exec-managerial' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 10605 AND capital_loss <= 2467 AND hours_per_week <= 23 AND native_country = 'Hong';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 26 AND education_num <= 8 AND marital_status = 'Married-civ-spouse' AND relationship = 'Own-child' AND race = 'Black' AND sex = 'Female' AND capital_gain <= 10605 AND capital_loss <= 1974 AND hours_per_week <= 85 AND native_country = 'India';

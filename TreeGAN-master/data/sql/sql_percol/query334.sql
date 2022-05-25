@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 69.0 AND workclass = 'Local-gov' AND education = 'Bachelors' AND education_num <= 10.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Prof-specialty' AND relationship = 'Unmarried' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_loss <= 347.0 AND hours_per_week <= 44.0 AND native_country = 'Cuba';

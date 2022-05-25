@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = 'Preschool' AND education_num <= 19.0 AND marital_status = 'Separated' AND occupation = 'Farming-fishing' AND relationship = 'Own-child' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 26505.0 AND capital_loss <= 872.0 AND native_country = 'Cuba';

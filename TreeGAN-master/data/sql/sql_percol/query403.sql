@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 52.0 AND workclass = 'Local-gov' AND education_num <= 17.0 AND marital_status = 'Divorced' AND occupation = 'Other-service' AND relationship = 'Own-child' AND sex = 'Female' AND capital_gain <= 9556.0 AND capital_loss <= 1921.0 AND hours_per_week <= 48.0 AND native_country = 'Columbia';

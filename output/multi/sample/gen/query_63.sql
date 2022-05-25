@@ -1,0 +1,1 @@
+[mk,mi_idx,mc,ci][mk.movie_id=mi_idx.movie_id,mk.movie_id=ci.movie_id,mk.movie_id=ci.movie_id][()(mi_idx.info_type_id=113)()(ci.role_id<4)]

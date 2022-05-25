@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 37.0 AND education = 'Bachelors' AND education_num <= 10.0 AND marital_status = 'Widowed' AND occupation = 'Tech-support' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Male' AND capital_loss <= 1749.0 AND hours_per_week <= 44.0 AND native_country = 'Portugal';

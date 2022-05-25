@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education_num <= 11.0 AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND capital_gain <= 39779.0 AND hours_per_week <= 45.0 AND native_country = 'Honduras';

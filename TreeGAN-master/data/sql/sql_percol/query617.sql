@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 60.0 AND workclass = 'Local-gov' AND education = 'Masters' AND marital_status = 'Separated' AND capital_gain <= 3978.0 AND capital_loss <= 1295.0 AND native_country = 'England';

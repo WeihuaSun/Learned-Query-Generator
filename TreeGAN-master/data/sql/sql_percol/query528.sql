@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 35.0 AND education = '10th' AND education_num <= 8.0 AND occupation = 'Farming-fishing' AND relationship = 'Husband' AND sex = 'Male' AND capital_gain <= 10976.0 AND capital_loss <= 1913.0 AND hours_per_week <= 76.0 AND native_country = 'India';

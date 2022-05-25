@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 26 AND education = 'Prof-school' AND education_num <= 13 AND marital_status = 'Married-spouse-absent' AND occupation = 'Adm-clerical' AND relationship = 'Own-child' AND race = 'Other' AND capital_gain <= 10605 AND capital_loss <= 2559 AND hours_per_week <= 12 AND native_country = 'Cambodia';

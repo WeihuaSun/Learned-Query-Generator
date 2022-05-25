@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 41 AND education = 'Prof-school' AND marital_status = 'Married-spouse-absent' AND occupation = '?' AND relationship = 'Own-child' AND race = 'Other' AND sex = 'Male' AND native_country = 'Hungary';

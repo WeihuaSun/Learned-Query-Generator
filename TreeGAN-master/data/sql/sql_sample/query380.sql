@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 75 AND education_num <= 5 AND occupation = '?' AND relationship = 'Not-in-family' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 5060 AND capital_loss <= 2559 AND hours_per_week <= 79 AND native_country = 'United-States';

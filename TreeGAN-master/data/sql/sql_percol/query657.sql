@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 41.0 AND workclass = 'State-gov' AND education = '10th' AND education_num <= 8.0 AND marital_status = 'Divorced' AND occupation = 'Farming-fishing' AND relationship = 'Husband' AND race = 'Amer-Indian-Eskimo' AND capital_gain <= 2885.0 AND capital_loss <= 134.0 AND native_country = 'Taiwan';

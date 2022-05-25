@@ -1,0 +1,1 @@
+[t,mi][t.id=mi.movie_id][(t.production_year>2014,t.production_year<2014)(mi.info_type_id>16,mi.info_type_id<16)]

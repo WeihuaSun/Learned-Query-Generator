@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND education_num <= 15.0 AND marital_status = 'Married-spouse-absent' AND relationship = 'Other-relative' AND capital_gain <= 15378.0 AND hours_per_week <= 36.0 AND native_country = 'Yugoslavia';

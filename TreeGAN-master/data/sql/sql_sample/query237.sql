@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = 'Assoc-voc' AND marital_status = 'Never-married' AND relationship = 'Wife' AND race = 'Other' AND sex = 'Female' AND hours_per_week <= 23 AND native_country = 'United-States';

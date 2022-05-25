@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Without-pay' AND education_num <= 17.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Farming-fishing' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 31970.0 AND capital_loss <= 464.0 AND hours_per_week <= 62.0 AND native_country = 'India';

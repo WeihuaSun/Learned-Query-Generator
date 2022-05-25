@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND education = 'Bachelors' AND education_num <= 12.0 AND marital_status = 'Widowed' AND occupation = 'Tech-support' AND relationship = 'Unmarried' AND race = 'Black' AND sex = 'Male' AND native_country = 'India';

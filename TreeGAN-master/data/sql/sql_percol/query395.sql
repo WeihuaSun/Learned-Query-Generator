@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 59.0 AND workclass = 'Local-gov' AND education_num <= 17.0 AND marital_status = 'Widowed' AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 1337.0 AND capital_loss <= 1085.0 AND hours_per_week <= 46.0 AND native_country = 'India';

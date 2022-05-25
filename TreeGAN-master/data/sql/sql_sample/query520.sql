@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 87 AND education = 'Assoc-acdm' AND education_num <= 10 AND marital_status = 'Never-married' AND occupation = 'Prof-specialty' AND relationship = 'Own-child' AND race = 'Black' AND sex = 'Female' AND capital_gain <= 1506 AND hours_per_week <= 97 AND native_country = 'Puerto-Rico';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = '7th-8th' AND marital_status = 'Divorced' AND occupation = 'Adm-clerical' AND hours_per_week <= 62.0 AND native_country = 'Cuba';

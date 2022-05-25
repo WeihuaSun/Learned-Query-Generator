@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 75 AND workclass = 'Never-worked' AND education = 'Doctorate' AND marital_status = 'Widowed' AND race = 'White' AND sex = 'Female' AND capital_gain <= 14344 AND capital_loss <= 2559 AND native_country = 'Hungary';

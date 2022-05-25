@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 58 AND workclass = 'Without-pay' AND education = 'Assoc-voc' AND education_num <= 11 AND occupation = 'Transport-moving' AND sex = 'Female' AND capital_gain <= 8614 AND hours_per_week <= 30;

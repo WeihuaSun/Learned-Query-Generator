@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 50.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Adm-clerical' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND native_country = 'India';

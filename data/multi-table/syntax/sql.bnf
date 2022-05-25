@@ -1,0 +1,61 @@
+<start> ::= <tablejoin>
+<tablejoin> ::= <join> <tablejoin> | <join>
+<join> ::= <lp> <table> <comma> <table> <rp>
+<table> ::= "t.id" <lb> <preds_t> <rb>
+        |  "mi.movie_id" <lb> <preds_mi> <rb>
+        |  "mk.movie_id" <lb> <preds_mk> <rb>
+        |  "mi_idx.movie_id" <lb> <preds_mi_idx> <rb>
+        |  "mc.movie_id" <lb> <preds_mc> <rb>
+        |  "ci.movie_id" <lb> <preds_ci> <rb>
+<lp> ::= "("
+<rp> ::= ")"
+<lb> ::= "["
+<rb> ::= "]"
+<comma> ::= ","
+<preds_t> ::= <preds_t_kind_id>
+<preds_mi> ::= <preds_mi_info_type_id>
+<preds_mk> ::= <preds_mk_keyword_id>
+<preds_mi_idx> ::= <preds_mi_idx_info_type_id>
+<preds_mc> ::= <preds_mc_company_id>
+<preds_ci> ::= <preds_ci_role_id>
+
+<preds_t_kind_id> ::= <pred_t_kind_id> | <preds_t_production_year> | <pred_t_kind_id> <comma> <preds_t_production_year>
+<preds_t_production_year> ::=  "" | <pred_t_production_year> 
+
+<preds_mi_info_type_id> ::=  "" | <pred_mi_info_type_id> 
+
+<preds_mk_keyword_id> ::= "" | <pred_mk_keyword_id>
+
+
+<preds_mi_idx_info_type_id> ::= "" | <pred_mi_idx_info_type_id>
+
+<preds_mc_company_id> ::= <pred_mc_company_id> | <preds_mc_company_type_id> | <pred_mc_company_id> <comma> <preds_mc_company_type_id>
+<preds_mc_company_type_id> ::= "" | <pred_mc_company_type_id>
+
+<preds_ci_role_id> ::= "" | <pred_ci_role_id>
+
+
+
+<pred_t_kind_id> ::= "t.kind_id" <op> <t_kind_id> | "t.kind_id" <opa> <t_kind_id> <comma> "t.kind_id" <opb> <t_kind_id>
+<pred_t_production_year> ::= "t.production_year" <op> <t_production_year> | "t.production_year" <opa> <t_production_year> <comma> "t.production_year" <opb> <t_production_year>
+<pred_mi_info_type_id> ::= "mi.info_type_id" <op> <mi_info_type_id> | "mi.info_type_id" <opa> <mi_info_type_id> <comma> "mi.info_type_id" <opb> <mi_info_type_id>
+<pred_mk_keyword_id> ::= "mk.keyword_id" <op> <mk_keyword_id> | "mk.keyword_id" <opa> <mk_keyword_id> <comma> "mk.keyword_id" <opb> <mk_keyword_id>
+<pred_mi_idx_info_type_id> ::= "mi_idx.info_type_id" <op> <mi_idx_info_type_id> | "mi_idx.info_type_id" <opa> <mi_idx_info_type_id> <comma> "mi_idx.info_type_id" <opb> <mi_idx_info_type_id>
+<pred_mc_company_id> ::= "mc.company_id" <op> <mc_company_id>
+<pred_mc_company_type_id> ::= "mc.company_type_id" <op> <mc_company_type_id>
+<pred_ci_role_id> ::= "ci.role_id" <op> <ci_role_id> | "ci.role_id" <opa> <ci_role_id> "ci.role_id" <opb> <ci_role_id>
+
+<op> ::= <ope> | <opa> | <opb>
+<ope> ::= "!=" | "="
+<opa> ::= ">" | ">="
+<opb> ::= "<" | "<="
+
+<t_kind_id> ::= <digit>
+<t_production_year> ::= "1" <digit> <digit> <digit> | "2" <digit> <digit> <digit>
+<mi_info_type_id> ::= <digit> | <digit> <digit> | <digit> <digit> <digit>
+<mk_keyword_id> ::= <digit> <digit> <digit> |  <digit> <digit> <digit> <digit> 
+<mi_idx_info_type_id> ::= <digit> <digit> <digit> 
+<mc_company_id> ::= <digit> <digit> <digit> <digit> <digit>
+<mc_company_type_id> ::= <digit> 
+<ci_role_id> ::= <digit>
+<digit> ::= "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "0"

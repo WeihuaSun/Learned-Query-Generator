@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = 'Assoc-voc' AND education_num <= 13 AND marital_status = 'Never-married' AND occupation = 'Craft-repair' AND relationship = 'Wife' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 10605 AND capital_loss <= 2129 AND hours_per_week <= 23 AND native_country = 'Hungary';

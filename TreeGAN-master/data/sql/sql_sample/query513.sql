@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 43 AND education_num <= 11 AND occupation = 'Other-service' AND relationship = 'Own-child' AND race = 'White' AND sex = 'Male' AND capital_gain <= 9386 AND capital_loss <= 2051 AND hours_per_week <= 85 AND native_country = 'Poland';

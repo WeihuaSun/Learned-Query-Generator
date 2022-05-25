@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = 'Bachelors' AND marital_status = 'Separated' AND occupation = 'Handlers-cleaners' AND race = 'Other' AND sex = 'Male' AND hours_per_week <= 62.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

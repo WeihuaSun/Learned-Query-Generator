@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND occupation = 'Farming-fishing' AND relationship = 'Other-relative' AND race = 'Other' AND sex = 'Female' AND capital_loss <= 395.0 AND native_country = 'Hong';

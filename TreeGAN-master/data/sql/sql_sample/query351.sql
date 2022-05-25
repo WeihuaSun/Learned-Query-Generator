@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 75 AND workclass = 'Without-pay' AND marital_status = 'Married-AF-spouse' AND occupation = 'Exec-managerial' AND relationship = 'Own-child' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 5060 AND capital_loss <= 2129 AND hours_per_week <= 97 AND native_country = 'Poland';

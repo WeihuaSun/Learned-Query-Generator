@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 41.0 AND education_num <= 15.0 AND occupation = 'Adm-clerical' AND capital_gain <= 38111.0 AND capital_loss <= 25.0 AND hours_per_week <= 27.0 AND native_country = 'Cuba';

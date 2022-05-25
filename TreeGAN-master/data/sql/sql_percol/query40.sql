@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 76.0 AND marital_status = 'Divorced' AND occupation = 'Other-service' AND relationship = 'Husband' AND sex = 'Male' AND hours_per_week <= 77.0 AND native_country = 'Yugoslavia';

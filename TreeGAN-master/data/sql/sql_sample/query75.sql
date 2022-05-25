@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Without-pay' AND education = '11th' AND education_num <= 11 AND marital_status = 'Married-AF-spouse' AND race = 'Black' AND sex = 'Male' AND capital_loss <= 2080 AND hours_per_week <= 41 AND native_country = 'Poland';

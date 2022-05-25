@@ -1,0 +1,1 @@
+[t,mi,mk][t.id=mk.movie_id,mi.movie_id=mk.movie_id][(t.production_year=1995)(mi.info_type_id!=16)(mk.keyword_id=117)]

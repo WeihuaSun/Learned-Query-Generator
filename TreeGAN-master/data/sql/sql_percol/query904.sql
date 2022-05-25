@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 51.0 AND education_num <= 4.0 AND occupation = 'Farming-fishing' AND relationship = 'Other-relative' AND race = 'White' AND capital_gain <= 24816.0 AND hours_per_week <= 77.0 AND native_country = 'India';

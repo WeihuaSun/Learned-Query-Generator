@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 58 AND education = 'Assoc-voc' AND education_num <= 11 AND occupation = 'Adm-clerical' AND capital_gain <= 9386 AND capital_loss <= 1876 AND hours_per_week <= 97 AND native_country = 'England';

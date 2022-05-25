@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = 'Masters' AND education_num <= 14.0 AND marital_status = 'Widowed' AND occupation = 'Handlers-cleaners' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND native_country = 'India';

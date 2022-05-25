@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND marital_status = 'Married-AF-spouse' AND occupation = 'Craft-repair' AND relationship = 'Wife' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 3818 AND native_country = 'Hong';

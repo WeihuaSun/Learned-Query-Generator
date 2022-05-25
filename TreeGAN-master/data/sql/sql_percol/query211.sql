@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Federal-gov' AND education = 'Preschool' AND marital_status = 'Married-AF-spouse' AND occupation = 'Farming-fishing' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_gain <= 5672.0 AND native_country = 'Taiwan';

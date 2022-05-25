@@ -1,0 +1,1 @@
+[mi_idx,mc][mi_idx.movie_id=mc.movie_id][(mi_idx.info_type_id=113)(mc.company_id>22956,mc.company_type_id=2)]

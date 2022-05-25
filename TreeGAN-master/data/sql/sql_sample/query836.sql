@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Never-worked' AND occupation = 'Craft-repair' AND relationship = 'Unmarried' AND race = 'Other' AND capital_loss <= 2080 AND hours_per_week <= 41 AND native_country = 'England';

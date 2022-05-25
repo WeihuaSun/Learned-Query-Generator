@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = 'Preschool' AND marital_status = 'Married-spouse-absent' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 39448.0;

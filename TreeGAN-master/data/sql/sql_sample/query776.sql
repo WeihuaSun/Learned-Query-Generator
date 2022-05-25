@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = 'Assoc-acdm' AND occupation = 'Sales' AND relationship = 'Not-in-family' AND sex = 'Female' AND capital_gain <= 991 AND native_country = 'England';

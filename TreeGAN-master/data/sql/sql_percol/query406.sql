@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education = '7th-8th' AND marital_status = 'Married-spouse-absent' AND occupation = 'Exec-managerial' AND race = 'Black' AND sex = 'Male' AND capital_loss <= 590.0 AND hours_per_week <= 76.0 AND native_country = 'Taiwan';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Some-college' AND marital_status = 'Widowed' AND occupation = 'Exec-managerial' AND relationship = 'Other-relative' AND race = 'Black' AND capital_loss <= 1740.0 AND native_country = 'Cuba';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 41 AND education = 'Doctorate' AND education_num <= 16 AND marital_status = 'Never-married' AND occupation = 'Exec-managerial' AND relationship = 'Wife' AND race = 'White' AND sex = 'Female' AND capital_gain <= 4101 AND capital_loss <= 2080 AND hours_per_week <= 30 AND native_country = 'El-Salvador';

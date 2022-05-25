@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 58 AND workclass = 'Local-gov' AND marital_status = 'Separated' AND relationship = 'Husband' AND race = 'White' AND sex = 'Male' AND capital_gain <= 10605 AND capital_loss <= 2080 AND hours_per_week <= 23 AND native_country = 'England';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = 'Bachelors' AND marital_status = 'Married-spouse-absent' AND occupation = 'Other-service' AND relationship = 'Other-relative' AND sex = 'Male' AND capital_loss <= 1489.0;

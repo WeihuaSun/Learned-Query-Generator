@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 51.0 AND workclass = 'Self-emp-inc' AND education = 'Preschool' AND marital_status = 'Widowed' AND occupation = 'Handlers-cleaners' AND relationship = 'Unmarried' AND race = 'White' AND sex = 'Female' AND capital_gain <= 6548.0 AND capital_loss <= 481.0 AND hours_per_week <= 87.0 AND native_country = 'India';

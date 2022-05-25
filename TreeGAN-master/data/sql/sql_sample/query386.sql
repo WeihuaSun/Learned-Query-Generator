@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 26 AND workclass = 'Never-worked' AND education = 'Doctorate' AND education_num <= 11 AND occupation = '?' AND sex = 'Male' AND capital_gain <= 5060 AND capital_loss <= 2051 AND hours_per_week <= 97 AND native_country = 'Hong';

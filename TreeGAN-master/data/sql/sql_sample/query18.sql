@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 75 AND education_num <= 11 AND marital_status = 'Married-civ-spouse' AND occupation = '?' AND relationship = 'Wife' AND capital_loss <= 2559 AND hours_per_week <= 30 AND native_country = 'Cambodia';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND marital_status = 'Married-spouse-absent' AND occupation = '?' AND capital_gain <= 5060 AND capital_loss <= 2051 AND native_country = 'Puerto-Rico';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Private' AND education = 'Assoc-acdm' AND education_num <= 13 AND occupation = 'Sales' AND race = 'Other' AND capital_gain <= 14344 AND capital_loss <= 2051 AND hours_per_week <= 85 AND native_country = 'Cambodia';

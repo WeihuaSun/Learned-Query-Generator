@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = '10th' AND education_num <= 4.0 AND occupation = 'Tech-support' AND race = 'Asian-Pac-Islander' AND capital_gain <= 26058.0 AND native_country = 'Columbia';

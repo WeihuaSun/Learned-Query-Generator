@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE marital_status = 'Never-married' AND occupation = 'Transport-moving' AND relationship = 'Not-in-family' AND sex = 'Female' AND capital_gain <= 4101 AND capital_loss <= 2129 AND native_country = 'United-States';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 70.0 AND education = '11th' AND education_num <= 9.0 AND occupation = 'Adm-clerical' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Female' AND capital_loss <= 1557.0 AND hours_per_week <= 37.0 AND native_country = 'Cuba';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 47.0 AND workclass = 'Private' AND education_num <= 11.0 AND occupation = 'Adm-clerical' AND relationship = 'Husband' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_gain <= 18134.0 AND capital_loss <= 1257.0 AND hours_per_week <= 83.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

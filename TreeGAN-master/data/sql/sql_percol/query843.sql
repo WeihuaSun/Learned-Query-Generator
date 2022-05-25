@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Federal-gov' AND education = '10th' AND marital_status = 'Married-AF-spouse' AND occupation = 'Handlers-cleaners' AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Male' AND capital_loss <= 1991.0;

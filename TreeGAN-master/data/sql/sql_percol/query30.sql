@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 56.0 AND workclass = 'Local-gov' AND education = 'Assoc-acdm' AND education_num <= 11.0 AND occupation = 'Farming-fishing' AND relationship = 'Own-child' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 10169.0 AND capital_loss <= 1476.0 AND hours_per_week <= 79.0 AND native_country = 'Honduras';

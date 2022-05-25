@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Private' AND education = 'Assoc-voc' AND education_num <= 16 AND occupation = 'Craft-repair' AND relationship = 'Own-child' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_loss <= 2559 AND hours_per_week <= 97 AND native_country = 'Poland';

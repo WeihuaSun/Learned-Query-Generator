@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = 'Assoc-acdm' AND marital_status = 'Married-AF-spouse' AND occupation = 'Exec-managerial' AND relationship = 'Own-child' AND sex = 'Female' AND capital_gain <= 9386 AND hours_per_week <= 97 AND native_country = 'India';

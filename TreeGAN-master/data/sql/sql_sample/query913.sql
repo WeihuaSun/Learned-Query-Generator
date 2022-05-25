@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 57 AND workclass = 'Private' AND education = 'Assoc-acdm' AND marital_status = 'Married-AF-spouse' AND occupation = 'Other-service' AND race = 'Black' AND sex = 'Female' AND hours_per_week <= 17 AND native_country = 'Taiwan';

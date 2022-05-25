@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 58 AND workclass = 'Local-gov' AND education = '7th-8th' AND education_num <= 10 AND occupation = '?' AND relationship = 'Own-child' AND race = 'Other' AND capital_gain <= 14344 AND capital_loss <= 2080 AND hours_per_week <= 85 AND native_country = 'El-Salvador';

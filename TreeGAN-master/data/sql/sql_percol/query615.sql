@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 47.0 AND workclass = 'Federal-gov' AND marital_status = 'Separated' AND relationship = 'Own-child' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 9686.0 AND capital_loss <= 866.0 AND hours_per_week <= 81.0;

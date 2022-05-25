@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 76.0 AND workclass = 'Local-gov' AND education = '1st-4th' AND education_num <= 15.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Exec-managerial' AND relationship = 'Husband' AND sex = 'Female' AND native_country = 'India';

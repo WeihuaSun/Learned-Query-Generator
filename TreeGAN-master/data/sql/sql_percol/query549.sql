@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND marital_status = 'Widowed' AND occupation = 'Armed-Forces' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND capital_gain <= 35865.0 AND capital_loss <= 1293.0;

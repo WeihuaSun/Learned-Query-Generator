@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 57.0 AND education = '10th' AND marital_status = 'Married-civ-spouse' AND occupation = 'Armed-Forces' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_gain <= 22327.0 AND hours_per_week <= 59.0;

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 41 AND workclass = 'Without-pay' AND education = 'Assoc-acdm' AND education_num <= 13 AND marital_status = 'Married-spouse-absent' AND occupation = 'Craft-repair' AND relationship = 'Unmarried' AND race = 'White' AND sex = 'Female' AND capital_gain <= 3818 AND capital_loss <= 2080 AND hours_per_week <= 68;

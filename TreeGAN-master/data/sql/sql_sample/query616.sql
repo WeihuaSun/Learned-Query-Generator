@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND education = 'Assoc-acdm' AND education_num <= 13 AND marital_status = 'Never-married' AND occupation = 'Adm-clerical' AND relationship = 'Husband' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 991;

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 67.0 AND education = 'Masters' AND marital_status = 'Divorced' AND occupation = 'Farming-fishing' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND native_country = 'Outlying-US(Guam-USVI-etc)';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 43 AND workclass = 'Local-gov' AND education = 'Assoc-voc' AND occupation = 'Sales' AND relationship = 'Husband' AND race = 'Other' AND native_country = 'Hungary';

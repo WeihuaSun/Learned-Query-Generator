@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 45.0 AND education = 'Some-college' AND education_num <= 14.0 AND marital_status = 'Married-AF-spouse' AND race = 'Asian-Pac-Islander' AND capital_gain <= 103513.0 AND capital_loss <= 1773.0;

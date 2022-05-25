@@ -1,0 +1,1 @@
+[t,mi_idx,mc,ci][t.id=mc.movie_id,mi_idx.movie_id=ci.movie_id,mi_idx.movie_id=mc.movie_id][(t.production_year>1995,t.production_year<1995)(mi_idx.info_type_id=101)(mc.company_type_id!=2)(ci.role_id>4ci.role_id<4)]

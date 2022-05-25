@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 58 AND education = 'Prof-school' AND marital_status = 'Married-AF-spouse' AND relationship = 'Wife' AND sex = 'Male' AND capital_gain <= 5060 AND native_country = 'Taiwan';

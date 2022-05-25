@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = '1st-4th' AND education_num <= 12.0 AND marital_status = 'Divorced' AND occupation = 'Priv-house-serv' AND relationship = 'Husband' AND race = 'Other' AND sex = 'Male' AND capital_loss <= 1255.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

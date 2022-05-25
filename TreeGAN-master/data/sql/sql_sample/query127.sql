@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 57 AND workclass = 'Private' AND education = 'Assoc-acdm' AND marital_status = 'Married-civ-spouse' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 8614 AND native_country = 'Cambodia';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE marital_status = 'Separated' AND occupation = 'Craft-repair' AND relationship = 'Wife' AND race = 'White' AND sex = 'Female' AND capital_gain <= 5060 AND capital_loss <= 2057 AND native_country = 'Hungary';

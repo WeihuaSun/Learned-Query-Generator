@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 100.0 AND education = 'Masters' AND education_num <= 17.0 AND marital_status = 'Widowed' AND occupation = 'Exec-managerial' AND relationship = 'Other-relative' AND capital_gain <= 41746.0 AND capital_loss <= 537.0;

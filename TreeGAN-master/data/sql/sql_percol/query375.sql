@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 68.0 AND workclass = 'Local-gov' AND education = '7th-8th' AND occupation = 'Handlers-cleaners' AND sex = 'Male' AND capital_gain <= 44800.0 AND capital_loss <= 249.0 AND hours_per_week <= 57.0;

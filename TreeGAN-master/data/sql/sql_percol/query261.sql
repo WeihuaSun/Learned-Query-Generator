@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = '1st-4th' AND education_num <= 14.0 AND occupation = 'Transport-moving' AND relationship = 'Husband' AND race = 'White' AND sex = 'Male' AND native_country = 'Hong';

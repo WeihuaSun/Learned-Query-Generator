@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 67.0 AND education_num <= 13.0 AND marital_status = 'Married-spouse-absent' AND race = 'White' AND capital_gain <= 30690.0 AND hours_per_week <= 94.0 AND native_country = 'Honduras';

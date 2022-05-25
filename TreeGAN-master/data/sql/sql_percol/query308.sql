@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 89.0 AND workclass = 'Local-gov' AND education = '10th' AND education_num <= 14.0 AND marital_status = 'Separated' AND occupation = 'Armed-Forces' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_loss <= 513.0 AND hours_per_week <= 47.0 AND native_country = 'Taiwan';

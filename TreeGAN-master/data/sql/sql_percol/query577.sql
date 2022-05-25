@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = 'Masters' AND education_num <= 11.0 AND occupation = 'Prof-specialty' AND capital_gain <= 35006.0 AND capital_loss <= 1913.0 AND hours_per_week <= 73.0 AND native_country = 'Taiwan';

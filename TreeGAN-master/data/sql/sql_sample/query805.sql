@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 41 AND workclass = 'Local-gov' AND education_num <= 13 AND occupation = 'Sales' AND relationship = 'Own-child' AND race = 'Other' AND sex = 'Female' AND capital_loss <= 2057 AND hours_per_week <= 41 AND native_country = 'India';

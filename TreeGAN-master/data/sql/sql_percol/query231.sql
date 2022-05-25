@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 51.0 AND education = '11th' AND education_num <= 15.0 AND marital_status = 'Married-spouse-absent' AND race = 'White' AND sex = 'Male' AND capital_gain <= 4614.0 AND capital_loss <= 1622.0 AND hours_per_week <= 55.0 AND native_country = 'England';

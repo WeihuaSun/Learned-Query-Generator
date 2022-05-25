@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 75 AND workclass = 'Never-worked' AND education = 'Doctorate' AND marital_status = 'Married-spouse-absent' AND occupation = '?' AND relationship = 'Husband' AND sex = 'Female' AND hours_per_week <= 97 AND native_country = 'Hong';

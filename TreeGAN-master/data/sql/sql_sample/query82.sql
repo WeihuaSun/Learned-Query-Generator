@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Doctorate' AND education_num <= 13 AND relationship = 'Unmarried' AND capital_loss <= 2559 AND hours_per_week <= 97 AND native_country = 'Cambodia';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education = 'Bachelors' AND education_num <= 18.0 AND occupation = 'Armed-Forces' AND sex = 'Male' AND capital_loss <= 434.0 AND hours_per_week <= 52.0 AND native_country = 'Portugal';

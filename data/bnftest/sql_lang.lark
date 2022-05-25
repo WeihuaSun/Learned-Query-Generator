@@ -1,0 +1,167 @@
+start : <table_1> | <table_2> | <table_3> | <table_4> | <table_5> | <table_6><table_1> : "[t]" "["  "]" "[" "(" pred_t ")" "]"
+ | "[mi]" "["  "]" "[" "(" pred_mi ")" "]"
+ | "[mk]" "["  "]" "[" "(" pred_mk ")" "]"
+ | "[mi_idx]" "["  "]" "[" "(" pred_mi_idx ")" "]"
+ | "[mc]" "["  "]" "[" "(" pred_mc ")" "]"
+ | "[ci]" "["  "]" "[" "(" pred_ci ")" "]"
+<table_2> : "[t,mi]" "[" joinkey_t_mi "]" "[" "(" pred_t ")" "(" pred_mi ")" "]"
+ | "[t,mk]" "[" joinkey_t_mk "]" "[" "(" pred_t ")" "(" pred_mk ")" "]"
+ | "[t,mi_idx]" "[" joinkey_t_mi_idx "]" "[" "(" pred_t ")" "(" pred_mi_idx ")" "]"
+ | "[t,mc]" "[" joinkey_t_mc "]" "[" "(" pred_t ")" "(" pred_mc ")" "]"
+ | "[t,ci]" "[" joinkey_t_ci "]" "[" "(" pred_t ")" "(" pred_ci ")" "]"
+ | "[mi,mk]" "[" joinkey_mi_mk "]" "[" "(" pred_mi ")" "(" pred_mk ")" "]"
+ | "[mi,mi_idx]" "[" joinkey_mi_mi_idx "]" "[" "(" pred_mi ")" "(" pred_mi_idx ")" "]"
+ | "[mi,mc]" "[" joinkey_mi_mc "]" "[" "(" pred_mi ")" "(" pred_mc ")" "]"
+ | "[mi,ci]" "[" joinkey_mi_ci "]" "[" "(" pred_mi ")" "(" pred_ci ")" "]"
+ | "[mk,mi_idx]" "[" joinkey_mk_mi_idx "]" "[" "(" pred_mk ")" "(" pred_mi_idx ")" "]"
+ | "[mk,mc]" "[" joinkey_mk_mc "]" "[" "(" pred_mk ")" "(" pred_mc ")" "]"
+ | "[mk,ci]" "[" joinkey_mk_ci "]" "[" "(" pred_mk ")" "(" pred_ci ")" "]"
+ | "[mi_idx,mc]" "[" joinkey_mi_idx_mc "]" "[" "(" pred_mi_idx ")" "(" pred_mc ")" "]"
+ | "[mi_idx,ci]" "[" joinkey_mi_idx_ci "]" "[" "(" pred_mi_idx ")" "(" pred_ci ")" "]"
+ | "[mc,ci]" "[" joinkey_mc_ci "]" "[" "(" pred_mc ")" "(" pred_ci ")" "]"
+<table_3> : "[t,mi,mk]" "[" joinkey_t_mi_mk "," joinkey_t_mi_mk "]" "[" "(" pred_t ")" "(" pred_mi ")" "(" pred_mk ")" "]"
+ | "[t,mi,mi_idx]" "[" joinkey_t_mi_mi_idx "," joinkey_t_mi_mi_idx "]" "[" "(" pred_t ")" "(" pred_mi ")" "(" pred_mi_idx ")" "]"
+ | "[t,mi,mc]" "[" joinkey_t_mi_mc "," joinkey_t_mi_mc "]" "[" "(" pred_t ")" "(" pred_mi ")" "(" pred_mc ")" "]"
+ | "[t,mi,ci]" "[" joinkey_t_mi_ci "," joinkey_t_mi_ci "]" "[" "(" pred_t ")" "(" pred_mi ")" "(" pred_ci ")" "]"
+ | "[t,mk,mi_idx]" "[" joinkey_t_mk_mi_idx "," joinkey_t_mk_mi_idx "]" "[" "(" pred_t ")" "(" pred_mk ")" "(" pred_mi_idx ")" "]"
+ | "[t,mk,mc]" "[" joinkey_t_mk_mc "," joinkey_t_mk_mc "]" "[" "(" pred_t ")" "(" pred_mk ")" "(" pred_mc ")" "]"
+ | "[t,mk,ci]" "[" joinkey_t_mk_ci "," joinkey_t_mk_ci "]" "[" "(" pred_t ")" "(" pred_mk ")" "(" pred_ci ")" "]"
+ | "[t,mi_idx,mc]" "[" joinkey_t_mi_idx_mc "," joinkey_t_mi_idx_mc "]" "[" "(" pred_t ")" "(" pred_mi_idx ")" "(" pred_mc ")" "]"
+ | "[t,mi_idx,ci]" "[" joinkey_t_mi_idx_ci "," joinkey_t_mi_idx_ci "]" "[" "(" pred_t ")" "(" pred_mi_idx ")" "(" pred_ci ")" "]"
+ | "[t,mc,ci]" "[" joinkey_t_mc_ci "," joinkey_t_mc_ci "]" "[" "(" pred_t ")" "(" pred_mc ")" "(" pred_ci ")" "]"
+ | "[mi,mk,mi_idx]" "[" joinkey_mi_mk_mi_idx "," joinkey_mi_mk_mi_idx "]" "[" "(" pred_mi ")" "(" pred_mk ")" "(" pred_mi_idx ")" "]"
+ | "[mi,mk,mc]" "[" joinkey_mi_mk_mc "," joinkey_mi_mk_mc "]" "[" "(" pred_mi ")" "(" pred_mk ")" "(" pred_mc ")" "]"
+ | "[mi,mk,ci]" "[" joinkey_mi_mk_ci "," joinkey_mi_mk_ci "]" "[" "(" pred_mi ")" "(" pred_mk ")" "(" pred_ci ")" "]"
+ | "[mi,mi_idx,mc]" "[" joinkey_mi_mi_idx_mc "," joinkey_mi_mi_idx_mc "]" "[" "(" pred_mi ")" "(" pred_mi_idx ")" "(" pred_mc ")" "]"
+ | "[mi,mi_idx,ci]" "[" joinkey_mi_mi_idx_ci "," joinkey_mi_mi_idx_ci "]" "[" "(" pred_mi ")" "(" pred_mi_idx ")" "(" pred_ci ")" "]"
+ | "[mi,mc,ci]" "[" joinkey_mi_mc_ci "," joinkey_mi_mc_ci "]" "[" "(" pred_mi ")" "(" pred_mc ")" "(" pred_ci ")" "]"
+ | "[mk,mi_idx,mc]" "[" joinkey_mk_mi_idx_mc "," joinkey_mk_mi_idx_mc "]" "[" "(" pred_mk ")" "(" pred_mi_idx ")" "(" pred_mc ")" "]"
+ | "[mk,mi_idx,ci]" "[" joinkey_mk_mi_idx_ci "," joinkey_mk_mi_idx_ci "]" "[" "(" pred_mk ")" "(" pred_mi_idx ")" "(" pred_ci ")" "]"
+ | "[mk,mc,ci]" "[" joinkey_mk_mc_ci "," joinkey_mk_mc_ci "]" "[" "(" pred_mk ")" "(" pred_mc ")" "(" pred_ci ")" "]"
+ | "[mi_idx,mc,ci]" "[" joinkey_mi_idx_mc_ci "," joinkey_mi_idx_mc_ci "]" "[" "(" pred_mi_idx ")" "(" pred_mc ")" "(" pred_ci ")" "]"
+<table_4> : "[t,mi,mk,mi_idx]" "[" joinkey_t_mi_mk_mi_idx "," joinkey_t_mi_mk_mi_idx "," joinkey_t_mi_mk_mi_idx "]" "[" "(" pred_t ")" "(" pred_mi ")" "(" pred_mk ")" "(" pred_mi_idx ")" "]"
+ | "[t,mi,mk,mc]" "[" joinkey_t_mi_mk_mc "," joinkey_t_mi_mk_mc "," joinkey_t_mi_mk_mc "]" "[" "(" pred_t ")" "(" pred_mi ")" "(" pred_mk ")" "(" pred_mc ")" "]"
+ | "[t,mi,mk,ci]" "[" joinkey_t_mi_mk_ci "," joinkey_t_mi_mk_ci "," joinkey_t_mi_mk_ci "]" "[" "(" pred_t ")" "(" pred_mi ")" "(" pred_mk ")" "(" pred_ci ")" "]"
+ | "[t,mi,mi_idx,mc]" "[" joinkey_t_mi_mi_idx_mc "," joinkey_t_mi_mi_idx_mc "," joinkey_t_mi_mi_idx_mc "]" "[" "(" pred_t ")" "(" pred_mi ")" "(" pred_mi_idx ")" "(" pred_mc ")" "]"
+ | "[t,mi,mi_idx,ci]" "[" joinkey_t_mi_mi_idx_ci "," joinkey_t_mi_mi_idx_ci "," joinkey_t_mi_mi_idx_ci "]" "[" "(" pred_t ")" "(" pred_mi ")" "(" pred_mi_idx ")" "(" pred_ci ")" "]"
+ | "[t,mi,mc,ci]" "[" joinkey_t_mi_mc_ci "," joinkey_t_mi_mc_ci "," joinkey_t_mi_mc_ci "]" "[" "(" pred_t ")" "(" pred_mi ")" "(" pred_mc ")" "(" pred_ci ")" "]"
+ | "[t,mk,mi_idx,mc]" "[" joinkey_t_mk_mi_idx_mc "," joinkey_t_mk_mi_idx_mc "," joinkey_t_mk_mi_idx_mc "]" "[" "(" pred_t ")" "(" pred_mk ")" "(" pred_mi_idx ")" "(" pred_mc ")" "]"
+ | "[t,mk,mi_idx,ci]" "[" joinkey_t_mk_mi_idx_ci "," joinkey_t_mk_mi_idx_ci "," joinkey_t_mk_mi_idx_ci "]" "[" "(" pred_t ")" "(" pred_mk ")" "(" pred_mi_idx ")" "(" pred_ci ")" "]"
+ | "[t,mk,mc,ci]" "[" joinkey_t_mk_mc_ci "," joinkey_t_mk_mc_ci "," joinkey_t_mk_mc_ci "]" "[" "(" pred_t ")" "(" pred_mk ")" "(" pred_mc ")" "(" pred_ci ")" "]"
+ | "[t,mi_idx,mc,ci]" "[" joinkey_t_mi_idx_mc_ci "," joinkey_t_mi_idx_mc_ci "," joinkey_t_mi_idx_mc_ci "]" "[" "(" pred_t ")" "(" pred_mi_idx ")" "(" pred_mc ")" "(" pred_ci ")" "]"
+ | "[mi,mk,mi_idx,mc]" "[" joinkey_mi_mk_mi_idx_mc "," joinkey_mi_mk_mi_idx_mc "," joinkey_mi_mk_mi_idx_mc "]" "[" "(" pred_mi ")" "(" pred_mk ")" "(" pred_mi_idx ")" "(" pred_mc ")" "]"
+ | "[mi,mk,mi_idx,ci]" "[" joinkey_mi_mk_mi_idx_ci "," joinkey_mi_mk_mi_idx_ci "," joinkey_mi_mk_mi_idx_ci "]" "[" "(" pred_mi ")" "(" pred_mk ")" "(" pred_mi_idx ")" "(" pred_ci ")" "]"
+ | "[mi,mk,mc,ci]" "[" joinkey_mi_mk_mc_ci "," joinkey_mi_mk_mc_ci "," joinkey_mi_mk_mc_ci "]" "[" "(" pred_mi ")" "(" pred_mk ")" "(" pred_mc ")" "(" pred_ci ")" "]"
+ | "[mi,mi_idx,mc,ci]" "[" joinkey_mi_mi_idx_mc_ci "," joinkey_mi_mi_idx_mc_ci "," joinkey_mi_mi_idx_mc_ci "]" "[" "(" pred_mi ")" "(" pred_mi_idx ")" "(" pred_mc ")" "(" pred_ci ")" "]"
+ | "[mk,mi_idx,mc,ci]" "[" joinkey_mk_mi_idx_mc_ci "," joinkey_mk_mi_idx_mc_ci "," joinkey_mk_mi_idx_mc_ci "]" "[" "(" pred_mk ")" "(" pred_mi_idx ")" "(" pred_mc ")" "(" pred_ci ")" "]"
+<table_5> : "[t,mi,mk,mi_idx,mc]" "[" joinkey_t_mi_mk_mi_idx_mc "," joinkey_t_mi_mk_mi_idx_mc "," joinkey_t_mi_mk_mi_idx_mc "," joinkey_t_mi_mk_mi_idx_mc "]" "[" "(" pred_t ")" "(" pred_mi ")" "(" pred_mk ")" "(" pred_mi_idx ")" "(" pred_mc ")" "]"
+ | "[t,mi,mk,mi_idx,ci]" "[" joinkey_t_mi_mk_mi_idx_ci "," joinkey_t_mi_mk_mi_idx_ci "," joinkey_t_mi_mk_mi_idx_ci "," joinkey_t_mi_mk_mi_idx_ci "]" "[" "(" pred_t ")" "(" pred_mi ")" "(" pred_mk ")" "(" pred_mi_idx ")" "(" pred_ci ")" "]"
+ | "[t,mi,mk,mc,ci]" "[" joinkey_t_mi_mk_mc_ci "," joinkey_t_mi_mk_mc_ci "," joinkey_t_mi_mk_mc_ci "," joinkey_t_mi_mk_mc_ci "]" "[" "(" pred_t ")" "(" pred_mi ")" "(" pred_mk ")" "(" pred_mc ")" "(" pred_ci ")" "]"
+ | "[t,mi,mi_idx,mc,ci]" "[" joinkey_t_mi_mi_idx_mc_ci "," joinkey_t_mi_mi_idx_mc_ci "," joinkey_t_mi_mi_idx_mc_ci "," joinkey_t_mi_mi_idx_mc_ci "]" "[" "(" pred_t ")" "(" pred_mi ")" "(" pred_mi_idx ")" "(" pred_mc ")" "(" pred_ci ")" "]"
+ | "[t,mk,mi_idx,mc,ci]" "[" joinkey_t_mk_mi_idx_mc_ci "," joinkey_t_mk_mi_idx_mc_ci "," joinkey_t_mk_mi_idx_mc_ci "," joinkey_t_mk_mi_idx_mc_ci "]" "[" "(" pred_t ")" "(" pred_mk ")" "(" pred_mi_idx ")" "(" pred_mc ")" "(" pred_ci ")" "]"
+ | "[mi,mk,mi_idx,mc,ci]" "[" joinkey_mi_mk_mi_idx_mc_ci "," joinkey_mi_mk_mi_idx_mc_ci "," joinkey_mi_mk_mi_idx_mc_ci "," joinkey_mi_mk_mi_idx_mc_ci "]" "[" "(" pred_mi ")" "(" pred_mk ")" "(" pred_mi_idx ")" "(" pred_mc ")" "(" pred_ci ")" "]"
+<table_6> : "[t,mi,mk,mi_idx,mc,ci]" "[" joinkey_t_mi_mk_mi_idx_mc_ci "," joinkey_t_mi_mk_mi_idx_mc_ci "," joinkey_t_mi_mk_mi_idx_mc_ci "," joinkey_t_mi_mk_mi_idx_mc_ci "," joinkey_t_mi_mk_mi_idx_mc_ci "]" "[" "(" pred_t ")" "(" pred_mi ")" "(" pred_mk ")" "(" pred_mi_idx ")" "(" pred_mc ")" "(" pred_ci ")" "]"
+joinkey_t_mi : "t.id=mi.movie_id"
+joinkey_t_mk : "t.id=mk.movie_id"
+joinkey_t_mi_idx : "t.id=mi_idx.movie_id"
+joinkey_t_mc : "t.id=mc.movie_id"
+joinkey_t_ci : "t.id=ci.movie_id"
+joinkey_mi_mk : "mi.movie_id=mk.movie_id"
+joinkey_mi_mi_idx : "mi.movie_id=mi_idx.movie_id"
+joinkey_mi_mc : "mi.movie_id=mc.movie_id"
+joinkey_mi_ci : "mi.movie_id=ci.movie_id"
+joinkey_mk_mi_idx : "mk.movie_id=mi_idx.movie_id"
+joinkey_mk_mc : "mk.movie_id=mc.movie_id"
+joinkey_mk_ci : "mk.movie_id=ci.movie_id"
+joinkey_mi_idx_mc : "mi_idx.movie_id=mc.movie_id"
+joinkey_mi_idx_ci : "mi_idx.movie_id=ci.movie_id"
+joinkey_mc_ci : "mc.movie_id=ci.movie_id"
+joinkey_t_mi_mk : joinkey_t_mi | joinkey_t_mk | joinkey_mi_mk
+joinkey_t_mi_mi_idx : joinkey_t_mi | joinkey_t_mi_idx | joinkey_mi_mi_idx
+joinkey_t_mi_mc : joinkey_t_mi | joinkey_t_mc | joinkey_mi_mc
+joinkey_t_mi_ci : joinkey_t_mi | joinkey_t_ci | joinkey_mi_ci
+joinkey_t_mk_mi_idx : joinkey_t_mk | joinkey_t_mi_idx | joinkey_mk_mi_idx
+joinkey_t_mk_mc : joinkey_t_mk | joinkey_t_mc | joinkey_mk_mc
+joinkey_t_mk_ci : joinkey_t_mk | joinkey_t_ci | joinkey_mk_ci
+joinkey_t_mi_idx_mc : joinkey_t_mi_idx | joinkey_t_mc | joinkey_mi_idx_mc
+joinkey_t_mi_idx_ci : joinkey_t_mi_idx | joinkey_t_ci | joinkey_mi_idx_ci
+joinkey_t_mc_ci : joinkey_t_mc | joinkey_t_ci | joinkey_mc_ci
+joinkey_mi_mk_mi_idx : joinkey_mi_mk | joinkey_mi_mi_idx | joinkey_mk_mi_idx
+joinkey_mi_mk_mc : joinkey_mi_mk | joinkey_mi_mc | joinkey_mk_mc
+joinkey_mi_mk_ci : joinkey_mi_mk | joinkey_mi_ci | joinkey_mk_ci
+joinkey_mi_mi_idx_mc : joinkey_mi_mi_idx | joinkey_mi_mc | joinkey_mi_idx_mc
+joinkey_mi_mi_idx_ci : joinkey_mi_mi_idx | joinkey_mi_ci | joinkey_mi_idx_ci
+joinkey_mi_mc_ci : joinkey_mi_mc | joinkey_mi_ci | joinkey_mc_ci
+joinkey_mk_mi_idx_mc : joinkey_mk_mi_idx | joinkey_mk_mc | joinkey_mi_idx_mc
+joinkey_mk_mi_idx_ci : joinkey_mk_mi_idx | joinkey_mk_ci | joinkey_mi_idx_ci
+joinkey_mk_mc_ci : joinkey_mk_mc | joinkey_mk_ci | joinkey_mc_ci
+joinkey_mi_idx_mc_ci : joinkey_mi_idx_mc | joinkey_mi_idx_ci | joinkey_mc_ci
+joinkey_t_mi_mk_mi_idx : joinkey_t_mi | joinkey_t_mk | joinkey_t_mi_idx | joinkey_mi_mk | joinkey_mi_mi_idx | joinkey_mk_mi_idx
+joinkey_t_mi_mk_mc : joinkey_t_mi | joinkey_t_mk | joinkey_t_mc | joinkey_mi_mk | joinkey_mi_mc | joinkey_mk_mc
+joinkey_t_mi_mk_ci : joinkey_t_mi | joinkey_t_mk | joinkey_t_ci | joinkey_mi_mk | joinkey_mi_ci | joinkey_mk_ci
+joinkey_t_mi_mi_idx_mc : joinkey_t_mi | joinkey_t_mi_idx | joinkey_t_mc | joinkey_mi_mi_idx | joinkey_mi_mc | joinkey_mi_idx_mc
+joinkey_t_mi_mi_idx_ci : joinkey_t_mi | joinkey_t_mi_idx | joinkey_t_ci | joinkey_mi_mi_idx | joinkey_mi_ci | joinkey_mi_idx_ci
+joinkey_t_mi_mc_ci : joinkey_t_mi | joinkey_t_mc | joinkey_t_ci | joinkey_mi_mc | joinkey_mi_ci | joinkey_mc_ci
+joinkey_t_mk_mi_idx_mc : joinkey_t_mk | joinkey_t_mi_idx | joinkey_t_mc | joinkey_mk_mi_idx | joinkey_mk_mc | joinkey_mi_idx_mc
+joinkey_t_mk_mi_idx_ci : joinkey_t_mk | joinkey_t_mi_idx | joinkey_t_ci | joinkey_mk_mi_idx | joinkey_mk_ci | joinkey_mi_idx_ci
+joinkey_t_mk_mc_ci : joinkey_t_mk | joinkey_t_mc | joinkey_t_ci | joinkey_mk_mc | joinkey_mk_ci | joinkey_mc_ci
+joinkey_t_mi_idx_mc_ci : joinkey_t_mi_idx | joinkey_t_mc | joinkey_t_ci | joinkey_mi_idx_mc | joinkey_mi_idx_ci | joinkey_mc_ci
+joinkey_mi_mk_mi_idx_mc : joinkey_mi_mk | joinkey_mi_mi_idx | joinkey_mi_mc | joinkey_mk_mi_idx | joinkey_mk_mc | joinkey_mi_idx_mc
+joinkey_mi_mk_mi_idx_ci : joinkey_mi_mk | joinkey_mi_mi_idx | joinkey_mi_ci | joinkey_mk_mi_idx | joinkey_mk_ci | joinkey_mi_idx_ci
+joinkey_mi_mk_mc_ci : joinkey_mi_mk | joinkey_mi_mc | joinkey_mi_ci | joinkey_mk_mc | joinkey_mk_ci | joinkey_mc_ci
+joinkey_mi_mi_idx_mc_ci : joinkey_mi_mi_idx | joinkey_mi_mc | joinkey_mi_ci | joinkey_mi_idx_mc | joinkey_mi_idx_ci | joinkey_mc_ci
+joinkey_mk_mi_idx_mc_ci : joinkey_mk_mi_idx | joinkey_mk_mc | joinkey_mk_ci | joinkey_mi_idx_mc | joinkey_mi_idx_ci | joinkey_mc_ci
+joinkey_t_mi_mk_mi_idx_mc : joinkey_t_mi | joinkey_t_mk | joinkey_t_mi_idx | joinkey_t_mc | joinkey_mi_mk | joinkey_mi_mi_idx | joinkey_mi_mc | joinkey_mk_mi_idx | joinkey_mk_mc | joinkey_mi_idx_mc
+joinkey_t_mi_mk_mi_idx_ci : joinkey_t_mi | joinkey_t_mk | joinkey_t_mi_idx | joinkey_t_ci | joinkey_mi_mk | joinkey_mi_mi_idx | joinkey_mi_ci | joinkey_mk_mi_idx | joinkey_mk_ci | joinkey_mi_idx_ci
+joinkey_t_mi_mk_mc_ci : joinkey_t_mi | joinkey_t_mk | joinkey_t_mc | joinkey_t_ci | joinkey_mi_mk | joinkey_mi_mc | joinkey_mi_ci | joinkey_mk_mc | joinkey_mk_ci | joinkey_mc_ci
+joinkey_t_mi_mi_idx_mc_ci : joinkey_t_mi | joinkey_t_mi_idx | joinkey_t_mc | joinkey_t_ci | joinkey_mi_mi_idx | joinkey_mi_mc | joinkey_mi_ci | joinkey_mi_idx_mc | joinkey_mi_idx_ci | joinkey_mc_ci
+joinkey_t_mk_mi_idx_mc_ci : joinkey_t_mk | joinkey_t_mi_idx | joinkey_t_mc | joinkey_t_ci | joinkey_mk_mi_idx | joinkey_mk_mc | joinkey_mk_ci | joinkey_mi_idx_mc | joinkey_mi_idx_ci | joinkey_mc_ci
+joinkey_mi_mk_mi_idx_mc_ci : joinkey_mi_mk | joinkey_mi_mi_idx | joinkey_mi_mc | joinkey_mi_ci | joinkey_mk_mi_idx | joinkey_mk_mc | joinkey_mk_ci | joinkey_mi_idx_mc | joinkey_mi_idx_ci | joinkey_mc_ci
+joinkey_t_mi_mk_mi_idx_mc_ci : joinkey_t_mi | joinkey_t_mk | joinkey_t_mi_idx | joinkey_t_mc | joinkey_t_ci | joinkey_mi_mk | joinkey_mi_mi_idx | joinkey_mi_mc | joinkey_mi_ci | joinkey_mk_mi_idx | joinkey_mk_mc | joinkey_mk_ci | joinkey_mi_idx_mc | joinkey_mi_idx_ci | joinkey_mc_ci
+
+pred_t : preds_t_kind_id
+pred_mi : preds_mi_info_type_id
+pred_mk : preds_mk_keyword_id
+pred_mi_idx : preds_mi_idx_info_type_id
+pred_mc : preds_mc_company_id
+pred_ci : preds_ci_role_id
+
+preds_t_kind_id : pred_t_kind_id | preds_t_production_year | pred_t_kind_id comma preds_t_production_year
+
+preds_t_production_year : pred_t_production_year? 
+
+preds_mi_info_type_id : pred_mi_info_type_id? 
+
+preds_mk_keyword_id : pred_mk_keyword_id?
+
+preds_mi_idx_info_type_id : pred_mi_idx_info_type_id?
+
+preds_mc_company_id : pred_mc_company_id | preds_mc_company_type_id | pred_mc_company_id comma preds_mc_company_type_id
+preds_mc_company_type_id : pred_mc_company_type_id?
+
+preds_ci_role_id : pred_ci_role_id?
+
+
+
+pred_t_kind_id : "t.kind_id" op t_kind_id | "t.kind_id" opa t_kind_id comma "t.kind_id" opb t_kind_id
+pred_t_production_year : "t.production_year" op t_production_year | "t.production_year" opa t_production_year comma "t.production_year" opb t_production_year
+pred_mi_info_type_id : "mi.info_type_id" op mi_info_type_id | "mi.info_type_id" opa mi_info_type_id comma "mi.info_type_id" opb mi_info_type_id
+pred_mk_keyword_id : "mk.keyword_id" op mk_keyword_id | "mk.keyword_id" opa mk_keyword_id comma "mk.keyword_id" opb mk_keyword_id
+pred_mi_idx_info_type_id : "mi_idx.info_type_id" op mi_idx_info_type_id | "mi_idx.info_type_id" opa mi_idx_info_type_id comma "mi_idx.info_type_id" opb mi_idx_info_type_id
+pred_mc_company_id : "mc.company_id" op mc_company_id
+pred_mc_company_type_id : "mc.company_type_id" op mc_company_type_id
+pred_ci_role_id : "ci.role_id" op ci_role_id | "ci.role_id" opa ci_role_id "ci.role_id" opb ci_role_id
+
+op : ope | opa | opb
+ope : "!=" | "="
+opa : ">" | ">="
+opb : "<" | "<="
+
+t_kind_id : "1"
+t_production_year : "1995" | "1984" | "2008" | "2015" | "2007" | "1950" | "2014" | "2005" | "2000" | "2010" | "2009" | "1998" | "1980" | "1990"
+mi_info_type_id : "16" | "8" | "105" | "3"
+mk_keyword_id : "117" | "8200" | "398" | "7084"
+mi_idx_info_type_id : "100" | "113" | "112" | "101"
+mc_company_id : "22956"
+mc_company_type_id : "2"
+ci_role_id :"4" | "1" | "2" | "7"

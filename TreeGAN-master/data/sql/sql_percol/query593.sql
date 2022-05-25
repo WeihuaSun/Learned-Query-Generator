@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Federal-gov' AND education = 'Bachelors' AND education_num <= 16.0 AND occupation = 'Transport-moving' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 38985.0 AND capital_loss <= 1896.0;

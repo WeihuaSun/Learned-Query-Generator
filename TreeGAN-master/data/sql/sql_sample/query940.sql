@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 57 AND education_num <= 13 AND marital_status = 'Widowed' AND occupation = '?' AND sex = 'Male' AND capital_gain <= 10605 AND capital_loss <= 2559 AND hours_per_week <= 79 AND native_country = 'El-Salvador';

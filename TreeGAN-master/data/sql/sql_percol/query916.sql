@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 49.0 AND workclass = 'Local-gov' AND education_num <= 14.0 AND marital_status = 'Married-civ-spouse' AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Female' AND capital_gain <= 11672.0 AND capital_loss <= 796.0 AND hours_per_week <= 41.0 AND native_country = 'Hong';

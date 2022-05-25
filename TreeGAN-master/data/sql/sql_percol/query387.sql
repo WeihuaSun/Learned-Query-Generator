@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 31.0 AND workclass = 'Private' AND education = 'Preschool' AND marital_status = 'Married-civ-spouse' AND occupation = 'Priv-house-serv' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Female' AND capital_gain <= 5786.0 AND capital_loss <= 248.0 AND hours_per_week <= 60.0 AND native_country = 'Cuba';

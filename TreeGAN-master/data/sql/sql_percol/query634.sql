@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND marital_status = 'Divorced' AND occupation = 'Armed-Forces' AND relationship = 'Other-relative' AND sex = 'Female' AND capital_gain <= 14113.0 AND native_country = 'Hong';

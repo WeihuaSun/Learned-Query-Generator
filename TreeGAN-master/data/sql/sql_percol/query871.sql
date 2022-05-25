@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 76.0 AND education = '1st-4th' AND occupation = 'Transport-moving' AND race = 'White' AND capital_gain <= 1050.0 AND capital_loss <= 1641.0 AND hours_per_week <= 45.0;

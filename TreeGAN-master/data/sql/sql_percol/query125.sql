@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 63.0 AND education = 'Assoc-acdm' AND education_num <= 8.0 AND marital_status = 'Married-AF-spouse' AND sex = 'Male' AND capital_gain <= 31491.0 AND capital_loss <= 2113.0 AND hours_per_week <= 87.0 AND native_country = 'Columbia';

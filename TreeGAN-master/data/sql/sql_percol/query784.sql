@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 68.0 AND workclass = 'Private' AND education = 'Assoc-acdm' AND education_num <= 14.0 AND occupation = 'Armed-Forces' AND relationship = 'Other-relative' AND sex = 'Male' AND capital_gain <= 16397.0 AND native_country = 'Hong';

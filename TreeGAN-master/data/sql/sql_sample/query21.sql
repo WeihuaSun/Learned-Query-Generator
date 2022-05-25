@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 58 AND workclass = 'Private' AND education = 'Assoc-voc' AND marital_status = 'Married-civ-spouse' AND occupation = 'Transport-moving' AND relationship = 'Own-child' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 8614 AND capital_loss <= 2559 AND hours_per_week <= 68 AND native_country = 'Hong';

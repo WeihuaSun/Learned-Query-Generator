@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 44.0 AND education_num <= 11.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Transport-moving' AND relationship = 'Unmarried' AND sex = 'Male' AND capital_gain <= 46624.0 AND capital_loss <= 972.0 AND hours_per_week <= 62.0 AND native_country = 'India';

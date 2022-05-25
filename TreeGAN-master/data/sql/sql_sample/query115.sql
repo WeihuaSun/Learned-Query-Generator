@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 41 AND education = '7th-8th' AND education_num <= 11 AND occupation = 'Adm-clerical' AND sex = 'Female' AND capital_gain <= 5060 AND capital_loss <= 2467 AND hours_per_week <= 30;

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 58 AND workclass = 'Never-worked' AND marital_status = 'Married-civ-spouse' AND relationship = 'Own-child' AND sex = 'Male' AND capital_gain <= 5060 AND native_country = 'Hungary';

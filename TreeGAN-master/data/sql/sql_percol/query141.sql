@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education_num <= 11.0 AND occupation = 'Other-service' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_loss <= 1574.0 AND hours_per_week <= 73.0;

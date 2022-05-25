@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 44.0 AND education = 'Masters' AND education_num <= 19.0 AND marital_status = 'Married-spouse-absent' AND sex = 'Female' AND capital_gain <= 11320.0 AND hours_per_week <= 43.0;

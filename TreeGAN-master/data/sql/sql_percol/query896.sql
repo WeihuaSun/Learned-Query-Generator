@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 65.0 AND workclass = 'State-gov' AND education = '10th' AND education_num <= 12.0 AND marital_status = 'Separated' AND occupation = 'Farming-fishing' AND relationship = 'Own-child' AND race = 'White' AND sex = 'Female' AND capital_gain <= 45829.0 AND native_country = 'Cuba';

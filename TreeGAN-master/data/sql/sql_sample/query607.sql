@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 43 AND education = 'Prof-school' AND education_num <= 16 AND marital_status = 'Married-AF-spouse' AND occupation = 'Sales' AND relationship = 'Unmarried' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 8614 AND native_country = 'United-States';

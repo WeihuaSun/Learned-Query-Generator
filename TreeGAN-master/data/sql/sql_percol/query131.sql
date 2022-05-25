@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 51.0 AND workclass = 'Private' AND education = 'Assoc-acdm' AND marital_status = 'Widowed' AND occupation = 'Handlers-cleaners' AND relationship = 'Own-child' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 41029.0 AND native_country = 'Hong';

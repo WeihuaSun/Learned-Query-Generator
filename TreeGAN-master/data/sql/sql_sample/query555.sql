@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 75 AND education_num <= 11 AND occupation = 'Transport-moving' AND relationship = 'Wife' AND race = 'Black' AND capital_gain <= 8614 AND capital_loss <= 2002 AND hours_per_week <= 23 AND native_country = 'El-Salvador';

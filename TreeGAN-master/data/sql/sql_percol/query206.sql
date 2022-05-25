@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 63.0 AND education = '1st-4th' AND education_num <= 12.0 AND occupation = 'Prof-specialty' AND relationship = 'Other-relative' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 49923.0 AND hours_per_week <= 81.0 AND native_country = 'England';

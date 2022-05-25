@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 52.0 AND workclass = 'Self-emp-inc' AND education = 'Preschool' AND marital_status = 'Divorced' AND occupation = 'Other-service' AND relationship = 'Unmarried' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND hours_per_week <= 48.0 AND native_country = 'Taiwan';

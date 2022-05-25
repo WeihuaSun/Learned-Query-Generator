@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 58 AND workclass = 'Never-worked' AND education = '7th-8th' AND education_num <= 13 AND marital_status = 'Widowed' AND occupation = 'Adm-clerical' AND capital_gain <= 5060 AND capital_loss <= 1974 AND hours_per_week <= 79;

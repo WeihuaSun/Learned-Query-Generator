@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 58 AND workclass = 'Local-gov' AND education = '7th-8th' AND marital_status = 'Married-AF-spouse' AND occupation = 'Prof-specialty' AND relationship = 'Not-in-family' AND race = 'White' AND sex = 'Female' AND capital_gain <= 8614 AND native_country = 'Cambodia';

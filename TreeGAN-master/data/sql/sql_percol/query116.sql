@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 33.0 AND workclass = 'Local-gov' AND education = 'Preschool' AND education_num <= 15.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Exec-managerial' AND relationship = 'Husband' AND race = 'Other' AND sex = 'Male' AND capital_gain <= 9561.0 AND capital_loss <= 2091.0 AND native_country = 'Cuba';

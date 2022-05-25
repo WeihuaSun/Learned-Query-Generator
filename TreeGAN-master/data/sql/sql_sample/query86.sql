@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 57 AND workclass = 'Local-gov' AND education = 'Prof-school' AND education_num <= 11 AND occupation = '?' AND race = 'White' AND sex = 'Female' AND capital_gain <= 10605 AND capital_loss <= 2559 AND hours_per_week <= 79 AND native_country = 'Taiwan';

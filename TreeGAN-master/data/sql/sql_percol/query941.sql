@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Preschool' AND education_num <= 10.0 AND marital_status = 'Widowed' AND occupation = 'Tech-support' AND relationship = 'Own-child' AND race = 'Black' AND sex = 'Male' AND capital_loss <= 1811.0;

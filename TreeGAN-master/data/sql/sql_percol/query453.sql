@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 45.0 AND workclass = 'Federal-gov' AND education = '10th' AND education_num <= 18.0 AND marital_status = 'Divorced' AND occupation = 'Prof-specialty' AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Male' AND capital_gain <= 2308.0 AND capital_loss <= 1477.0 AND native_country = 'Portugal';

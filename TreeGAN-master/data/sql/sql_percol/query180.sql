@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = '11th' AND marital_status = 'Widowed' AND relationship = 'Unmarried' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 21741.0 AND hours_per_week <= 27.0 AND native_country = 'Taiwan';

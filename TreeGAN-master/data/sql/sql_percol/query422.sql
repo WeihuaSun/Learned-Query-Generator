@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 52.0 AND workclass = 'Federal-gov' AND education = '11th' AND education_num <= 11.0 AND marital_status = 'Widowed' AND relationship = 'Husband' AND race = 'White' AND sex = 'Male' AND capital_gain <= 35176.0 AND capital_loss <= 132.0 AND hours_per_week <= 59.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = 'Assoc-acdm' AND marital_status = 'Never-married' AND relationship = 'Own-child' AND race = 'Black' AND sex = 'Female' AND capital_loss <= 2467 AND native_country = 'India';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = 'Bachelors' AND occupation = 'Handlers-cleaners' AND relationship = 'Other-relative' AND capital_gain <= 36506.0 AND capital_loss <= 1974.0 AND hours_per_week <= 70.0;

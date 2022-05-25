@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = 'Bachelors' AND education_num <= 14.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Farming-fishing' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo';

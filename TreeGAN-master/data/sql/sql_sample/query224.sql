@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 75 AND education = '7th-8th' AND marital_status = 'Married-AF-spouse' AND occupation = 'Adm-clerical' AND race = 'White' AND sex = 'Female' AND capital_gain <= 3818 AND hours_per_week <= 85 AND native_country = 'United-States';

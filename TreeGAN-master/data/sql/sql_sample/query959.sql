@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 75 AND workclass = 'Without-pay' AND education = '7th-8th' AND marital_status = 'Married-spouse-absent' AND occupation = '?' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 10605 AND native_country = 'England';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 89.0 AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND capital_gain <= 21803.0 AND capital_loss <= 1588.0 AND native_country = 'Yugoslavia';

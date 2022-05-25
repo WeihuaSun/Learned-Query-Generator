@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 43 AND workclass = 'Never-worked' AND education = 'Prof-school' AND education_num <= 5 AND occupation = 'Adm-clerical' AND relationship = 'Wife' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 3818 AND capital_loss <= 1876 AND hours_per_week <= 97 AND native_country = 'Hong';

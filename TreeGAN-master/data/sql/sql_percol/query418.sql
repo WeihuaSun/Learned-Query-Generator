@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 63.0 AND education = '10th' AND marital_status = 'Divorced' AND occupation = 'Prof-specialty' AND relationship = 'Other-relative' AND sex = 'Female' AND native_country = 'Outlying-US(Guam-USVI-etc)';

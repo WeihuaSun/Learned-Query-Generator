@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 57 AND workclass = 'Private' AND education = 'Assoc-voc' AND education_num <= 13 AND marital_status = 'Separated' AND occupation = 'Prof-specialty' AND relationship = 'Wife' AND sex = 'Male' AND capital_gain <= 5060 AND capital_loss <= 2559 AND native_country = 'Hong';

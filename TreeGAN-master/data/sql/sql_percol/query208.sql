@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 59.0 AND workclass = 'Local-gov' AND education = '10th' AND marital_status = 'Divorced' AND occupation = 'Transport-moving' AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND native_country = 'India';

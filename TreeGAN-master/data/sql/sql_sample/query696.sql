@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 57 AND workclass = 'Never-worked' AND education = 'Assoc-acdm' AND education_num <= 10 AND marital_status = 'Separated' AND occupation = 'Craft-repair' AND relationship = 'Not-in-family' AND sex = 'Female' AND capital_gain <= 3818 AND hours_per_week <= 68 AND native_country = 'India';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 43 AND workclass = 'Never-worked' AND education = 'Assoc-voc' AND education_num <= 16 AND occupation = 'Transport-moving' AND relationship = 'Own-child' AND capital_gain <= 9386 AND hours_per_week <= 23;

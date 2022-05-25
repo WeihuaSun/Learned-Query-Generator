@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 26 AND workclass = 'Never-worked' AND education_num <= 16 AND marital_status = 'Never-married' AND occupation = 'Exec-managerial' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 10605 AND capital_loss <= 2467 AND hours_per_week <= 17 AND native_country = 'El-Salvador';

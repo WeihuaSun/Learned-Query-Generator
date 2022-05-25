@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 77.0 AND workclass = 'Local-gov' AND education = 'Preschool' AND marital_status = 'Widowed' AND occupation = 'Priv-house-serv' AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Male' AND native_country = 'Outlying-US(Guam-USVI-etc)';

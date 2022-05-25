@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 75 AND workclass = 'Without-pay' AND education = 'Doctorate' AND education_num <= 11 AND marital_status = 'Married-AF-spouse' AND occupation = '?' AND sex = 'Male' AND capital_gain <= 3818 AND capital_loss <= 2129 AND hours_per_week <= 68 AND native_country = 'Hungary';

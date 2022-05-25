@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND education = 'Assoc-acdm' AND marital_status = 'Never-married' AND race = 'Asian-Pac-Islander' AND capital_gain <= 4101 AND native_country = 'Cambodia';

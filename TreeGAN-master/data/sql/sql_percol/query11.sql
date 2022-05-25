@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 54.0 AND workclass = 'Local-gov' AND education = '10th' AND occupation = 'Farming-fishing' AND relationship = 'Husband' AND race = 'Other' AND sex = 'Male' AND capital_loss <= 893.0 AND hours_per_week <= 81.0 AND native_country = 'Columbia';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = 'Preschool' AND education_num <= 16.0 AND relationship = 'Husband' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 5624.0 AND capital_loss <= 1420.0 AND hours_per_week <= 68.0 AND native_country = 'India';

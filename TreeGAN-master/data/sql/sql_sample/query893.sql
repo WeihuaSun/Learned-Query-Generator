@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 41 AND workclass = 'Local-gov' AND education = 'Assoc-acdm' AND occupation = 'Craft-repair' AND relationship = 'Wife' AND race = 'Asian-Pac-Islander' AND capital_loss <= 2559 AND native_country = 'Hong';

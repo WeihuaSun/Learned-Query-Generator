@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 46.0 AND workclass = 'Local-gov' AND education = '7th-8th' AND education_num <= 8.0 AND marital_status = 'Divorced' AND occupation = 'Priv-house-serv' AND relationship = 'Husband' AND race = 'White' AND sex = 'Male' AND capital_loss <= 72.0 AND hours_per_week <= 61.0 AND native_country = 'Portugal';

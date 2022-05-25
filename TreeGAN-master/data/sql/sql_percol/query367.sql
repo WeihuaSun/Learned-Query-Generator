@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = 'Masters' AND marital_status = 'Separated' AND occupation = 'Farming-fishing' AND relationship = 'Unmarried' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 22663.0 AND capital_loss <= 606.0 AND hours_per_week <= 90.0;

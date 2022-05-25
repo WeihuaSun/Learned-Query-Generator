@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 57 AND workclass = 'Local-gov' AND education_num <= 13 AND occupation = 'Transport-moving' AND relationship = 'Unmarried' AND race = 'Other' AND capital_gain <= 10605 AND capital_loss <= 2559 AND hours_per_week <= 79;

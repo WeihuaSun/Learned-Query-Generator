@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 26 AND education = 'Assoc-voc' AND occupation = 'Craft-repair' AND relationship = 'Not-in-family' AND race = 'White' AND capital_gain <= 2977 AND capital_loss <= 2559 AND hours_per_week <= 85;

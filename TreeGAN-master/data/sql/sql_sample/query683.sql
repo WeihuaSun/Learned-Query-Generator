@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 75 AND workclass = 'Local-gov' AND education = 'Prof-school' AND marital_status = 'Widowed' AND occupation = 'Prof-specialty' AND relationship = 'Own-child' AND race = 'White' AND sex = 'Female' AND capital_loss <= 2559 AND native_country = 'El-Salvador';

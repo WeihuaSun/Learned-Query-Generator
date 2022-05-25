@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Federal-gov' AND education = 'Assoc-acdm' AND education_num <= 18.0 AND marital_status = 'Widowed' AND occupation = 'Exec-managerial' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 18814.0;

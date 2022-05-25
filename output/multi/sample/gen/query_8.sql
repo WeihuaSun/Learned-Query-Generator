@@ -1,0 +1,1 @@
+[t,mi,mc][t.id=mc.movie_id,t.id=mc.movie_id][(t.production_year!=1984)(mi.info_type_id=16)()]

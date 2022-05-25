@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 44.0 AND education_num <= 13.0 AND occupation = 'Exec-managerial' AND relationship = 'Husband' AND race = 'Black' AND capital_gain <= 45044.0 AND capital_loss <= 2079.0 AND hours_per_week <= 106.0;

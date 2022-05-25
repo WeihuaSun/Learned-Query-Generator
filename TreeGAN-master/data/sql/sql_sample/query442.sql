@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Never-worked' AND education_num <= 13 AND occupation = 'Exec-managerial' AND relationship = 'Unmarried' AND sex = 'Female' AND capital_gain <= 4101 AND capital_loss <= 2080 AND hours_per_week <= 79;

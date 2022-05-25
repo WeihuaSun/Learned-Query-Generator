@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 85.0 AND education_num <= 15.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Prof-specialty' AND race = 'White' AND sex = 'Female' AND capital_gain <= 47755.0 AND hours_per_week <= 74.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 78.0 AND workclass = 'Private' AND education = 'Some-college' AND education_num <= 4.0 AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_gain <= 30097.0 AND capital_loss <= 2097.0 AND hours_per_week <= 70.0 AND native_country = 'India';

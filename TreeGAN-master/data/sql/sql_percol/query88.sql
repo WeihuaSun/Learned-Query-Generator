@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education_num <= 13.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Handlers-cleaners' AND relationship = 'Unmarried' AND capital_gain <= 6381.0 AND capital_loss <= 1602.0 AND hours_per_week <= 79.0;

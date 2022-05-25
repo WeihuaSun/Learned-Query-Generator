@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = 'Doctorate' AND education_num <= 13 AND marital_status = 'Married-civ-spouse' AND occupation = '?' AND relationship = 'Husband' AND race = 'White' AND capital_gain <= 9386 AND capital_loss <= 2129 AND hours_per_week <= 17 AND native_country = 'Cambodia';

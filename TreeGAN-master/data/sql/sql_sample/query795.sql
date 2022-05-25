@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = 'Prof-school' AND education_num <= 11 AND occupation = 'Adm-clerical' AND relationship = 'Husband' AND race = 'Other' AND sex = 'Female' AND native_country = 'Taiwan';

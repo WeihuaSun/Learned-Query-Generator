@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Some-college' AND education_num <= 12.0 AND marital_status = 'Divorced' AND relationship = 'Other-relative' AND sex = 'Male' AND capital_gain <= 8698.0 AND capital_loss <= 1628.0 AND native_country = 'Honduras';

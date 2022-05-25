@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Without-pay' AND education = 'Assoc-acdm' AND marital_status = 'Divorced' AND occupation = 'Tech-support' AND relationship = 'Other-relative' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 47267.0 AND native_country = 'Taiwan';

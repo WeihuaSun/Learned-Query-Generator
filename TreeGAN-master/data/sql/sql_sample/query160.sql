@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND education_num <= 8 AND occupation = 'Sales' AND sex = 'Female' AND capital_gain <= 4101 AND capital_loss <= 2559 AND hours_per_week <= 85;

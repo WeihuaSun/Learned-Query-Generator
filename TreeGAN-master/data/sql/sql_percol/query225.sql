@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND education = '11th' AND education_num <= 19.0 AND relationship = 'Other-relative' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND native_country = 'Outlying-US(Guam-USVI-etc)';

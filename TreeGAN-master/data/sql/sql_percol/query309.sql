@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND education_num <= 19.0 AND marital_status = 'Divorced' AND occupation = 'Exec-managerial' AND relationship = 'Husband' AND sex = 'Male' AND capital_gain <= 23872.0 AND capital_loss <= 738.0 AND native_country = 'Cuba';

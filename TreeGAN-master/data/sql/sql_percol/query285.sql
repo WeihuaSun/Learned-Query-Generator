@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Without-pay' AND education = '11th' AND education_num <= 13.0 AND marital_status = 'Divorced' AND occupation = 'Tech-support' AND race = 'White' AND capital_gain <= 9611.0 AND hours_per_week <= 61.0 AND native_country = 'Columbia';

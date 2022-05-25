@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 63.0 AND workclass = 'Local-gov' AND education = '10th' AND education_num <= 13.0 AND occupation = 'Priv-house-serv' AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Female' AND capital_gain <= 17861.0 AND capital_loss <= 1112.0 AND native_country = 'Hong';

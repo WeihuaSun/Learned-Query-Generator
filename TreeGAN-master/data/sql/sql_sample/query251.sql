@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Without-pay' AND education = 'Assoc-acdm' AND education_num <= 10 AND marital_status = 'Separated' AND occupation = 'Adm-clerical' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_loss <= 2129 AND native_country = 'Cambodia';

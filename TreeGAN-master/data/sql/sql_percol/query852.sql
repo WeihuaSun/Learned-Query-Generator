@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 61.0 AND education = 'Bachelors' AND education_num <= 11.0 AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Female' AND capital_loss <= 1902.0 AND hours_per_week <= 58.0 AND native_country = 'Honduras';

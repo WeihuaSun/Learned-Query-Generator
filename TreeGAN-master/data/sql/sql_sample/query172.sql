@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 26 AND workclass = 'Without-pay' AND education = 'Assoc-acdm' AND education_num <= 16 AND marital_status = 'Never-married' AND occupation = 'Sales' AND relationship = 'Wife' AND race = 'White' AND sex = 'Male' AND capital_gain <= 10605 AND capital_loss <= 2467 AND native_country = 'Hungary';

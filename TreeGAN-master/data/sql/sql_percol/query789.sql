@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 67.0 AND education_num <= 14.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Other-service' AND relationship = 'Own-child' AND sex = 'Male' AND capital_loss <= 1263.0 AND hours_per_week <= 53.0 AND native_country = 'Cuba';

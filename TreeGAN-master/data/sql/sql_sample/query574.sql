@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Without-pay' AND education_num <= 13 AND marital_status = 'Married-AF-spouse' AND occupation = 'Transport-moving' AND capital_gain <= 8614 AND capital_loss <= 2467 AND hours_per_week <= 79;

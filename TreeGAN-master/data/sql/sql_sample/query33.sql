@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = 'Assoc-voc' AND relationship = 'Unmarried' AND race = 'White' AND sex = 'Female' AND capital_gain <= 991 AND capital_loss <= 2129 AND native_country = 'Poland';

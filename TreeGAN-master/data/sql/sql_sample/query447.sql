@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education_num <= 13 AND occupation = '?' AND relationship = 'Husband' AND race = 'White' AND sex = 'Female' AND capital_gain <= 1506 AND capital_loss <= 2002 AND native_country = 'Hungary';

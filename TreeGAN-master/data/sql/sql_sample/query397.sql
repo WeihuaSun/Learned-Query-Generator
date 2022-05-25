@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 20 AND workclass = 'Never-worked' AND education = '7th-8th' AND occupation = 'Adm-clerical' AND relationship = 'Own-child' AND race = 'White' AND sex = 'Female' AND capital_gain <= 10605 AND capital_loss <= 1974 AND hours_per_week <= 79;

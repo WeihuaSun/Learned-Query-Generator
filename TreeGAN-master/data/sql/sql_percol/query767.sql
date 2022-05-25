@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 71.0 AND education = 'Preschool' AND education_num <= 10.0 AND marital_status = 'Separated' AND occupation = 'Adm-clerical' AND capital_gain <= 46974.0 AND capital_loss <= 1510.0 AND hours_per_week <= 46.0 AND native_country = 'Cuba';

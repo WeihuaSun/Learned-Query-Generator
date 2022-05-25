@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 78.0 AND education = '10th' AND education_num <= 14.0 AND marital_status = 'Widowed' AND occupation = 'Transport-moving' AND relationship = 'Other-relative' AND sex = 'Male' AND capital_loss <= 1087.0 AND hours_per_week <= 45.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

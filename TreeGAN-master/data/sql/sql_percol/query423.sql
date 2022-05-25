@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Without-pay' AND education = 'Assoc-acdm' AND marital_status = 'Married-AF-spouse' AND occupation = 'Farming-fishing' AND relationship = 'Other-relative' AND sex = 'Male' AND hours_per_week <= 91.0 AND native_country = 'Portugal';

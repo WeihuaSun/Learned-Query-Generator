@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Without-pay' AND education = 'Doctorate' AND education_num <= 11 AND marital_status = 'Married-AF-spouse' AND occupation = 'Adm-clerical' AND relationship = 'Husband' AND race = 'Other' AND sex = 'Female' AND capital_loss <= 2559 AND hours_per_week <= 30 AND native_country = 'Hong';

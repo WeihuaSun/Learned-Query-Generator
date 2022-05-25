@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE marital_status = 'Separated' AND occupation = 'Other-service' AND relationship = 'Other-relative' AND race = 'Other' AND capital_gain <= 41336.0 AND hours_per_week <= 44.0 AND native_country = 'Hong';

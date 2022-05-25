@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 38.0 AND education = '1st-4th' AND education_num <= 13.0 AND marital_status = 'Married-spouse-absent' AND occupation = 'Adm-clerical' AND relationship = 'Own-child' AND race = 'Amer-Indian-Eskimo' AND capital_loss <= 495.0 AND hours_per_week <= 51.0;

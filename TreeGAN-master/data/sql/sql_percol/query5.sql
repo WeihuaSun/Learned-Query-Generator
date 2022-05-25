@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 59.0 AND workclass = 'Local-gov' AND education = '10th' AND marital_status = 'Divorced' AND occupation = 'Tech-support' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND hours_per_week <= 60.0 AND native_country = 'Honduras';

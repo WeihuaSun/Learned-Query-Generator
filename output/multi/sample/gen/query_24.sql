@@ -1,0 +1,1 @@
+[t,ci][t.id=ci.movie_id][(t.production_year>1995,t.production_year<2014)(ci.role_id>4ci.role_id<4)]

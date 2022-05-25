@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 26 AND education_num <= 13 AND marital_status = 'Never-married' AND relationship = 'Wife' AND sex = 'Female' AND capital_gain <= 10605 AND hours_per_week <= 13 AND native_country = 'Hong';

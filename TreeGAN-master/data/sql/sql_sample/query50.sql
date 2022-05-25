@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 43 AND workclass = 'Never-worked' AND education_num <= 13 AND marital_status = 'Married-civ-spouse' AND occupation = '?' AND relationship = 'Own-child' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 10605 AND capital_loss <= 1974 AND hours_per_week <= 97 AND native_country = 'Puerto-Rico';

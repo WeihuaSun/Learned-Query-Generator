@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 53.0 AND workclass = 'Private' AND education = 'Masters' AND education_num <= 17.0 AND marital_status = 'Married-spouse-absent' AND occupation = 'Exec-managerial' AND capital_gain <= 17384.0 AND hours_per_week <= 94.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

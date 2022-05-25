@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 49.0 AND workclass = 'Without-pay' AND education = 'Bachelors' AND marital_status = 'Separated' AND occupation = 'Exec-managerial' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND sex = 'Male' AND capital_gain <= 45400.0 AND capital_loss <= 1142.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

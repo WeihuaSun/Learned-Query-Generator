@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = 'Prof-school' AND education_num <= 10 AND relationship = 'Own-child' AND race = 'White' AND capital_gain <= 9386 AND capital_loss <= 2051 AND hours_per_week <= 97 AND native_country = 'United-States';

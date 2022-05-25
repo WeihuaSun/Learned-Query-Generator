@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND education = 'Doctorate' AND education_num <= 11 AND marital_status = 'Married-AF-spouse' AND occupation = '?' AND relationship = 'Not-in-family' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 9386 AND capital_loss <= 2057 AND hours_per_week <= 41 AND native_country = 'Cambodia';

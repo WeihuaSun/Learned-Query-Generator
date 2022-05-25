@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND marital_status = 'Divorced' AND relationship = 'Husband' AND sex = 'Male' AND capital_gain <= 41169.0 AND hours_per_week <= 57.0 AND native_country = 'Taiwan';

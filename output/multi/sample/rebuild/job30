@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM movie_info mi,cast_info ci WHERE mi.movie_id=ci.movie_id AND mi.info_type_id=16 AND ci.role_id>1;

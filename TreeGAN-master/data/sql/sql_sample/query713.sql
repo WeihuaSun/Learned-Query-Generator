@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 43 AND education_num <= 13 AND occupation = 'Exec-managerial' AND sex = 'Male' AND capital_gain <= 4101 AND capital_loss <= 2129 AND hours_per_week <= 85 AND native_country = 'Hong';

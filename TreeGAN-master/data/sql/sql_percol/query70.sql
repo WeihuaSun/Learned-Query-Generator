@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 70.0 AND marital_status = 'Widowed' AND occupation = 'Other-service' AND race = 'Amer-Indian-Eskimo' AND capital_gain <= 5849.0 AND capital_loss <= 2169.0 AND hours_per_week <= 97.0 AND native_country = 'Hong';

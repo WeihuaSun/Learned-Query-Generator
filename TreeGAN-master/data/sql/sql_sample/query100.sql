@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 43 AND education = 'Doctorate' AND education_num <= 10 AND marital_status = 'Married-AF-spouse' AND relationship = 'Own-child' AND race = 'Other' AND capital_gain <= 9386 AND capital_loss <= 2559 AND hours_per_week <= 41;

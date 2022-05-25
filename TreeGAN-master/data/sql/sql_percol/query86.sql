@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 33.0 AND education = 'Preschool' AND education_num <= 10.0 AND marital_status = 'Separated' AND occupation = 'Prof-specialty' AND relationship = 'Own-child' AND capital_gain <= 27950.0;

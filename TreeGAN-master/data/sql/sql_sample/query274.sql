@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = '11th' AND education_num <= 13 AND marital_status = 'Never-married' AND occupation = 'Prof-specialty' AND sex = 'Female' AND capital_gain <= 8614 AND capital_loss <= 2080 AND hours_per_week <= 17 AND native_country = 'Puerto-Rico';

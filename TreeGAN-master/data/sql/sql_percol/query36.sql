@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'State-gov' AND education_num <= 17.0 AND marital_status = 'Married-AF-spouse' AND relationship = 'Own-child' AND sex = 'Female' AND capital_gain <= 43082.0 AND native_country = 'Portugal';

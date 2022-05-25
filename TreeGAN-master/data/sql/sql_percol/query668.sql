@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = '7th-8th' AND education_num <= 17.0 AND marital_status = 'Separated' AND occupation = 'Farming-fishing' AND relationship = 'Own-child' AND race = 'White' AND native_country = 'India';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 58 AND workclass = 'Never-worked' AND education = 'Assoc-voc' AND marital_status = 'Widowed' AND occupation = 'Sales' AND relationship = 'Unmarried' AND race = 'Other' AND sex = 'Male' AND capital_loss <= 2002 AND native_country = 'El-Salvador';

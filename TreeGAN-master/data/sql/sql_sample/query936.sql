@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 58 AND workclass = 'Private' AND education = 'Doctorate' AND marital_status = 'Married-spouse-absent' AND occupation = 'Sales' AND relationship = 'Wife' AND race = 'White' AND native_country = 'United-States';

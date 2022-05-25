@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 63.0 AND workclass = 'Self-emp-inc' AND education = '10th' AND education_num <= 16.0 AND marital_status = 'Separated' AND occupation = 'Armed-Forces' AND race = 'Other' AND sex = 'Female' AND capital_gain <= 3337.0 AND capital_loss <= 756.0;

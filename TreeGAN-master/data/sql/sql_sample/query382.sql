@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 58 AND education = '7th-8th' AND marital_status = 'Married-AF-spouse' AND occupation = 'Craft-repair' AND relationship = 'Own-child' AND capital_gain <= 9386 AND capital_loss <= 2559 AND hours_per_week <= 41;

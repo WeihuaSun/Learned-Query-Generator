@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 55.0 AND workclass = 'Local-gov' AND marital_status = 'Separated' AND occupation = 'Farming-fishing' AND relationship = 'Other-relative' AND race = 'Other' AND sex = 'Female' AND native_country = 'Hong';

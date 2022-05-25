@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Without-pay' AND education = 'Prof-school' AND marital_status = 'Never-married' AND occupation = 'Other-service' AND relationship = 'Own-child' AND race = 'White' AND sex = 'Female' AND capital_gain <= 14344 AND capital_loss <= 1672 AND hours_per_week <= 41 AND native_country = 'Hong';

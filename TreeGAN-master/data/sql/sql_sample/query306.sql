@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND education = 'Doctorate' AND education_num <= 13 AND occupation = '?' AND relationship = 'Unmarried' AND race = 'White' AND sex = 'Female' AND capital_gain <= 9386 AND capital_loss <= 2051 AND native_country = 'Puerto-Rico';

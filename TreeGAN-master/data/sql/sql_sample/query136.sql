@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 75 AND workclass = 'Local-gov' AND education = 'Assoc-voc' AND marital_status = 'Married-spouse-absent' AND occupation = 'Adm-clerical' AND relationship = 'Own-child' AND sex = 'Female' AND capital_gain <= 8614 AND capital_loss <= 2002 AND hours_per_week <= 23 AND native_country = 'Puerto-Rico';

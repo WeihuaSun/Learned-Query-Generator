@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Some-college' AND education_num <= 8.0 AND marital_status = 'Widowed' AND occupation = 'Other-service' AND relationship = 'Other-relative' AND race = 'Black' AND sex = 'Female' AND capital_gain <= 17484.0 AND capital_loss <= 939.0 AND hours_per_week <= 91.0 AND native_country = 'India';

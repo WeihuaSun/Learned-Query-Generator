@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Self-emp-inc' AND education = '7th-8th' AND education_num <= 11.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Other-service' AND relationship = 'Own-child' AND capital_gain <= 19956.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

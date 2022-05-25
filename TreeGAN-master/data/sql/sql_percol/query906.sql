@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 53.0 AND workclass = 'Without-pay' AND marital_status = 'Separated' AND occupation = 'Handlers-cleaners' AND relationship = 'Own-child' AND race = 'Other' AND sex = 'Female' AND native_country = 'India';

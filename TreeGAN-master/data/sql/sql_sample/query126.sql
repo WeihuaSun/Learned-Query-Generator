@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 75 AND education_num <= 16 AND occupation = 'Adm-clerical' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND capital_gain <= 5060 AND capital_loss <= 2129 AND hours_per_week <= 68 AND native_country = 'United-States';

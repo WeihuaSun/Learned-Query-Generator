@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 80.0 AND education = '11th' AND education_num <= 21.0 AND marital_status = 'Separated' AND occupation = 'Prof-specialty' AND relationship = 'Unmarried' AND sex = 'Male' AND hours_per_week <= 84.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

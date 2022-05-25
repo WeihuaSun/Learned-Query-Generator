@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Private' AND education = 'Doctorate' AND marital_status = 'Married-spouse-absent' AND occupation = 'Exec-managerial' AND relationship = 'Unmarried' AND sex = 'Female' AND capital_gain <= 14344 AND hours_per_week <= 97 AND native_country = 'United-States';

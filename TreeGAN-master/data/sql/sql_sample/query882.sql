@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Local-gov' AND education = 'Assoc-acdm' AND education_num <= 10 AND race = 'Other' AND sex = 'Female' AND capital_gain <= 2977 AND capital_loss <= 2002 AND hours_per_week <= 97 AND native_country = 'Hungary';

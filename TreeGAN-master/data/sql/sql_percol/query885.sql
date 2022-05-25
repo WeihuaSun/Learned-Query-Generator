@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 57.0 AND workclass = 'Local-gov' AND marital_status = 'Married-civ-spouse' AND relationship = 'Own-child' AND race = 'Black' AND sex = 'Female' AND native_country = 'India';

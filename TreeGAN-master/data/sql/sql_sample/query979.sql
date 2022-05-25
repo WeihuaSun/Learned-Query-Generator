@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Without-pay' AND education = 'Doctorate' AND marital_status = 'Married-AF-spouse' AND occupation = 'Transport-moving' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_loss <= 2129 AND native_country = 'Cambodia';

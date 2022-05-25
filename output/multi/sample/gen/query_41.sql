@@ -1,0 +1,1 @@
+[t,mk][t.id=mk.movie_id][(t.kind_id>1,t.kind_id<1,t.production_year!=2015)()]

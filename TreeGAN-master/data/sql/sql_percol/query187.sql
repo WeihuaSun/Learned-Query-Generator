@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 46.0 AND workclass = 'Federal-gov' AND education = '7th-8th' AND education_num <= 14.0 AND marital_status = 'Separated' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_gain <= 40722.0 AND hours_per_week <= 63.0 AND native_country = 'Outlying-US(Guam-USVI-etc)';

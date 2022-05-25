@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Without-pay' AND education = 'Assoc-acdm' AND marital_status = 'Widowed' AND occupation = 'Other-service' AND race = 'Black' AND sex = 'Female' AND hours_per_week <= 13;

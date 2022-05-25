@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 87 AND workclass = 'Private' AND education_num <= 11 AND marital_status = 'Widowed' AND relationship = 'Husband' AND race = 'White' AND sex = 'Female' AND capital_loss <= 2080 AND hours_per_week <= 13 AND native_country = 'United-States';

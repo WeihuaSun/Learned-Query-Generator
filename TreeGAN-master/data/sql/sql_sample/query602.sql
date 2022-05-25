@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 75 AND workclass = 'Never-worked' AND education_num <= 13 AND occupation = 'Sales' AND relationship = 'Not-in-family' AND race = 'White' AND capital_gain <= 8614 AND capital_loss <= 1974 AND hours_per_week <= 41 AND native_country = 'Poland';

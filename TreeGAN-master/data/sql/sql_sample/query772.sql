@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 43 AND education = '11th' AND marital_status = 'Widowed' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND capital_loss <= 2467 AND hours_per_week <= 85 AND native_country = 'Hong';

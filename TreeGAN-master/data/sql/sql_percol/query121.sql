@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 36.0 AND workclass = 'Without-pay' AND education = '10th' AND marital_status = 'Divorced' AND occupation = 'Priv-house-serv' AND relationship = 'Other-relative' AND race = 'White' AND sex = 'Male' AND capital_gain <= 42113.0 AND capital_loss <= 1106.0 AND native_country = 'Yugoslavia';

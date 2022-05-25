@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 66.0 AND education = 'Bachelors' AND education_num <= 15.0 AND race = 'Amer-Indian-Eskimo' AND capital_gain <= 46727.0 AND capital_loss <= 1452.0 AND hours_per_week <= 72.0;

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Without-pay' AND education = 'Some-college' AND education_num <= 12.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Other-service' AND relationship = 'Husband' AND race = 'White' AND sex = 'Male' AND capital_loss <= 1490.0 AND hours_per_week <= 78.0 AND native_country = 'Hong';

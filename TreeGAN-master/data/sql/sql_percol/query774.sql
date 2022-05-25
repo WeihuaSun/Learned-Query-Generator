@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Never-worked' AND education_num <= 17.0 AND marital_status = 'Married-AF-spouse' AND occupation = 'Tech-support' AND relationship = 'Husband' AND race = 'Asian-Pac-Islander' AND sex = 'Male' AND capital_loss <= 148.0 AND hours_per_week <= 55.0 AND native_country = 'Portugal';

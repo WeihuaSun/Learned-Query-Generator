@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 42.0 AND workclass = 'Private' AND education_num <= 16.0 AND marital_status = 'Married-spouse-absent' AND relationship = 'Other-relative' AND sex = 'Female' AND capital_gain <= 5223.0 AND capital_loss <= 132.0 AND hours_per_week <= 64.0 AND native_country = 'Taiwan';

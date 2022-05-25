@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education = 'Preschool' AND marital_status = 'Married-spouse-absent' AND occupation = 'Farming-fishing' AND relationship = 'Other-relative' AND capital_gain <= 39928.0 AND hours_per_week <= 68.0 AND native_country = 'Taiwan';

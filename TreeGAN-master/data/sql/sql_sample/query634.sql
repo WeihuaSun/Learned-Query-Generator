@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Doctorate' AND marital_status = 'Married-civ-spouse' AND occupation = 'Prof-specialty' AND relationship = 'Wife' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_loss <= 2051 AND native_country = 'Puerto-Rico';

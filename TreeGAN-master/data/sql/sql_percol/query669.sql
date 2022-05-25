@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE education_num <= 11.0 AND occupation = 'Handlers-cleaners' AND relationship = 'Other-relative' AND race = 'Other' AND sex = 'Female' AND capital_loss <= 281.0 AND hours_per_week <= 67.0 AND native_country = 'Portugal';

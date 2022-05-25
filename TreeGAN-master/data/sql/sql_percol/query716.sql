@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 58.0 AND education_num <= 11.0 AND marital_status = 'Married-spouse-absent' AND relationship = 'Own-child' AND capital_gain <= 13952.0 AND native_country = 'India';

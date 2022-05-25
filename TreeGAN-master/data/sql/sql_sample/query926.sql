@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = '7th-8th' AND education_num <= 3 AND occupation = 'Craft-repair' AND relationship = 'Wife' AND native_country = 'Puerto-Rico';

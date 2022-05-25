@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE workclass = 'Local-gov' AND education = 'Preschool' AND occupation = 'Tech-support' AND relationship = 'Other-relative' AND race = 'Amer-Indian-Eskimo' AND sex = 'Female' AND capital_gain <= 139445.0 AND hours_per_week <= 64.0 AND native_country = 'Portugal';

@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 41 AND workclass = 'Local-gov' AND education_num <= 16 AND marital_status = 'Married-AF-spouse' AND occupation = '?' AND relationship = 'Own-child' AND race = 'Asian-Pac-Islander' AND sex = 'Female' AND capital_gain <= 10605 AND hours_per_week <= 85 AND native_country = 'El-Salvador';

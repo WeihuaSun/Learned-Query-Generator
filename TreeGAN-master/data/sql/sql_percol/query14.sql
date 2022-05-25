@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE marital_status = 'Married-AF-spouse' AND occupation = 'Tech-support' AND relationship = 'Own-child' AND sex = 'Male' AND capital_gain <= 14194.0 AND native_country = 'Columbia';

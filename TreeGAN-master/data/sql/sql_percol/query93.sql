@@ -1,1 +1,0 @@
-SELECT COUNT(*) FROM census WHERE age <= 66.0 AND education_num <= 11.0 AND marital_status = 'Married-civ-spouse' AND occupation = 'Tech-support' AND capital_loss <= 1796.0 AND native_country = 'Taiwan';
